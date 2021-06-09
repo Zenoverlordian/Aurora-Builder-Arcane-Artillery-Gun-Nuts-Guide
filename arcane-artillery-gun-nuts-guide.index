@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<update version="0.0.1">
+			<file name="arcane-artillery-gun-nuts-guide.index" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Arcane-Artillery-Gun-Nuts-Guide/main/arcane-artillery-gun-nuts-guide.index" />
+		</update>
+	</info>
+	<files>
+    <file name="spells.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Arcane-Artillery-Gun-Nuts-Guide/main/spells.xml" />
+    <file name="source.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Arcane-Artillery-Gun-Nuts-Guide/main/source.xml" />
+	</files>
+</index>
