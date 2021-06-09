@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="spells.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Arcane-Artillery-Gun-Nuts-Guide/main/spells.xml" />
+        </update>
+    </info>
+    
+    <element name="Blood-Lightning Bullet" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_BLOOD_LIGHTNING_BULLET">
+        <supports>Sorcerer, Wizard</supports>
+        <description>
+            <p>As part of the action used to cast this spell, you must make a ranged attack with a firearm against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and blood-red lightning leaps from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes lightning damage equal to your spellcasting ability modifier.</p>
+            <p class="indent">This spell's damage increases when you reach higher levels. At 5th level, the ammunition deals an extra 1d8 lightning damage to the target, and the lightning damage to the second creature increases to 1d8 + your spellcasting ability modifier. Both damage rolls increase by 1d8 at 11th level and 17th level.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">0</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="range">Touch</set>
+            <set name="duration">Instantaneous</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a firearm</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Wall of Denial" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_WALL_OF_DENIAL">
+        <supports>Wizard, Sorcerer, Bard, Cleric, Inventor</supports>
+        <description>
+            <p>You summon a 10 foot wide, 10 foot tall and 1 inch thick wall of magical force to impede foes passage that extends from a point you choose within range. Before you cast the spell, choose who may pass through it. Those who are chosen may walk through unimpeded. Anyone else must make a Strength Saving Throw. If they succeed, they pass through. If they fail, they are forced to stop and cannot move through the wall for the rest of their turn. The wall has 5 HP and 10 AC. If it's HP reaches 0, the wall dissipates.</p>
+            <p class="indent">The wall’s HP goes up by 5 at level 5(10 HP), level 11(15 HP) and level 17(20 HP).</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">0</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="range">10 feet</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">dust from brick or mortar</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Daring Ditty" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_DARING_DITTY">
+        <supports>Bard</supports>
+        <description>
+            <p>You play or sing a quick little ditty for you or a single ally you can see within range. This spell appears as but a song unless a creature makes a Wisdom(Perception) check to recognize otherwise, the DC of which is determined by your spell save DC. You invigorate your ally and give them the ability to use one the following benefits for 1 minute. Once an ability is used, this spell's effects end.</p>
+            <ul>
+                <li>The creature's movement speed is doubled for one movement action</li>
+                <li>The creature gets advantage on one saving throw to resist being charmed, frightened or put to sleep.</li>
+                <li>The creature gets advantage on a Death saving throw.</li>
+            </ul>
+            <p class="indent">Alternatively, you can use this cantrip to roll the required Saving Throw for your ally to escape a spell's effect, treating it as a Charisma saving throw, instead of using the required attribute dictated by the spell.</p>
+            <p class="indent">You can only affect up to three creatures with this spell. If you cast it a fourth time, the spell ends for the first creature it was cast on if the creature has not yet used one of its benefits.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">0</set>
+            <set name="school">Enchantment</set>
+            <set name="time">1 action</set>
+            <set name="range">60 feet</set>
+            <set name="duration">1 minute</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">musical instrument or a speaking cone</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Delayed Chromatic Blast" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_DELAYED_CHROMATIC_BLAST">
+        <supports>Wizard, Sorcerer</supports>
+        <description>
+            <p>You hurl a 3 inch diameter sphere at a space of your choice within range, imbued with either acid, cold, fire, lightning, poison or thunder energy. It explodes into a 10 foot radius sphere around the point at the start of your next turn. Anyone within the sphere must make a Dexterity Saving Throw or take 4d8 damage of the type you choose, and half as much damage on a successful save.</p>
+            <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="range">90 feet</set>
+            <set name="duration">1 round</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a 50 gp gem</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Flamewave" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_FLAMEWAVE">
+        <supports>Cleric, Wizard, Sorcerer</supports>
+        <description>
+            <p>You hurl a ball of flame that bursts when it hits the ground, igniting a 25 foot square around the targeted area. Anyone within the initial square must make a Dexterity Saving Throw. They take 3d6 fire damage upon a failed save and half as much damage on a successful one. Any creature that starts its turn within the square or enters its area for the first time takes 1d6 fire damage.</p>
+            <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell at 2nd level or higher, increase the initial fire damage by 1d6 for every level above first.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="range">60 feet</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Jinx" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_JINX">
+        <supports>Warlock, Bard</supports>
+        <description>
+            <p>When a creature makes an attack roll against you, you can use a reaction to place a curse on them. This curse wracks their minds whenever they attempt to attack you. When this spell is cast, and every round afterward, every time the cursed creature targets you with an attack roll, it takes d4 psychicdamage. As a bonus action during your turn or if the cursed creature is killed, you can move this curse to a new target.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Enchantment</set>
+            <set name="time">1 reaction, made when you are hit by an attack</set>
+            <set name="range">90 feet</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Ice Bayonet" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_ICE_BAYONET">
+        <supports>Artificer, Bard, Paladin, Ranger, Wizard, Inventor</supports>
+        <description>
+            <p>You create a shard of ice at the end of the barrel of one of your guns (Restricted to rifles, muskets, blunderbusses and shotguns). For 1 minute, you can treat your firearm as a finesse melee weapon with reach that does 1d6 Piercing damage and 2d6 cold damage.</p>
+            <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 2nd level or higher, the cold damage increases by 1d6 for each slot above 1st.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="range">Touch</set>
+            <set name="duration">1 minute</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a piece of ice and a two-handed firearm</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Poison Gas" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_POISON_GAS">
+        <supports>Wizard, Warlock, Sorcerer, Cleric</supports>
+        <description>
+            <p>You toss a small magical bomb to a point within range explodes into a toxic cloud. This cloud starts as a 15 foot square from the point and expands 5 feet every round, to a maximum to 30 feet. Any creature that starts its turn within the cloud or enters its area for the first time must succeed on a Constitution saving throw or be poisoned for 1 minute. Poisoned creatures take 1d6 poison damage at the start of their turns for the duration. At the end of its turn, the creature can make another Constitution saving throw in order to end the poison effect on itself.</p>
+            <p class="indent">Creatures that have already been poisoned or are immune to poison damage or being poisoned are not affected by this spell.</p>
+            <p class="indent">A strong wind disperses this cloud after 4 rounds.</p>
+            <p class="indent"><strong><em>At Higher Levels.</em></strong> If this spell is cast at a level of 2nd or higher, increase the damage dealt by the poison by 1d6 for every level cast above 1st.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="range">90 feet</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">nightshade</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Cryostasis" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_CRYOSTASIS">
+        <supports>Sorcerer, Wizard</supports>
+        <description>
+            <p>You choose one creature within range. You close your fist and flash freeze the air around them in an attempt to lock their joints up and freeze them in place. The creature must succeed a Constitution saving throw. On a failed save, it takes 2d6 cold damage and has its movement speed reduced to 0 for 1 minute. At the end of each of its subsequent turns, the creature can remake the saving throw in order to end the spell's effects on itself.</p>
+            <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 3rd level or higher, increase the damage by 1d6 for every level you cast it higher than 2nd.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">2</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="range">30 feet</set>
+            <set name="duration">Instantaneous</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a drop of water and fine dust</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Soften the Sword" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_SOFTEN_THE_SWORD">
+        <supports>Bard, Cleric</supports>
+        <description>
+            <p>You choose a creature within range wielding a nonmagical weapon forged from metal. This creature's weapon turns blunt and soft, making them unable to hit as hard as they usually could. As part of casting this spell, and as a bonus action during each of your turns, you can roll a d4. Subtract the result from the weapon's next damage roll. This spell only affects one weapon at a time, and you must cast it again in order to affect a new weapon of your choice.</p>
+            <p class="indent"><strong><em>At Higher Levels.</em></strong> For every level this spell is cost above 2nd level, increase the die taken from the damage roll of the weapon by 1d4.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">2</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="range">30 feet</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">A crushed mealworm, a small piece of iron, and an opal worth about 25gp that is consumed when the spell is cast</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Spiritual Firearm" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_SPIRITUAL_FIREARM">
+        <supports>Cleric, Paladin</supports>
+        <description>
+            <p>You create a floating, spectral firearm within range that lasts for the duration or until you cast this spell again. When you cast this spell you can make a ranged spell attack against a creature within normal range of the weapon. On a hit, the target takes damage equal to 1d8+your spellcasting ability modifier. If the weapon has the scatter property, the scatter attack forces any creature within a 30 foot cone to make a Dexterity Saving Throw. They take 1d8 + your spellcasting ability modifier if they fail, and half that damage if they succeed (d4 scatter damage).</p>
+            <p class="indent">As a bonus action on your turn, you can move the weapon up to 20 feet and repeat the attack against a creature within 5 feet of it.</p>
+            <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell at a level higher than 2nd, increase the damage the weapon deals by 1d8 or 1d6 for every level above 2nd.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">2</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 bonus action</set>
+            <set name="range">60 feet</set>
+            <set name="duration">1 minute</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Hydraulic Beam" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_HYDRAULIC_BEAM">
+        <supports>Sorcerer, Wizard</supports>
+        <description>
+            <p>You project a beam of water from your hand or an object of your choosing on your person in a 15 foot wide, 30 foot long line in a direction of your choosing. Creatures within the line must succeed on a Strength saving throw. On a failed save, they take 6d6 bludgeoning damage and are knocked prone. They take half damage on a success and are not knocked prone.</p>
+            <p class="indent"><strong><em>At Higher Levels.</em></strong> For every level this spell is cast above 3rd level, increase the damage by 1d6 for every spell slot level above 3rd.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="range">Self (15-foot wide line)</set>
+            <set name="duration">Instantaneous</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a driop of water</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Elemental Bullets" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_ELEMENTAL_BULLETS">
+        <supports>Artificer, Inventor, Paladin, Wizard, Warlock</supports>
+        <description>
+            <p>You infuse a number of pieces of mundane ammunition equal to your spellcasting ability modifier with a single element of your choice. Choose from fire, cold, lightning, acid, poison, or thunder. These bullets now deal an extra 2d6 of the chosen type of damage if the round hits.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="range">Self</set>
+            <set name="duration">Instantaneous</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">pieces of nonmagical ammunition</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Searing Smoke" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_SEARING_SMOKE">
+        <supports>Wizard, Sorcerer, Bard, Cleric, Occultist</supports>
+        <description>
+            <p>You throw sulfur into the air and convert it to a gaseous form within range. A cloud that occupies a 20 foot radius sphere forms from the chosen point. Any creature that starts its turn within the cloud or enters its area for the first time must make a Constitution saving throw. They take 2d8 fire and 2d8 acid damage on a failed save, and half that damage on a success. A strong wind disperses this cloud after 4 rounds.</p>
+            <p class="indent"><strong><em>At Higher Levels.</em></strong> For every level this spell is cast above 3rd level, increase the fire and acid damage by 1d8.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="range">30 feet</set>
+            <set name="duration">1 minute</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a container of sulfur</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Rotting Shot" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_ROTTING_SHOT">
+        <supports>Sorcerer, Wizard, Warlock</supports>
+        <description>
+            <p>You infuse your next bullet with a foul, strength sapping energy. If the bullet strikes, the target takes 1d8 necrotic damage must roll a Constitution Saving Throw. If they fail, they take an additional 1d8 necrotic damage and have disadvantage on Strength ability checks and saving throws for 1 minute.</p>
+            <p class="indent"><strong><em>At Higher Levels.</em></strong> For every level this spell is cast above 3rd level, increase the necrotic damage this bullet deals by 1d8.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 bonus action</set>
+            <set name="range">Self</set>
+            <set name="duration">Instantaneous</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a piece of mundane ammunition</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Ghost Bullets" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_GHOST_BULLETS">
+        <supports>Warlock, Wizard, Ranger, Bard, Artificer, Inventor</supports>
+        <description>
+            <p>By speaking a ghostly incantation, you transform 4 nonmagical, mundane bullets in your inventory into ghostly projections that can pass through inorganic material for 1 hour. These bullets ignore cover bonuses to AC, and are targeted using a creature's unarmored AC. These rounds deal double damage to spirits, however, due to their focus on targeting organic material, constructs are not affected by these bullets, and attacks made against them automatically miss.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">4</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="range">Self</set>
+            <set name="duration">1 hour</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">pieces of nonmagical ammunition</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Vortex" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_VORTEX">
+        <supports>Sorcerer, Wizard, Warlock</supports>
+        <description>
+            <p>You snap your fingers and create a 20 foot radius wide arcane vortex at a point you can see within range. Any creature that starts its turn within the vortex or enters it's area for the first time takes 2d10 force damage and has it's movement speed reduced by half. Creatures within the vortex cannot take the Dash action. Any creature attempting to leave the vortex's area must succeed a Strength saving throw. If they fail, they are unable to use their movement to leave the vortex's area for the rest of their turn.</p>
+            <p class="indent">Any creature that starts its turn within 5 feet of the vortex must succeed a Strength saving throw or be pulled into an unoccupied space within its boundaries. If there is no unoccupied space in the vortex, the creature is not pulled in.</p>
+            <p class="indent">The vortex stays active for three rounds. At the start of the fourth round, the vortex implodes, releasing a massive amount of arcane energy. Anyone within the vortex's area when this happens must make a Dexterity saving throw or take 4d10 force damage and be knocked prone. If they succeed, they take half damage and are not knocked prone.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">4</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="range">90 feet</set>
+            <set name="duration">Instantaneous</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">An amethyst worth 200gp, a ball of cast iron, a magnet and a dash of glow worm powder</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Drop Shield" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_DROP_SHIELD">
+        <supports>Ranger, Bard, Cleric, Artificer, Inventor</supports>
+        <description>
+            <p>You create a soothing shield in a 10 foot radius sphere that heals the wounds of allies within it's boundaries. The shield's hit points are equal to (your caster level) x 5 and has an AC of 10. All creatures can enter and exit the shield freely. Creatures friendly to you that start their turn within the shield or enter it's area for the first time regain d4 + your spellcasting ability modifier hit points. Attacks and spells cannot be cast from within the shield at enemies outside of the shield, or vice versa, but can target the shield itself. If the shield's hit points are reduced to 0, spell ends.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">4</set>
+            <set name="school">Abjuration</set>
+            <set name="time">1 action</set>
+            <set name="range">Self</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">an iron bowl, powder from medicinal herbs</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Bubble Shield" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_BUBBLE_SHIELD">
+        <supports>Artificer, Inventor, Paladin, Wizard</supports>
+        <description>
+            <p>You create a static, impenetrable shield in a 5 foot radius around yourself for the duration of the spell. Any creatures can enter and exit the shield freely. This shield is completely immune to all damage from attacks and spells going into and out of it, and you cannot target creatures inside the shield with attacks or spells, and vice versa.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">4</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="range">Self</set>
+            <set name="duration">1 minute</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">an iron bowl, a leather strap from a shield</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Conjure Firing Squad" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_CONJURE_FIRING_SQUAD">
+        <supports>Ranger</supports>
+        <description>
+            <p>You fire a piece of nonmagical ammunition from a ranged weapon or throw a nonmagical weapon towards a point within range. The round conjures many firearms aimed at creatures of your choice within 30 feet of the point chosen that all fire at once and then disappear.</p>
+            <p class="indent">Any creature of your choosing within 30 feet of the point must succeed on a Dexterity saving throw. They take 10d6 piercing damage on a failed save, and half as much damage on a successful one.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">5</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="range">90 feet</set>
+            <set name="duration">Instantaneous</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">any piece of nonmagical ammunition</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Quick Load" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_QUICK_LOAD">
+        <supports>Bard, Paladin, Ranger, Wizard</supports>
+        <description>
+            <p>You touch the firearm and ammo of a willing creature, if the creature has pieces of nonmagical ammunition in their inventory. The ammunition disappears into time and space in order to appear later in the firearm. When the reload count of their firearm reaches 0, the bullets appear right inside the firearm, instantly raising it's reload count.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">5</set>
+            <set name="school">Divination</set>
+            <set name="time">1 action</set>
+            <set name="range">Touch</set>
+            <set name="duration">Instantaneous</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a firearm and at least one piece of nonmagical ammunition</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Chromatic Wave" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_CHROMATIC_WAVE">
+        <supports>Wizard, Sorcerer</supports>
+        <description>
+            <p>You charge up and release a wave of magical energy charged with either acid, cold, fire, lightning, poison or thunder damage. Each creature you choose within 30 feet of you must succeed a Dexterity saving throw or take 5d6 damage of one type of your choosing, 5d6 damage of another type of your choosing, and are stunned until the beginning of your next turn. A creature that succeeds the saving throw takes half the damage and isn't stunned.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">6</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="range">Self</set>
+            <set name="duration">Instantaneous</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Power Word Blind" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_POWER_WORD_BLIND">
+        <supports>Bard, Warlock</supports>
+        <description>
+            <p>You speak a word of power that destroys the senses of one creature you can see within range, leaving it utterly blinded. If the target has 150 hit points or fewer, it is blinded. Otherwise, the spell has no effect. The blinded target must make a Constitution saving throw at the end of each of its turns. On a successful save, the spell ends.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">7</set>
+            <set name="school">Enchantment</set>
+            <set name="time">1 action</set>
+            <set name="range">60 feet</set>
+            <set name="duration">Instantaneous</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Cryobomb" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_CRYOBOMB">
+        <supports>Warlock, Wizard, Sorcerer</supports>
+        <description>
+            <p>A glowing bead of ice forms from your finger and shoots out to a point within range, where it remains and grows colder for the duration. When the spell ends, either because your concentration is broken or because you decide to end it on your turn, the bead breaks apart and lets out an ice storm that flash freezes anything near it and spreads around corners. Each creature within a 20 foot radius sphere centered on the point must succeed a Constitution saving throw. A creature takes cold damage equal to the accumulated damage and is paralyzed for a number of rounds equal to the accumulated number on a failed save. If a creature succeeds the save, it takes half the damage and is not paralyzed. A creature can remake the Constitution saving throw at the end of each of its subsequent turns in order to end the paralysis.</p>
+            <p class="indent">This spell's base damage is 8d6 and it's base paralysis time is 1 round. If at the end of your turn the bead has not yet detonated, the damage increases by 1d6 and the paralysis increases by 1 round.</p>
+            <p class="indent">If the glowing bead is touched before the interval has expired, the creature touching it must make a Dexterity saving throw. On a failed save, the spell ends immediately, causing the bead to explode in a freezing storm of ice. On a successful save, the creature can throw the bead up to 40 feet. When it strikes a creature or a solid object, the spell ends, and the bead explodes. The cold freezes objects in the area and puts out nonmagical flames.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">8</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="range">120 feet</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a piece of dry ice and silver powder worth 25 sp</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Power Word Paralyze" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_POWER_WORD_PARALYZE">
+        <supports>Bard</supports>
+        <description>
+            <p>You speak a word of power that overloads the nerves of one creature you can see within range, leaving it utterly blinded. If the target has 150 hit points or fewer, it is paralyzed. Otherwise, the spell has no effect. The paralyzed target must make a Constitution saving throw at the end of each of its turns. On a successful save, this paralyzing effect ends.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">9</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="range">60 feet</set>
+            <set name="duration">Instantaneous</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Glassing Beam" type="Spell" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SPELL_GLASSING_BEAM">
+        <supports>Wizard, Sorcerer</supports>
+        <description>
+            <p>You call upon a mighty, destructive beam of magical force to destroy your enemies and burn the earth around them until it's surface is but glass.</p>
+            <p class="indent">Choose a point within range. You summon forth a large, white orange pulsating beam in a 30 foot radius, 50,000 foot high column centered around that point. Creatures that start their turn within that point or enter its area for the first time take 5d10 fire damage, 5d10 radiant damage, 5d10 force damage, and 5d10 necrotic damage. After two rounds, the beam turns the surface within it into cracked and jagged glass, destroying plants and objects that aren't being worn or carried. This turns the area into difficult terrain that is extraordinarily painful to cross. Any creature that moves more than half its speed on this terrain takes 2d10 piercing damage. Structures hit by this beam take double the damage from this spell.</p>
+            <p class="indent">You must use your action to maintain the beam. As long as you maintain the beam, your movement speed is 0, and you have disadvantage on Dexterity saving throws. You can use your bonus action to move the beam up to 20 feet in any direction you wish.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">9</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="range">300 feet</set>
+            <set name="duration">Concentration, up to 12 hours</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">A focusing lens, glow worm powder, an emerald worth 5,000 gp that is consumed when the spell is cast</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+</elements>

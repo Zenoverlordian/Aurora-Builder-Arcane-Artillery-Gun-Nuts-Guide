@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="source.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Arcane-Artillery-Full/main/source.xml" />
+        </update>
+    </info>
+    
+    <element name="Arcane Artillery Gun Nuts Guide" type="Source" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_SOURCE_A">
+        <description>
+            <![CDATA[<p>Howdy, fellow Redditors! It’s a project over a year in the making! It’s one that solves an age old dilemma that only a select few people actually care about!</p>
+            <p>How do I get guns in D&D? And no. I’m not talking about reskinning crossbows! That’s weaksauce and lazy. I’m talking guns that have their own personality, flavor and reason for existing, as well as being balanced. This project was made only for those who wish to make use of guns in their games where appropriate and need a good and quick way of doing so. My goal was to make a simple set of rules that put guns in the game without making it like pathfinder, and it all spawned from wanting to make a gunslinger class for one of the games I was in.</p>
+            <p>This document has gone through many iterations throughout its time in development, and now I present to you three different versions of it for you to make use of!</p>
+            <p>Arcane Artillery: The Gun Nut's Guide. The primo OG document. This is the one that has everything in it, from gun rules, gunslinger class (now revised), feats, and new archetypes, spells, and magic items!</p>
+            <p>I hope you all have enjoyed and will enjoy this endeavor of mine, and I am eagerly looking forward to seeing how you make use of this, or even improve upon it. While I have passionately worked on this document for as long as I have, it is by no means the be all and end all gun document. I encourage people to come along and make something involving guns for D&D 5e that’s even better than what I have put out.</p>
+            <p>This project has been worth every second spent on it, as I have already heard many tales of people platyesting it and finding it fun to use. I’ve even seen a user drop my name and say that my rules are the ones they go to when they want to incorporate guns in their games. It’s incredibly humbling and flattering that people find some good in this personal project of mine that was made because, dammit, I love guns, and I want me some guns in my D&D games! Even if you’re not a big fan of guns, I thank you all nonetheless for providing me feedback and criticism to help me polish and improve upon this set of documents that has them in the state they are today. I wish all of you happy gaming, and I hope you can make some awesome memories of you blasting tons of lead into the bellies of your enemies with the guns I’ve provided you! </p>]]>
+        </description>
+        <setters>
+            <set name="abbreviation">AAGNG</set>
+            <set name="url">https://drive.google.com/file/d/0BwRBp4t9A8LbWjRUT0IzM2RfcGs/view?usp=sharing&amp;resourcekey=0-lA_Fe3jgtYGUiQ2AJtwz3Q</set>
+            <set name="image">https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.redd.it%2Fbbrm9s902ipz.png</set>
+            <set name="author" abbreviation="ZJR" url="https://www.reddit.com/user/ZowJr">u/ZowJr</set>
+            <set name="official">false</set>
+            <set name="supplement">false</set>
+            <set name="playtest">false</set>
+            <set name="third-party">false</set>
+            <set name="homebrew">true</set>
+            <set name="league">false</set>
+            <set name="release">20200118</set>
+        </setters>
+    </element>
+    
+</elements>
