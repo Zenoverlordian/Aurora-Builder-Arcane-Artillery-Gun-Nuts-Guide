@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="paladin-frontier.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Arcane-Artillery-Gun-Nuts-Guide/main/paladin-frontier.xml" />
+        </update>
+    </info>
+
+    <element name="Oath of the Frontier" type="Archetype" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_PFRONTIER">
+        <supports>Sacred Oath</supports>
+        <description>
+            <p>Paladins are usually known as white armored smooth featured defenders who protect the weak with a sword in one hand and a shield or prayer book in the other. But some Paladins are starting to see the appeal of these iron lead spewing weapons that are being created, and a select few have deigned to follow a god or create an oath based around using such weapons as the stream upon which their holy wrath flows. They seek out the new frontiers in which to spread their deity's influence, and root out ne’er do wells wherever they hide.</p>
+            <h5>TENANTS OF THE FRONTIER</h5>
+            <p>Tenants of the frontier may vary from Paladin to Paladin, but they all revolve around exploring new places and rooting out evil in order to protect truth, justice, and tradition. Paladins of this alignment tend toward lawful good or lawful neutral. It’s rare to see them turn towards evil, but the lust for discovery and the temptation to be the first in any area can be tempting for those who wish to make their own rules. The core rules for this oath are as listed.</p>
+            <p class="indent"><strong><em>Lead the Frontier.</em></strong> You are to lead the charge in the endless quest of discovery and and the conquest of the wilds.</p>
+            <p class="indent"><strong><em>Root Out the Truth.</em></strong> You will walk into the darkness and root out the truth in any matter. Nothing can hide from your gaze, and no wool shall go over your eyes.</p>
+            <p class="indent"><strong><em>Greed is the Enemy.</em></strong> Goods and money in the frontier must be divided fairly, and those who take more than what is fair are wrong to do so.</p>
+            <p class="indent"><strong><em>Every Option Before Violence.</em></strong> Patience and temperance are very important when two peoples come together, and the last thing you should seek in such a situation is bloodshed.</p>
+            <p class="indent"><strong><em>Choose Fights Wisely.</em></strong> You will fight smart, but will never resort to dirty tactics to win at any cost. However, there is no shame or dishonor in retreating from a fight you know you cannot win.</p>
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_PFRONTIER_OATH_SPELLS" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_PFRONTIER_CD" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_PFRONTIER_AURA_OF_THE_FRONTIER" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_PFRONTIER_WILD_GUIDANCE" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_PFRONTIER_DIVINE_INFUSION" />
+        </description>
+        <sheet display="false">
+            <description>They seek out the new frontiers in which to spread their deity's influence, and root out ne’er do wells wherever they hide.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_PFRONTIER_OATH_SPELLS" level="3" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_PFRONTIER_CD" level="3" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_PFRONTIER_AURA_OF_THE_FRONTIER" level="7" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_PFRONTIER_WILD_GUIDANCE" level="15" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_PFRONTIER_DIVINE_INFUSION" level="20" />
+        </rules>
+    </element>
+
+    <element name="Oath Spells" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_PFRONTIER_OATH_SPELLS">
+        <description>
+            <p>You gain additional oath spells at the paladin levels listed.</p>
+            <h5>OATH OF THE FRONTIER SPELLS</h5>
+            <table>
+                <thead>
+                    <tr><td>Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td>expeditious retreat, hunter's mark</td></tr>
+                <tr><td>5th</td><td>hold person, zone of truth</td></tr>
+                <tr><td>9th</td><td>mass healing word, slow</td></tr>
+                <tr><td>13th</td><td>death ward, mordenkeinan's faithful hound</td></tr>
+                <tr><td>17th</td><td>hold monster, antilife shell</td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_EXPEDITIOUS_RETREAT" spellcasting="Paladin" prepared="true" level="3" />
+            <grant type="Spell" id="ID_PHB_SPELL_HUNTERS_MARK" spellcasting="Paladin" prepared="true" level="3" />
+            <grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" spellcasting="Paladin" prepared="true" level="5" />
+            <grant type="Spell" id="ID_PHB_SPELL_ZONE_OF_TRUTH" spellcasting="Paladin" prepared="true" level="5" />
+            <grant type="Spell" id="ID_PHB_SPELL_MASS_HEALING_WORD" spellcasting="Paladin" prepared="true" level="9" />
+            <grant type="Spell" id="ID_PHB_SPELL_SLOW" spellcasting="Paladin" prepared="true" level="9" />
+            <grant type="Spell" id="ID_PHB_SPELL_DEATH_WARD" spellcasting="Paladin" prepared="true" level="13" />
+            <grant type="Spell" id="ID_PHB_SPELL_MORDENKAINENS_FAITHFUL_HOUND" spellcasting="Paladin" prepared="true" level="13" />
+            <grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER" spellcasting="Paladin" prepared="true" level="17" />
+            <grant type="Spell" id="ID_PHB_SPELL_ANTILIFE_SHELL" spellcasting="Paladin" prepared="true" level="17" />
+        </rules>
+    </element>
+
+    <element name="Channel Divinity" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_PFRONTIER_CD">
+        <description>
+            <p>Frontier Paladins channel their divinity in the form of their eagerness for adventure and desire for truth and justice. At 3rd level, once per short or long rest, you get the following channel divinity options:</p>
+            <p class="indent"><strong><em>Divine Guidance.</em></strong> As an action, you may channel your divine energy to link your weapon to your senses. For one minute, you have advantage on all attack rolls, as long as you use a bonus action to ready the weapon beforehand, and it glows white hot with divine light. Anyone that attempts to disarm you must make a Constitution Saving Throw or suffer 1d8 fire damage and 1d8 radiant damage and fail their attempt. Your gun is also considered magical for the purposes of calculating resistance. </p>
+            <p class="indent">You may end this effect on your turn as any action. If you stow the weapon or fall unconscious, this effect ends.</p>
+            <p class="indent"><strong><em>Truth Field.</em></strong> You may spend an action to channel an aura of truth in a 60 foot radius around you. For 1 minute, any Fiends and Fey in the area are forced to show their true forms, and are unable to lie. However they don't have to tell the whole truth if they are made to speak. All undead in the area must make a Wisdom Saving Throw or be stunned for the duration of this effect, but may continue to make saving throws at the start of their turns. Additionally, you know if you hear a lie within this radius.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+    <element name="Channel Divinity: Divine Guidance" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_PFRONTIER_CD">
+        <description>
+            <p>As an action, you may channel your divine energy to link your weapon to your senses. For one minute, you have advantage on all attack rolls, as long as you use a bonus action to ready the weapon beforehand, and it glows white hot with divine light. Anyone that attempts to disarm you must make a Constitution Saving Throw or suffer 1d8 fire damage and 1d8 radiant damage and fail their attempt. Your gun is also considered magical for the purposes of calculating resistance. </p>
+            <p class="indent">You may end this effect on your turn as any action. If you stow the weapon or fall unconscious, this effect ends.</p>
+        </description>
+        <sheet alt="Divine Guidance">
+            <description usage="Channel Divinity" action="Action">As an action, you may channel your divine energy to link your weapon to your senses. For one minute, you have advantage on all attack rolls, as long as you use a bonus action to ready the weapon beforehand, and it glows white hot with divine light. Anyone that attempts to disarm you must make a Constitution Saving Throw or suffer 1d8 fire damage and 1d8 radiant damage and fail their attempt. Your gun is also considered magical for the purposes of calculating resistance.
+            You may end this effect on your turn as any action. If you stow the weapon or fall unconscious, this effect ends.</description>
+        </sheet>
+    </element>
+    <element name="Channel Divinity: Truth Field" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_PFRONTIER_CD">
+        <description>
+            <p>You may spend an action to channel an aura of truth in a 60 foot radius around you. For 1 minute, any Fiends and Fey in the area are forced to show their true forms, and are unable to lie. However they don't have to tell the whole truth if they are made to speak. All undead in the area must make a Wisdom Saving Throw or be stunned for the duration of this effect, but may continue to make saving throws at the start of their turns. Additionally, you know if you hear a lie within this radius.</p>
+        </description>
+        <sheet alt="Truth Field">
+            <description usage="Channel Divinity" action="Action">You may spend an action to channel an aura of truth in a 60 foot radius around you. For 1 minute, any Fiends and Fey in the area are forced to show their true forms, and are unable to lie. However they don't have to tell the whole truth if they are made to speak. All undead in the area must make a Wisdom Saving Throw or be stunned for the duration of this effect, but may continue to make saving throws at the start of their turns. Additionally, you know if you hear a lie within this radius.</description>
+        </sheet>
+    </element>
+
+    <element name="Aura of the Frontier" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_PFRONTIER_AURA_OF_THE_FRONTIER">
+        <description>
+            <p>At 7th level, Frontier Paladins emit an aura of cleanliness about them. Any creature who enters a 10 foot sphere around you is cured of poison if they are poisoned, and are immune to Poison damage and the Poisoned condition.</p>
+            <p class="indent">At 18th level, this sphere increases to 30 feet.</p>
+        </description>
+        <sheet>
+            <description level="7">Any creature who enters a 10 foot sphere around you is cured of poison if they are poisoned, and are immune to Poison damage and the Poisoned condition.</description>
+            <description level="18">Any creature who enters a 30 foot sphere around you is cured of poison if they are poisoned, and are immune to Poison damage and the Poisoned condition.</description>
+        </sheet>
+    </element>
+
+    <element name="Wild Guidance" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_PFRONTIER_WILD_GUIDANCE">
+        <description>
+            <p>Starting at 15th level, you can use your Charisma modifer, instead of your Dexterity or Strength modifier, for your attack rolls and damage rolls against fiends or the undead. If you hit these creatures with an attack and activate divine smite, your divine smite deals extra radiant damage equal to your Charisma modifier times the spell level of your divine smite as the wild energy of the frontier is channeled through your weapon. Once you use this feature, you cannot use it again until you complete a short or long rest.</p>
+        </description>
+        <sheet>
+            <description usage="1/Short Rest">You can use your Charisma modifer, instead of your Dexterity or Strength modifier, for your attack rolls and damage rolls against fiends or the undead. If you hit these creatures with an attack and activate divine smite, your divine smite deals {{charisma:modifier}} extra radiant damage for each spell level of your divine smite as the wild energy of the frontier is channeled through your weapon. Once you use this feature, you cannot use it again until you complete a short or long rest.</description>
+        </sheet>
+    </element>
+
+    <element name="Divine Infusion" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_PFRONTIER_DIVINE_INFUSION">
+        <description>
+            <p>At 20th level, you can spend an action once per long rest to summon a divine energy to infuse your weapon with for 1 minute. This turns it a bright gold and causes it to glow. The weapon now has these properties for the duration:</p>
+            <ul>
+                <li>The weapon deals an additional 4d6 radiant damage that ignores resistance and immunity.</li>
+                <li>A golden, glowing ten gallon hat appears on your head that sheds bright light in a 5 foot radius and dim light in a 10 foot radius, which allows your attacks to crit on an 18. If you are wearing armored headwear or magical headwear, it appears to others as a ten gallon hat, but still gives the benefits of the headwear.</li>
+            </ul>
+            <p class="indent">You can dispel this effect any time during your turn without spending an action.</p>
+        </description>
+        <sheet>
+            <description action="Action" usage="1/Long Rest">You can spend an action once per long rest to summon a divine energy to infuse your weapon with for 1 minute. This turns it a bright gold and causes it to glow. The weapon now has these properties for the duration: The weapon deals an additional 4d6 radiant damage that ignores resistance and immunity. A golden, glowing ten gallon hat appears on your head that sheds bright light in a 5 foot radius and dim light in a 10 foot radius, which allows your attacks to crit on an 18. If you are wearing armored headwear or magical headwear, it appears to others as a ten gallon hat, but still gives the benefits of the headwear.</description>
+        </sheet>
+    </element>
+
+</elements>

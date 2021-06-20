@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="bard-venture.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Arcane-Artillery-Gun-Nuts-Guide/main/bard-venture.xml" />
+        </update>
+    </info>
+
+    <element name="College of Venture" type="Archetype" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_VENTURE">
+        <supports>Bard College</supports>
+        <description>
+            <p>Bards of the College of Venture aren’t just dedicated adventurers, they live and breathe for dungeon delving and discovery. They research dungeonology down to a science, and eagerly share their finds with fellow college members, telling tales of dangerous and isolated crypts and experiences of brushes with near death in the dark halls of a cavern. There’s very little that Venture Bards don’t know when it comes to exploration and treasure hunting. And the little they don’t know, they seek eagerly to find out.</p>
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VENTURE_PROFICIENCY" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VENTURE_GUNPLAY" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VENTURE_GOLDEN_INTUITION" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VENTURE_IMPROVED_GUNPLAY" />
+        </description>
+        <sheet display="false">
+            <description>There’s very little that Venture Bards don’t know when it comes to exploration and treasure hunting. And the little they don’t know, they seek eagerly to find out.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VENTURE_PROFICIENCY" level="3" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VENTURE_GUNPLAY" level="3" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VENTURE_GOLDEN_INTUITION" level="6" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VENTURE_IMPROVED_GUNPLAY" level="14" />
+        </rules>
+    </element>
+
+    <element name="Bonus Proficiencies" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VENTURE_PROFICIENCY">
+        <description>
+            <p>At level 3, you get proficiency in Investigation, History, and Cook's Utensils. You can also pick one of the following Gun Tactics.</p>
+            <p class="indent"><strong><em>Akimbo Shooting.</em></strong> When wielding two light firearms, you can add your ability score modifier to the damage of the second attack. You can reload both light firearms at once using a bonus action.</p>
+            <p class="indent"><strong><em>Gun Duelist.</em></strong> When wielding a sidearm in one hand and no other weapons, you get a +2 bonus to your damage rolls with these weapons.</p>
+            <p class="indent"><strong><em>Breacher.</em></strong> When you make an attack with a firearm at a creature within 30 feet of you and you roll a 1 or 2 on the damage die, you can reroll the damage die and must take the new roll, even if the number is a 1 or a 2. The firearm must have the close quarters or scatter property for you to gain this benefit.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INVESTIGATION" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" />
+            <select type="Class Feature" name="Bonus Proficiencies (Venture)" supports="Gun Tactics, Bard" />
+        </rules>
+    </element>
+
+    <element name="Gunplay" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VENTURE_GUNPLAY">
+        <description>
+            <p>When you reach 3rd level, you've trained yourself to interweave the use of their guns into your performance in combat. You get the following gunplay options:</p>
+            <p class="indent"><strong><em>Shifting Shot.</em></strong> You perform a swift tumble before taking a shot with your firearm. You can spend a bardic inspiration die before you attack to move up to half your speed in any direction without provoking any opportunity attacks. Add the result of the inspiration die to the attack roll.</p>
+            <p class="indent"><strong><em>Disorienting Flourish.</em></strong> If you are the target of an attack, you can use your a reaction to go into a disorienting dance, tumble or dodgy stance. Spend a bardic inspiration die when targeted by an attack. Subtract the result from the enemy's attack roll.</p>
+            <p class="indent"><strong><em>Quickshot.</em></strong> You make a quick, intuitive shot based on instinct alone to leave yourself open to do other things. Spend an inspiration die in order to fire your gun as a bonus action if you have not taken the attack action, ignoring the reload action or loading time for firearms if you fire the last bullet in your gun. Add the result of the inspiration die to the damage roll.</p>
+            <p class="indent"><strong><em>Intimidating Strike.</em></strong> You sing, shout or motion with your weapon in a menacing manner at the creature you shoot at. Spend a inspiration die after a successful attack on a target below half their HP to force them to make a Wisdom Saving Throw. Subtract the result from their roll. If they fail, they are frightened of you for 1 minute, and must spend their reaction if they haven't already moving half their speed away from you. You gain advantage on Charisma (Intimidation) checks against them for the duration.</p>
+        </description>
+        <sheet>
+            <description>You get the following gunplay options:
+            Shifting Shot. You perform a swift tumble before taking a shot with your firearm. You can spend a bardic inspiration die before you attack to move up to half your speed in any direction without provoking any opportunity attacks. Add the result of the inspiration die to the attack roll.
+            Disorienting Fourish. If you are the target of an attack, you can use your a reaction to go into a disorienting dance, tumble or dodgy stance. Spend a bardic inspiration die when targeted by an attack. Subtract the result from the enemy's attack roll.
+            Quickshot. You make a quick, intuitive shot based on instinct alone to leave yourself open to do other things. Spend an inspiration die in order to fire your gun as a bonus action if you have not taken the attack action, ignoring the reload action or loading time for firearms if you fire the last bullet in your gun. Add the result of the inspiration die to the damage roll.
+            Intimidating Strike. You sing, shout or motion with your weapon in a menacing manner at the creature you shoot at. Spend a inspiration die after a successful attack on a target below half their HP to force them to make a Wisdom Saving Throw. Subtract the result from their roll. If they fail, they are frightened of you for 1 minute, and must spend their reaction if they haven't already moving half their speed away from you. You gain advantage on Charisma (Intimidation) checks against them for the duration.</description>
+        </sheet>
+    </element>
+
+    <element name="Golden Intuition" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VENTURE_GOLDEN_INTUITION">
+        <description>
+            <p>By 6th level, you get a real nose for treasure, as well as eyes and ears for the valuable. If you spend 10 minutes gathering information, you are able to get a lead on a place where treasure can be located. In dungeons, if you spend 1 minute studying the layout of a room with no interruption, you are able to get knowledge of two of the following:</p>
+            <ul>
+                <li>Any secret compartments or switches within 60 feet of you. (You don't interact with the switch or compartment.)</li>
+                <li>The approximate location of any trap within 60 feet of you. (You do not interact with the trap itself.)</li>
+                <li>The location of a hidden door</li>
+                <li>The location of a wondrous item in a pile of treasure.</li>
+                <li>Any valuable information of the DM’s choosing.</li>
+            </ul>
+            <p>You also get a expanded spell list that you can choose from when you learn new bard spells. These spells are automatically added to your bard spell list.</p>
+            <table>
+                <thead>
+                    <tr><td>Bard Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>6th</td><td>conjure firing squad</td></tr>
+                <tr><td>9th</td><td>bubble shield</td></tr>
+                <tr><td>13th</td><td>find the path</td></tr>
+                <tr><td>17th</td><td>foresight</td></tr>
+            </table>
+        </description>
+        <sheet>
+            <description>If you spend 10 minutes gathering information, you are able to get a lead on a place where treasure can be located. In dungeons, if you spend 1 minute studying the layout of a room with no interruption, you are able to get knowledge of two of the following: Any secret compartments or switches within 60 feet of you. (You don't interact with the switch or compartment.) The approximate location of any trap within 60 feet of you. (You do not interact with the trap itself.) The location of a hidden door. The location of a wondrous item in a pile of treasure. Any valuable information of the DM’s choosing.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_ZJR_AAGNG_SPELL_CONJURE_FIRING_SQUAD" level="6" spellcasting="Bard" /> 
+            <grant type="Spell" id="ID_ZJR_AAGNG_SPELL_BUBBLE_SHIELD" level="9" spellcasting="Bard" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_FIND_THE_PATH" level="13" spellcasting="Bard" />
+            <grant type="Spell" id="ID_PHB_SPELL_FORESIGHT" level="17" spellcasting="Bard" />
+        </rules>
+    </element>
+
+    <element name="Improved Gunplay" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VENTURE_IMPROVED_GUNPLAY">
+        <description>
+            <p>At level 14, you have interwoven more of your inherent Bardic ability with your talents with a gun. You get the following new gunplay options.</p>
+            <p class="indent"><strong><em>Goading Strike.</em></strong> When a creature makes a melee attack roll against a creature that is friendly to you within 5 feet of you that you can see, or a ranged attack roll against a creature that is friendly to you within 60 feet of you that you can see, you can spend a bardic inspiration die as a reaction to taunt them with a special enchantment woven into your inspiration that forces them to attack you instead. Subtract the result of your inspiration die from their attack roll. If the creature misses their attack as a result of this ability, you can make an attack with your firearm as part of your reaction. You ignore the reload action for firearms when making this attack.</p>
+            <p class="indent"><strong><em>Trip Attack.</em></strong> When you hit a creature with a weapon attack, you can expend one bardic inspiration die to attempt to knock the target down. You add a bardic inspiration die to the attack’s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone.</p>
+            <p class="indent"><strong><em>Disorienting Shot.</em></strong> When you make an attack roll with a firearm, you can spend a bardic inspiration die to disorient your foe, leaving them open for allies to attack. Add the result of your inspiration die to the attack roll. The next attack roll made against this creature has advantage if it is made before the start of your next turn.</p>
+            <p class="indent"><strong><em>Concussive Shot.</em></strong> When you next hit with a ranged attack roll with your gun, you can spend an inspiration die to have the shot ring in their ears. The creature must succeed a Constitution saving throw or get disadvantage on their next attack roll. Subtract the result from the inspiration die from the saving throw.</p>
+        </description>
+        <sheet>
+            <description>You get the following new gunplay options.
+            Goading Strike. When a creature makes a melee attack roll against a creature that is friendly to you within 5 feet of you that you can see, or a ranged attack roll against a creature that is friendly to you within 60 feet of you that you can see, you can spend a bardic inspiration die as a reaction to taunt them with a special enchantment woven into your inspiration that forces them to attack you instead. Subtract the result of your inspiration die from their attack roll. If the creature misses their attack as a result of this ability, you can make an attack with your firearm as part of your reaction. You ignore the reload action for firearms when making this attack.
+            Trip Attack. When you hit a creature with a weapon attack, you can expend one bardic inspiration die to attempt to knock the target down. You add a bardic inspiration die to the attack’s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone.
+            Disorienting Shot. When you make an attack roll with a firearm, you can spend a bardic inspiration die to disorient your foe, leaving them open for allies to attack. Add the result of your inspiration die to the attack roll. The next attack roll made against this creature has advantage if it is made before the start of your next turn.
+            Concussive Shot. When you next hit with a ranged attack roll with your gun, you can spend an inspiration die to have the shot ring in their ears. The creature must succeed a Constitution saving throw or get disadvantage on their next attack roll. Subtract the result from the inspiration die from the saving throw.</description>
+        </sheet>
+    </element>
+
+</elements>

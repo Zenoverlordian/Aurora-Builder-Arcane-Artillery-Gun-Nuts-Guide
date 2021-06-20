@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="ranger-warden.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Arcane-Artillery-Gun-Nuts-Guide/main/ranger-warden.xml" />
+        </update>
+    </info>
+
+    <element name="Warden" type="Archetype" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_WARDEN">
+        <supports>Ranger Archetype</supports>
+        <description>
+            <p>Wardens are rangers that are the mysterious guardians of both urban cities and dense jungles. They watch over their territory with keen eyes, ready to defend the weak wherever they may be attacked. They appear in a flash and disappear with a crack like lightning. Wardens, unlike most rangers, have taken up a path of lead and iron to help them defend others, and their keen senses make them excellent marksmen, both from the treetops, and from up close.</p>
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_WARDEN_WEAPON_SUPERIORITY" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_WARDEN_EXTRA_ATTACK" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_WARDEN_EVASION" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_WARDEN_MULTIATTACK" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_WARDEN_EVER_VIGILANT" />
+        </description>
+        <sheet display="false">
+            <description>Wardens are rangers that are the mysterious guardians of both urban cities and dense jungles. They watch over their territory with keen eyes, ready to defend the weak wherever they may be attacked.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_WARDEN_WEAPON_SUPERIORITY" level="3" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_WARDEN_EXTRA_ATTACK" level="5" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_WARDEN_EVASION" level="7" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_WARDEN_MULTIATTACK" level="11" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_WARDEN_EVER_VIGILANT" level="15" />
+        </rules>
+    </element>
+
+    <element name="Ranged Weapon Superiority" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_WARDEN_WEAPON_SUPERIORITY">
+        <description>
+            <p>At 3rd level, you can choose one of the two following features.</p>
+            <p class="indent"><strong><em>Longshot Mastery.</em></strong> +20 to the maximum range and normal range for your ranged weapons. Add 1d6 damage once per turn to any successful ranged weapon attacks made beyond 30 feet.</p>
+            <p class="indent"><strong><em>Close Quarters Dominance.</em></strong> Add 1d8 damage once per turn to successful attacks made within 15 feet or fewer with your ranged weapons. You can make opportunity attacks with your ranged weapons.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Archetype Feature" name="Ranged Weapon Superiority" supports="Ranged Weapon Superiority" />
+        </rules>
+    </element>
+    <element name="Longshot Mastery" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_WARDEN_WEAPON_SUPERIORITY_LONGSHOT_MASTERY">
+        <supports>Ranged Weapon Superiority</supports>
+        <description>
+            <p>+20 to the maximum range and normal range for your ranged weapons. Add 1d6 damage once per turn to any successful ranged weapon attacks made beyond 30 feet.</p>
+        </description>
+        <sheet>
+            <description>+20 to the maximum range and normal range for your ranged weapons. Add 1d6 damage once per turn to any successful ranged weapon attacks made beyond 30 feet.</description>
+        </sheet>
+    </element>
+    <element name="Close Quarters Dominance" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_WARDEN_WEAPON_SUPERIORITY_CQD">
+        <supports>Ranged Weapon Superiority</supports>
+        <description>
+            <p>Add 1d8 damage once per turn to successful attacks made within 15 feet or fewer with your ranged weapons. You can make opportunity attacks with your ranged weapons.</p>
+        </description>
+        <sheet>
+            <description>Add 1d8 damage once per turn to successful attacks made within 15 feet or fewer with your ranged weapons. You can make opportunity attacks with your ranged weapons.</description>
+        </sheet>
+    </element>
+
+    <element name="Extra Attack" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_WARDEN_EXTRA_ATTACK">
+        <description>
+            <p>If you are using Wizards of the Coast's Revised Ranger, found in their Unearthed Arcana section, you also get the Extra Attack class feature at 5th level.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+        </rules>
+    </element>
+
+    <element name="Evasion" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_WARDEN_EVASION">
+        <description>
+            <p>7th level Wardens let nothing escape their watchful eyes, and are experts at dodging wide area attacks, such as a storm of bullets or acidic waves. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>
+        </description>
+        <sheet>
+            <description>When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</description>
+        </sheet>
+    </element>
+
+    <element name="Multiattack" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_WARDEN_MULTIATTACK">
+        <description>
+            <p>At 11th level, you learn one of the following features after having trained with your weapons of choice in order to make multiple attacks. You can use the feature they choose when taking the attack action on your turn.</p>
+            <p class="indent"><strong><em>Barrage.</em></strong> You can make a ranged attack at every target available in a 15 foot wide line within within your weapon’s normal range. Ignore the reload action or loading times for firearms when making this attack. You must have the ammunition available to hit the targets, and must roll a separate attack for each.</p>
+            <p class="indent"><strong><em>Slam Fire.</em></strong> You can make an attack with your ranged weapons on any number of creatures of your choosing within 10 feet of you that you can see. Ignore the reload action or loading times for firearms when making these attacks. You must have the ammunition available to hit the targets, and must make a separate attack roll for each.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Archetype Feature" name="Multiattack" supports="Warden Multiattack" />
+        </rules>
+    </element>
+    <element name="Barrage" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_WARDEN_MULTIATTACK_BARRAGE">
+        <supports>Warden Multiattack</supports>
+        <description>
+            <p>You can make a ranged attack at every target available in a 15 foot wide line within within your weapon’s normal range. Ignore the reload action or loading times for firearms when making this attack. You must have the ammunition available to hit the targets, and must roll a separate attack for each.</p>
+        </description>
+        <sheet>
+            <description>You can make a ranged attack at every target available in a 15 foot wide line within within your weapon’s normal range. Ignore the reload action or loading times for firearms when making this attack. You must have the ammunition available to hit the targets, and must roll a separate attack for each.</description>
+        </sheet>
+    </element>
+    <element name="Slam Fire" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_WARDEN_MULTIATTACK_SLAM_FIRE">
+        <supports>Warden Multiattack</supports>
+        <description>
+            <p>You can make an attack with your ranged weapons on any number of creatures of your choosing within 10 feet of you that you can see. Ignore the reload action or loading times for firearms when making these attacks. You must have the ammunition available to hit the targets, and must make a separate attack roll for each.</p>
+        </description>
+        <sheet>
+            <description>You can make an attack with your ranged weapons on any number of creatures of your choosing within 10 feet of you that you can see. Ignore the reload action or loading times for firearms when making these attacks. You must have the ammunition available to hit the targets, and must make a separate attack roll for each.</description>
+        </sheet>
+    </element>
+
+    <element name="Ever Vigilant" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_WARDEN_EVER_VIGILANT">
+        <description>
+            <p>At 15th level, you have become a vigilant guardian for all those you protect, be it from close range or afar. You can use a reaction in order to take a shot at any enemy that is within your weapon’s normal range if they attempt to attack or cast a spell at any creatures friendly to you. If you hit, the creature's attack or spell automatically fails, dealing no damage if it would normally do so. If they were casting a spell, the spellslot is wasted.</p>
+            <p class="indent">Once you use this feature, you cannot use it again until you complete a short or long rest.</p>
+        </description>
+        <sheet>
+            <description usage="1/Short Rest" action="Reaction">You can use a reaction in order to take a shot at any enemy that is within your weapon’s normal range if they attempt to attack or cast a spell at any creatures friendly to you. If you hit, the creature's attack or spell automatically fails, dealing no damage if it would normally do so. If they were casting a spell, the spellslot is wasted.</description>
+        </sheet>
+    </element>
+
+</elements>

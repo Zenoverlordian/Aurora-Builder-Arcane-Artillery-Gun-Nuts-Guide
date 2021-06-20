@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="proficiencies.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Arcane-Artillery-Gun-Nuts-Guide/main/proficiencies.xml" />
+        </update>
+    </info>
+
+    <append id="ID_WOTC_PHB_CLASS_BARD">
+        <rules>
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_SIDEARMS" requirements="!ID_WOTC_PHB_MULTICLASS_BARD"/>
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_RIFLES" requirements="!ID_WOTC_PHB_MULTICLASS_BARD"/>
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_CARBINES" requirements="!ID_WOTC_PHB_MULTICLASS_BARD"/>
+        </rules>
+    </append>
+
+    <append id="ID_WOTC_PHB_CLASS_CLERIC">
+        <rules>
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_SIDEARMS" requirements="!ID_WOTC_PHB_MULTICLASS_CLERIC"/>
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_SHOTGUNS" requirements="!ID_WOTC_PHB_MULTICLASS_CLERIC"/>
+        </rules>
+    </append>
+
+    <append id="ID_WOTC_PHB_CLASS_FIGHTER">
+        <rules>
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_LONGARMS" requirements="!ID_WOTC_PHB_MULTICLASS_FIGHTER"/>
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_SIDEARMS" requirements="!ID_WOTC_PHB_MULTICLASS_FIGHTER"/>
+        </rules>
+    </append>
+
+    <append id="ID_WOTC_PHB_CLASS_MONK">
+        <rules>
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_FLINTLOCK_PISTOL" requirements="!ID_WOTC_PHB_MULTICLASS_MONK"/>
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_DRAGOON" requirements="!ID_WOTC_PHB_MULTICLASS_MONK"/>
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_PEPPERBOX" requirements="!ID_WOTC_PHB_MULTICLASS_MONK"/>
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_MUSKET" requirements="!ID_WOTC_PHB_MULTICLASS_MONK"/>
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_ARQUEBUS" requirements="!ID_WOTC_PHB_MULTICLASS_MONK"/>
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_BLUNDERBUSS" requirements="!ID_WOTC_PHB_MULTICLASS_MONK"/>
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_WHEELLOCK_GUN" requirements="!ID_WOTC_PHB_MULTICLASS_MONK"/>
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_PISTOL" requirements="!ID_WOTC_PHB_MULTICLASS_MONK"/>
+        </rules>
+    </append>
+
+    <append id="ID_WOTC_PHB_CLASS_PALADIN">
+        <rules>
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_LONGARMS" requirements="!ID_WOTC_PHB_MULTICLASS_PALADIN"/>
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_SIDEARMS" requirements="!ID_WOTC_PHB_MULTICLASS_PALADIN"/>
+        </rules>
+    </append>
+
+    <append id="ID_WOTC_PHB_CLASS_RANGER">
+        <rules>
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_LONGARMS" requirements="!ID_WOTC_PHB_MULTICLASS_RANGER"/>
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_SIDEARMS" requirements="!ID_WOTC_PHB_MULTICLASS_RANGER"/>
+        </rules>
+    </append>
+
+    <append id="ID_WOTC_PHB_CLASS_SORCERER">
+        <rules>
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_SIDEARMS" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+        </rules>
+    </append>
+
+    <append id="ID_WOTC_PHB_CLASS_WARLOCK">
+        <rules>
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_SIDEARMS" requirements="!ID_WOTC_PHB_MULTICLASS_WARLOCK"/>
+        </rules>
+    </append>
+
+    <append id="ID_WOTC_PHB_CLASS_WIZARD">
+        <rules>
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_SIDEARMS" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
+        </rules>
+    </append>
+
+    <append id="ID_WOTC_PHB_CLASS_ROGUE">
+        <rules>
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_SIDEARMS" requirements="!ID_WOTC_PHB_MULTICLASS_ROGUE"/>
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_RIFLES" requirements="!ID_WOTC_PHB_MULTICLASS_ROGUE"/>
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_CARBINES" requirements="!ID_WOTC_PHB_MULTICLASS_ROGUE"/>
+        </rules>
+    </append>
+
+</elements>

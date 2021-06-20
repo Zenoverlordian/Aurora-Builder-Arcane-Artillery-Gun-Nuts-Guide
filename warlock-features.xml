@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="warlock-features.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Arcane-Artillery-Gun-Nuts-Guide/main/warlock-features.xml" />
+        </update>
+    </info>
+
+	<element name="Pact of the Firearm" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_WARLOCK_PACT_FIREARM">
+		<supports>Pact Boon</supports>
+		<description>
+			<p>You can use your action to create a pact weapon in your empty hand. You can choose the form that this firearm takes each time you create it . You are proficient with it while you wield it. This firearm counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. This firearm uses a magical reserve of ammunition supplied by your patron that does not run out. You still have to reload it, however.</p>
+			<p class="indent">You can only summon a primitive firearm as your pact weapon until you reach 13th level, when you can now summon advanced firearms.</p>
+			<p class="indent">Your pact firearm disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die. You can transform one magic firearm into your pact weapon by performing a special ritual while you hold the firearm. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can’t affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.</p>
+		</description>
+		<sheet usage="Action">
+			<description level="1">You can use your action to create a pact weapon in your empty hand. You can choose the form that this primitive firearm takes each time you create it. You are proficient with it while you wield it. This firearm counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. This firearm uses a magical reserve of ammunition supplied by your patron that does not run out. You still have to reload it, however.
+            Your pact firearm disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die. You can transform one magic firearm into your pact weapon by performing a special ritual while you hold the firearm. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can’t affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.</description>
+			<description level="13">You can use your action to create a pact weapon in your empty hand. You can choose the form that this firearm takes each time you create it. You are proficient with it while you wield it. This firearm counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. This firearm uses a magical reserve of ammunition supplied by your patron that does not run out. You still have to reload it, however.
+            Your pact firearm disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die. You can transform one magic firearm into your pact weapon by performing a special ritual while you hold the firearm. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can’t affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.</description>
+		</sheet>
+	</element>
+    
+	<element name="Cloak of Radiant Fire" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_CLOAK_RADIANT_FIRE">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Frontier Flames patron</prerequisite>
+		<requirements>ID_ZJR_AAGNG_ARCHETYPE_FRONTIER_FLAMES</requirements>
+		<description>
+			<p><em>Prerequisite: Frontier Flames patron</em></p>
+			<p>When Frontier Soul is active, you have resistance to fire and radiant damage.</p>
+		</description>
+		<sheet>
+			<description>When Frontier Soul is active, you have resistance to fire and radiant damage.</description>
+		</sheet>
+	</element>
+    
+	<element name="Wisdom of Justice" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_WISDOM_JUSTICE">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Frontier Flames patron, Pact of the Tome feature</prerequisite>
+		<requirements>ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TOME, ID_ZJR_AAGNG_ARCHETYPE_FRONTIER_FLAMES</requirements>
+		<description>
+			<p><em>Prerequisite: Frontier Flames patron, Pact of the Tome feature</em></p>
+			<p>While completing a short or long rest, you can spend 10 minutes meditating and attuning yourself to the fire within you, tome in hand. When you finish this ritual, your tome alights with an ancient power that gives you an uncanny insight. Whenever you next make a Wisdom(Insight) check to discern a lie from a creature, you can choose to automatically succeed the check. In addition, if any creature attempts to use magic to decieve you or modify your perception of reality, you gain advantage on your next check to resist it.</p>
+		</description>
+		<sheet>
+			<description usage="1/Short Rest">While completing a short or long rest, you can spend 10 minutes meditating and attuning yourself to the fire within you, tome in hand. When you finish this ritual, your tome alights with an ancient power that gives you an uncanny insight. Whenever you next make a Wisdom (Insight) check to discern a lie from a creature, you can choose to automatically succeed the check. In addition, if any creature attempts to use magic to decieve you or modify your perception of reality, you gain advantage on your next check to resist it.</description>
+		</sheet>
+	</element>
+    
+	<element name="Swiftly Loyal" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_SWIFTLY_LOYAL">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Frontier Flames patron, Pact of the Chain feature</prerequisite>
+		<requirements>ID_ZJR_AAGNG_ARCHETYPE_FRONTIER_FLAMES, ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_CHAIN</requirements>
+		<description>
+			<p><em>Prerequisite: Frontier Flames patron, Pact of the Chain feature</em></p>
+			<p>You can select the hound justicar as your familiar. If you have a hound justicar as your familiar, it gains additional hit points equal to your warlock level plus twice your charisma modifier.</p>
+            <p class="indent">When you reach 11th level, the hound justicar's speed increases by 10 times your charisma modifier. Its bite attack now deals an extra 2d6 fire and 2d6 radiant damage. The fire damage ignores resistance and immunities against evil and chaotic aligned creatures.</p>
+            <div class="reference">
+                <div element="ID_ZJR_AAGNG_COMPANION_HOUND_JUSTICAR" />
+            </div>
+		</description>
+		<sheet>
+			<description level="1">You can select the hound justicar as your familiar. If you have a hound justicar as your familiar, it gains {{bonus hound:hp}} additional hit points.</description>
+			<description level="11">You can select the hound justicar as your familiar. If you have a hound justicar as your familiar, it gains {{bonus hound:hp}} additional hit points.
+            The hound justicar's speed increases by {{bonus hound:speed}}. Its bite attack now deals an extra 2d6 fire and 2d6 radiant damage. The fire damage ignores resistance and immunities against evil and chaotic aligned creatures.</description>
+		</sheet>
+        <rules>
+            <stat name="bonus hound:hp" value="level:warlock" />
+            <stat name="bonus hound:hp" value="charisma:modifier" />
+            <stat name="bonus hound:hp" value="charisma:modifier" />
+            <stat name="bonus hound:speed" value="charisma:modifier" />
+            <stat name="bonus hound:speed" value="charisma:modifier" />
+            <stat name="bonus hound:speed" value="charisma:modifier" />
+            <stat name="bonus hound:speed" value="charisma:modifier" />
+            <stat name="bonus hound:speed" value="charisma:modifier" />
+            <stat name="bonus hound:speed" value="charisma:modifier" />
+            <stat name="bonus hound:speed" value="charisma:modifier" />
+            <stat name="bonus hound:speed" value="charisma:modifier" />
+            <stat name="bonus hound:speed" value="charisma:modifier" />
+            <stat name="bonus hound:speed" value="charisma:modifier" />
+            <stat name="companion:hp:max" value="bonus hound:hp" level="1" />
+            <stat name="companion:speed" value="bonus hound:speed" level="11" />
+        </rules>
+	</element>
+    
+	<element name="Frontiersman's Blade" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_FRONTIERSMANS_BLADE">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Frontier Flames patron, Pact of the Blade feature</prerequisite>
+		<requirements>ID_ZJR_AAGNG_ARCHETYPE_FRONTIER_FLAMES, ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE</requirements>
+		<description>
+			<p><em>Prerequisite: Frontier Flames patron, Pact of the Blade feature</em></p>
+			<p>You can create a longsword made from the fire within your soul that sheds dim light in a 5 foot radius around you. The blade's light seems to extend further than usual, though the weapon weighs no extra. This weapon has the Reach property. When you hit a creature, you can expend a spell slot to deal an extra 1d8 fire and 1d8 radiant damage to the target per spell level. If the creature is chaotic or evil aligned, you can halve their speed and give them disadvantage on saving throws until the end of your next turn.</p>
+		</description>
+		<sheet>
+			<description>You can create a longsword made from the fire within your soul that sheds dim light in a 5 foot radius around you. The blade's light seems to extend further than usual, though the weapon weighs no extra. This weapon has the Reach property. When you hit a creature, you can expend a spell slot to deal an extra 1d8 fire and 1d8 radiant damage to the target per spell level. If the creature is chaotic or evil aligned, you can halve their speed and give them disadvantage on saving throws until the end of your next turn.</description>
+		</sheet>
+	</element>
+    
+	<element name="The Judgement" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_THE_JUDGEMENT">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Frontier Flames patron, Pact of the Firearm feature</prerequisite>
+		<requirements>ID_ZJR_AAGNG_ARCHETYPE_FRONTIER_FLAMES, ID_ZJR_AAGNG_CLASS_FEATURE_WARLOCK_PACT_FIREARM</requirements>
+		<description>
+			<p><em>Prerequisite: Frontier Flames patron, Pact of the Firearm feature</em></p>
+			<p>You can create a pepperbox forged from pure light and fire in your hand that becomes a revolver at 13th level. When you hit a creature with its ammunition, you can expend a spell slot a spell slot to deal an extra 1d8 fire and 1d8 radiant damage per spell level and plants a mote of bright fire on the creature that judges its soul at the start of its next turn. If the creature is evil aligned, it is blinded until the end of your next turn. If the creature is chaotic aligned, it cannot take reactions until the end of your next turn.</p>
+		</description>
+		<sheet>
+			<description level="1">You can create a pepperbox forged from pure light and fire in your hand. When you hit a creature with its ammunition, you can expend a spell slot a spell slot to deal an extra 1d8 fire and 1d8 radiant damage per spell level and plants a mote of bright fire on the creature that judges its soul at the start of its next turn. If the creature is evil aligned, it is blinded until the end of your next turn. If the creature is chaotic aligned, it cannot take reactions until the end of your next turn.</description>
+			<description level="13">You can create a revolver forged from pure light and fire in your hand. When you hit a creature with its ammunition, you can expend a spell slot a spell slot to deal an extra 1d8 fire and 1d8 radiant damage per spell level and plants a mote of bright fire on the creature that judges its soul at the start of its next turn. If the creature is evil aligned, it is blinded until the end of your next turn. If the creature is chaotic aligned, it cannot take reactions until the end of your next turn.</description>
+		</sheet>
+	</element>
+    
+	<element name="Uncanny Empath" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_UNCANNY_EMPATH">
+		<supports>Eldritch Invocation</supports>
+		<description>
+			<p>You can learn one language of your choosing. You can cast comprehend languages at will without expending a spell slot. You can cast tongues once without spending a warlock spell slot. You regain the ability to cast this spell in this way when you complete a long rest.</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_COMPREHEND_LANGUAGES" />
+            </div>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_TONGUES" />
+            </div>
+		</description>
+		<sheet>
+			<description usage="1/Long Rest">You can cast comprehend languages at will without expending a spell slot. You can cast tongues once without spending a warlock spell slot. You regain the ability to cast this spell in this way when you complete a long rest.</description>
+		</sheet>
+        <rules>
+            <select type="Language" name="Language, Uncanny Empath" supports="Standard||Exotic" />
+            <grant type="Spell" id="ID_PHB_SPELL_COMPREHEND_LANGUAGES" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_TONGUES" /> 
+        </rules>
+	</element>
+    
+	<element name="Yippee Ki-Yay" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_YIPPEE_KI_YAY">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Frontier Flames patron, 5th level</prerequisite>
+		<requirements>[level:warlock:5], ID_ZJR_AAGNG_ARCHETYPE_FRONTIER_FLAMES</requirements>
+		<description>
+			<p><em>Prerequisite: Frontier Flames patron, 5th level</em></p>
+			<p>You can cast find steed once without expending a spell slot. You regain the ability to cast this spell again in this way when you complete a long rest. When you cast it in this way, you cast it as an action, and can spawn the mount underneath you.</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_FIND_STEED" />
+            </div>
+		</description>
+		<sheet>
+			<description usage="1/Long Rest">You can cast find steed once without expending a spell slot. You regain the ability to cast this spell again in this way when you complete a long rest. When you cast it in this way, you cast it as an action, and can spawn the mount underneath you.</description>
+		</sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_FIND_STEED" />
+        </rules>
+	</element>
+    
+	<element name="Frontier Survivalist" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_FRONTIER_SURVIVALIST">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Frontier Flames patron, 7th level</prerequisite>
+		<requirements>ID_ZJR_AAGNG_ARCHETYPE_FRONTIER_FLAMES, [level:warlock:7]</requirements>
+		<description>
+			<p><em>Prerequisite: Frontier Flames patron, 7th level</em></p>
+			<p>You always know which direction is north, and the amount of time required for you to get the benefits of a long rest is halved when traveling on uncivilized land. You can cast create food and water, purify food and water, and pass without trace once without spending a warlock spell slot. You regain the ability to cast the spells in this way when you complete a long rest.</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_CREATE_FOOD_AND_WATER" />
+            </div>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_PURIFY_FOOD_AND_DRINK" />
+            </div>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_PASS_WITHOUT_TRACE" />
+            </div>
+		</description>
+		<sheet>
+			<description usage="1/Long Rest">You always know which direction is north, and the amount of time required for you to get the benefits of a long rest is halved when traveling on uncivilized land. You can cast create food and water, purify food and water, and pass without trace once without spending a warlock spell slot. You regain the ability to cast the spells in this way when you complete a long rest.</description>
+		</sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_CREATE_FOOD_AND_WATER" />
+            <grant type="Spell" id="ID_PHB_SPELL_PURIFY_FOOD_AND_DRINK" />
+            <grant type="Spell" id="ID_PHB_SPELL_PASS_WITHOUT_TRACE" />
+        </rules>
+	</element>
+    
+	<element name="Flames of Hope" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_FLAMES_HOPE">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Frontier Flames patron, 9th level</prerequisite>
+		<requirements>[level:warlock:9], ID_ZJR_AAGNG_ARCHETYPE_FRONTIER_FLAMES</requirements>
+		<description>
+			<p><em>Prerequisite: Frontier Flames patron, 9th level</em></p>
+			<p>You can cast aura of life and searing smite once without spending a warlock spell slot. You regain the ability to cast these spells in this manner when you complete a long rest.</p>
+            <p class="indent">Additionally, you can spend an action during your turn to end one of the following effects on a creature: frightened or charmed. Once you use this feature, you cannot use it again until you complete a short or long rest.</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_AURA_OF_LIFE" />
+            </div>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_SEARING_SMITE" />
+            </div>
+		</description>
+		<sheet>
+			<description usage="1/Short Rest">You can cast aura of life and searing smite once without spending a warlock spell slot. You regain the ability to cast these spells in this manner when you complete a long rest.
+            Additionally, you can spend an action during your turn to end one of the following effects on a creature: frightened or charmed. Once you use this feature, you cannot use it again until you complete a short or long rest.</description>
+		</sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_AURA_OF_LIFE" />
+            <grant type="Spell" id="ID_PHB_SPELL_SEARING_SMITE" />
+        </rules>
+	</element>
+    
+	<element name="Justicar's Blast" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_JUSTICARS_BLAST">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Frontier Flames patron, 12th level</prerequisite>
+		<requirements>[level:warlock:12], ID_ZJR_AAGNG_ARCHETYPE_FRONTIER_FLAMES</requirements>
+		<description>
+			<p><em>Prerequisite: Frontier Flames patron, 12th level</em></p>
+			<p>You can cast destructive wave once without expending a spell slot.</p>
+            <p class="indent">You regain the ability to cast the spell in this way when you complete a long rest.</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_DESTRUCTIVE_WAVE" />
+            </div>
+		</description>
+		<sheet>
+			<description usage="1/Long Rest">You can cast destructive wave once without expending a spell slot.</description>
+		</sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_DESTRUCTIVE_WAVE" />
+        </rules>
+	</element>
+    
+	<element name="Soulfire Infusion" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_SOULFIRE_INFUSION">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Frontier Flames patron, 13th level</prerequisite>
+		<requirements>[level:warlock:13], ID_ZJR_AAGNG_ARCHETYPE_FRONTIER_FLAMES</requirements>
+		<description>
+			<p><em>Prerequisite: Frontier Flames patron, 13th level</em></p>
+			<p>You can cast elemental weapon as your 7th level Mystic Arcanum. When cast in this way, it can affect your pact weapon, if you have one. You can choose radiant as a damage type to apply to your weapon when you cast the spell. When you make a successful attack roll while this spell is active, you can change one of the damage types of the d4s rolled to radiant or fire damage.</p>
+            <p class="indent">Against evil or chaotic aligned creatures, the damage die of the spell changes to d6s instead of d4s.</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_ELEMENTAL_WEAPON" />
+            </div>
+		</description>
+		<sheet>
+			<description>You can cast elemental weapon as your 7th level Mystic Arcanum. When cast in this way, it can affect your pact weapon, if you have one. You can choose radiant as a damage type to apply to your weapon when you cast the spell. When you make a successful attack roll while this spell is active, you can change one of the damage types of the d4s rolled to radiant or fire damage. Against evil or chaotic aligned creatures, the damage die of the spell changes to d6s instead of d4s.</description>
+		</sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_ELEMENTAL_WEAPON" />
+        </rules>
+	</element>
+    
+	<element name="Aura of Justice" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_AURA_OF_JUSTICE">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Frontier Flames patron, 15th level</prerequisite>
+		<requirements>[level:warlock:15], ID_ZJR_AAGNG_ARCHETYPE_FRONTIER_FLAMES</requirements>
+		<description>
+			<p><em>Prerequisite: Frontier Flames patron, 15th level</em></p>
+			<p>You get holy aura as your 8th level Mystic Arcanum.</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_HOLY_AURA" />
+            </div>
+		</description>
+		<sheet>
+			<description>You get holy aura as your 8th level Mystic Arcanum.</description>
+		</sheet>
+        <spellcasting name="Warlock" extend="true">
+            <extend>ID_PHB_SPELL_HOLY_AURA</extend>
+        </spellcasting>
+	</element>
+    
+	<element name="The Ultimate Judgement" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_ULTIMATE_JUDGEMENT">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Frontier Flames patron, 17th level</prerequisite>
+		<requirements>[level:warlock:17], ID_ZJR_AAGNG_ARCHETYPE_FRONTIER_FLAMES</requirements>
+		<description>
+			<p><em>Prerequisite: Frontier Flames patron, 17th level</em></p>
+			<p>You get glassing beam as your 9th level Mystic Arcanum. Evil and chaotic aligned creatures have disadvantage on the saving throw, and you can exclude creatures friendly to you from the area of effect of this spell.</p>
+            <div class="reference">
+                <div element="ID_ZJR_AAGNG_SPELL_GLASSING_BEAM" />
+            </div>
+		</description>
+		<sheet>
+			<description>You get glassing beam as your 9th level Mystic Arcanum. Evil and chaotic aligned creatures have disadvantage on the saving throw, and you can exclude creatures friendly to you from the area of effect of this spell.</description>
+		</sheet>
+        <spellcasting name="Warlock" extend="true">
+            <extend>ID_ZJR_AAGNG_SPELL_GLASSING_BEAM</extend> 
+        </spellcasting>
+	</element>
+    
+	<element name="Show of Force" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_SHOW_OF_FORCE">
+		<supports>Eldritch Invocation</supports>
+		<description>
+			<p>You have a knack for making an impression in combat. Add your Charisma modifier to your initiative rolls. You can also use your Charisma modifier, instead of your Dexterity modifier, for your attack and damage rolls for your pact weapon.</p>
+		</description>
+		<sheet>
+			<description>You can use your Charisma modifier, instead of your Dexterity modifier, for your attack and damage rolls for your pact weapon.</description>
+		</sheet>
+        <rules>
+            <stat name="initiative:misc" value="charisma:modifier" />
+        </rules>
+	</element>
+    
+	<element name="Blast &amp; Shoot" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_BLAST_AND_SHOOT">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Pact of the Firearm feature, eldritch blast cantrip, 5th level</prerequisite>
+		<requirements>ID_ZJR_AAGNG_CLASS_FEATURE_WARLOCK_PACT_FIREARM, [level:warlock:5], ID_PHB_SPELL_ELDRITCH_BLAST</requirements>
+		<description>
+			<p><em>Prerequisite: Pact of the Firearm feature, eldritch blast cantrip, 5th level</em></p>
+			<p>When you cast eldritch blast, you can attack with your pact weapon as a bonus action.</p>
+		</description>
+		<sheet>
+			<description action="Bonus Action">When you cast eldritch blast, you can attack with your pact weapon as a bonus action.</description>
+		</sheet>
+	</element>
+    
+	<element name="Gunstorm" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_GUNSTORM">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Pact of the Firearm feature, 5th level</prerequisite>
+		<requirements>ID_ZJR_AAGNG_CLASS_FEATURE_WARLOCK_PACT_FIREARM, [level:warlock:5]</requirements>
+		<description>
+			<p><em>Prerequisite: Pact of the Firearm feature, 5th level</em></p>
+			<p>You can attack twice when you take the attack action on your turn using your pact weapon. You ignore the reload action for your pact weapon once when making these attacks.</p>
+		</description>
+		<sheet>
+			<description>You can attack twice when you take the attack action on your turn using your pact weapon. You ignore the reload action for your pact weapon once when making these attacks.</description>
+		</sheet>
+	</element>
+    
+	<element name="Improved Pact Weapon" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_IMPROVED_PACT_WEAPON">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Pact of the Blade or Pact of the Firearm feature, 5th level</prerequisite>
+		<requirements>(ID_ZJR_AAGNG_CLASS_FEATURE_WARLOCK_PACT_FIREARM||ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE), [level:warlock:5]</requirements>
+		<description>
+			<p><em>Prerequisite: Pact of the Blade or Pact of the Firearm feature, 5th level</em></p>
+			<p>Any weapon you create using your pact feature is a +1 weapon. This invocation doesn't affect a magic weapon you transformed into your pact weapon.</p>
+		</description>
+		<sheet>
+			<description>Any weapon you create using your pact feature is a +1 weapon. This invocation doesn't affect a magic weapon you transformed into your pact weapon.</description>
+		</sheet>
+	</element>
+    
+	<element name="Superior Pact Weapon" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_SUPERIOR_PACT_WEAPON">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Pact of the Blade or Pact of the Firearm feature, 9th level</prerequisite>
+		<requirements>(ID_ZJR_AAGNG_CLASS_FEATURE_WARLOCK_PACT_FIREARM||ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE), [level:warlock:9]</requirements>
+		<description>
+			<p><em>Prerequisite: Pact of the Blade or Pact of the Firearm feature, 9th level</em></p>
+			<p>Any weapon you create using your pact feature is a +2 weapon. This invocation doesn't affect a magic weapon you transformed into your pact weapon.</p>
+		</description>
+		<sheet>
+			<description>Any weapon you create using your pact feature is a +2 weapon. This invocation doesn't affect a magic weapon you transformed into your pact weapon.</description>
+		</sheet>
+	</element>
+    
+	<element name="Draining Shot" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_DRAINING_SHOT">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>11th level, Pact of the Firearm feature</prerequisite>
+		<requirements>ID_ZJR_AAGNG_CLASS_FEATURE_WARLOCK_PACT_FIREARM, [level:warlock:11]</requirements>
+		<description>
+			<p><em>Prerequisite: 11th level, Pact of the Firearm feature</em></p>
+			<p>When you make a successful shot against a creature with your pact firearm, a dark crimson line leads back to the barrel of your gun, give you temporary HP equal to half the amount of damage dealt.</p>
+		</description>
+		<sheet>
+			<description>When you make a successful shot against a creature with your pact firearm, a dark crimson line leads back to the barrel of your gun, giving you temporary HP equal to half the amount of damage dealt.</description>
+		</sheet>
+	</element>
+    
+	<element name="Greater Pact Firearm" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_GREATER_PACT_FIREARM">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Pact of the Firearm feature, 13th level.</prerequisite>
+		<requirements>ID_ZJR_AAGNG_CLASS_FEATURE_WARLOCK_PACT_FIREARM, [level:warlock:13]</requirements>
+		<description>
+			<p><em>Prerequisite: Pact of the Firearm feature, 13th level.</em></p>
+			<p>You can summon a special firearm when you invoke your pact weapon as part of your Pact of the Firearm feature. You can change your current weapon to become one of these special firearms when you take this invocation.</p>
+		</description>
+		<sheet>
+			<description>You can summon a special firearm when you invoke your pact weapon as part of your Pact of the Firearm feature. You can change your current weapon to become one of these special firearms when you take this invocation.</description>
+		</sheet>
+	</element>
+    
+	<element name="Customized Pact Weapon" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_CUSTOMIZED_PACT_WEAPON">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Pact of the Firearm feature, 13th level</prerequisite>
+		<requirements>ID_ZJR_AAGNG_CLASS_FEATURE_WARLOCK_PACT_FIREARM, [level:warlock:13]</requirements>
+		<description>
+			<p><em>Prerequisite: Pact of the Firearm feature, 13th level</em></p>
+			<p>Any firearm you create using your Pact of the Firearm feature can start with one Attachment or Custom Part of your choice that can be used with it. This invocation doesn't affect a magic weapon you transformed into your pact weapon.</p>
+            <p class="indent">When you reach 17th level, your pact weapon can start with any number of two Attachements or Custom Parts.</p>
+		</description>
+		<sheet>
+			<description level="13">Any firearm you create using your Pact of the Firearm feature can start with one Attachment or Custom Part of your choice that can be used with it. This invocation doesn't affect a magic weapon you transformed into your pact weapon.</description>
+			<description level="17">Any firearm you create using your Pact of the Firearm feature can start with one Attachment or Custom Part of your choice that can be used with it. This invocation doesn't affect a magic weapon you transformed into your pact weapon.
+            Your pact weapon can start with any number of two Attachements or Custom Parts.</description>
+		</sheet>
+	</element>
+    
+	<element name="Ultimate Pact Weapon" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_ULTIMATE_PACT_WEAPON">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Pact of the Blade or Pact of the Firearm feature, 15th level</prerequisite>
+		<requirements>(ID_ZJR_AAGNG_CLASS_FEATURE_WARLOCK_PACT_FIREARM||ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE), [level:warlock:15]</requirements>
+		<description>
+			<p><em>Prerequisite: Pact of the Blade or Pact of the Firearm feature, 15th level</em></p>
+			<p>Any weapon you create using your pact feature is a +3 weapon. This invocation doesn't affect a magic weapon you transformed into your pact weapon.</p>
+		</description>
+		<sheet>
+			<description>Any weapon you create using your pact feature is a +3 weapon. This invocation doesn't affect a magic weapon you transformed into your pact weapon.</description>
+		</sheet>
+	</element>
+    
+	<element name="Eldritch Storm" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_ELDRITCH_STORM">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Pact of the Firearm feature, eldritch blast cantrip 18th level</prerequisite>
+		<requirements>ID_ZJR_AAGNG_CLASS_FEATURE_WARLOCK_PACT_FIREARM, ID_PHB_SPELL_ELDRITCH_BLAST, [level:warlock:18]</requirements>
+		<description>
+			<p><em>Prerequisite: Pact of the Firearm feature, eldritch blast cantrip 18th level</em></p>
+			<p>You can concentrate the eldritch blast cantrip through the barrel of your pact weapon, focusing the crackling beams into one large ray of magical force. Make a ranged spell attack roll with disadvantage. If the attack hits, roll four eldritch blast damage rolls. Add your Dexterity modifier twice to the damage of this attack.</p>
+		</description>
+		<sheet>
+			<description>You can concentrate the eldritch blast cantrip through the barrel of your pact weapon, focusing the crackling beams into one large ray of magical force. Make a ranged spell attack roll with disadvantage. If the attack hits, roll four eldritch blast damage rolls. Add {{eldritch storm:dmg}} to the damage of this attack.</description>
+		</sheet>
+        <rules>
+            <stat name="eldritch storm:dmg" value="dexterity:modifier" />
+            <stat name="eldritch storm:dmg" value="dexterity:modifier" />
+        </rules>
+	</element>
+    
+	<element name="Grasp of teh Ancient One" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_GRASP_OF_THE_ANCIENT_ONE">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Great Old One patron, Pact of the Firearm feature</prerequisite>
+		<requirements>ID_WOTC_PHB_ARCHETYPE_OTHERWORLDLY_PATRON_THE_GREAT_OLD_ONE, ID_ZJR_AAGNG_CLASS_FEATURE_WARLOCK_PACT_FIREARM</requirements>
+		<description>
+			<p><em>Prerequisite: Great Old One patron, Pact of the Firearm feature</em></p>
+			<p>You can create a blunderbuss (or shotgun if firearms are prominent, or when you reach 13th level.) made from a black, inky marble and a sickly, green colored steel that seems to glow. Spectral tentacles writhe around the barrel of the shotgun, slurping sounds following every shot you make with it. When you hit a creature with its ammunition, you can expend a spell slot to deal an additional 2d8 psychic damage to the target per spell level, and you can make the creature frightened of you until the end of your next turn.</p>
+		</description>
+		<sheet>
+			<description level="1">You can create a blunderbuss (or shotgun if firearms are prominent) made from a black, inky marble and a sickly, green colored steel that seems to glow. Spectral tentacles writhe around the barrel of the shotgun, slurping sounds following every shot you make with it. When you hit a creature with its ammunition, you can expend a spell slot to deal an additional 2d8 psychic damage to the target per spell level, and you can make the creature frightened of you until the end of your next turn.</description>
+			<description level="13">You can create a shotgun made from a black, inky marble and a sickly, green colored steel that seems to glow. Spectral tentacles writhe around the barrel of the shotgun, slurping sounds following every shot you make with it. When you hit a creature with its ammunition, you can expend a spell slot to deal an additional 2d8 psychic damage to the target per spell level, and you can make the creature frightened of you until the end of your next turn.</description>
+		</sheet>
+	</element>
+    
+	<element name="Wrath of the Inferno" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_WRATH_OF_THE_INFERNO">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Fiend Patron, Pact of the Firearm feature</prerequisite>
+		<requirements>ID_WOTC_PHB_ARCHETYPE_OTHERWORLDLY_PATRON_FIEND, ID_ZJR_AAGNG_CLASS_FEATURE_WARLOCK_PACT_FIREARM</requirements>
+		<description>
+			<p><em>Prerequisite: Fiend Patron, Pact of the Firearm feature</em></p>
+			<p>You can create a musket (or a rifle if firearms are prominent, or when you reach 13th level.) forged in the fires of Pandemonium. Its wood is a black, unbreakable charcoal, and its barrel is blood red. Flames seem to surround the trigger that don't hurt you when you put your finger inside it. When you hit a creature with its ammunition, you can expend a spell slot to deal an additional 2d8 fire damage to the target per spell level that ignores resistance and immunity.</p>
+		</description>
+		<sheet>
+			<description level="1">You can create a musket (or a rifle if firearms are prominent) forged in the fires of Pandemonium. Its wood is a black, unbreakable charcoal, and its barrel is blood red. Flames seem to surround the trigger that don't hurt you when you put your finger inside it. When you hit a creature with its ammunition, you can expend a spell slot to deal an additional 2d8 fire damage to the target per spell level that ignores resistance and immunity.</description>
+			<description level="13">You can create a rifle forged in the fires of Pandemonium. Its wood is a black, unbreakable charcoal, and its barrel is blood red. Flames seem to surround the trigger that don't hurt you when you put your finger inside it. When you hit a creature with its ammunition, you can expend a spell slot to deal an additional 2d8 fire damage to the target per spell level that ignores resistance and immunity.</description>
+		</sheet>
+	</element>
+    
+	<element name="Sunset Sniper" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_SUNSET_SNIPER">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Archfey patron, Pact of the Firearm feature</prerequisite>
+		<requirements>ID_WOTC_PHB_ARCHETYPE_OTHERWORLDLY_PATRON_THE_ARCHFEY, ID_ZJR_AAGNG_CLASS_FEATURE_WARLOCK_PACT_FIREARM</requirements>
+		<description>
+			<p><em>Prerequisite: Archfey patron, Pact of the Firearm feature</em></p>
+			<p>You can create an arquebus (or a bulky rifle if firearms are prominent, or when you reach 13th level) forged from a spindly wood, who's barrel is a bright brass adorned with ornate carvings. Vines are wrapped around the gun's length. When you hit a creature with its ammunition, you can expend a spell slot to deal an additional 2d8 radiant damage to the target per spell level, and makes the creature charmed by you until the end of your next turn.</p>
+		</description>
+		<sheet>
+			<description level="1">You can create an arquebus (or a bulky rifle if firearms are prominent) forged from a spindly wood, who's barrel is a bright brass adorned with ornate carvings. Vines are wrapped around the gun's length. When you hit a creature with its ammunition, you can expend a spell slot to deal an additional 2d8 radiant damage to the target per spell level, and makes the creature charmed by you until the end of your next turn.</description>
+			<description level="13">You can create a bulky rifle forged from a spindly wood, who's barrel is a bright brass adorned with ornate carvings. Vines are wrapped around the gun's length. When you hit a creature with its ammunition, you can expend a spell slot to deal an additional 2d8 radiant damage to the target per spell level, and makes the creature charmed by you until the end of your next turn.</description>
+		</sheet>
+	</element>
+    
+	<element name="Hound Justicar" type="Companion" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_COMPANION_HOUND_JUSTICAR">
+		<supports>Familiar</supports>
+		<requirements>ID_ZJR_AAGNG_CLASS_FEATURE_INVOCATION_SWIFTLY_LOYAL</requirements>
+        <description />
+		<setters>
+			<set name="strength">15</set>
+			<set name="dexterity">14</set>
+			<set name="constitution">12</set>
+			<set name="intelligence">11</set>
+			<set name="wisdom">11</set>
+			<set name="charisma">12</set>
+			<set name="ac">14</set>
+			<set name="hp">25 (4d8+1)</set>
+			<set name="speed">40 ft.</set>
+			<set name="senses">passive Perception 15, darkvision 60 ft.</set>
+			<set name="languages">Understands the languages of its master, but can only speak in barks</set>
+			<set name="type">Celestial</set>
+			<set name="size">Medium</set>
+			<set name="alignment">lawful good</set>
+			<set name="challenge">1</set>
+			<set name="traits">ID_ZJR_AAGNG_COMPANION_TRAIT_HOUND_JUSTICAR_FUR_ARMOR_OF_JUSTICE, ID_ZJR_AAGNG_COMPANION_TRAIT_HOUND_JUSTICAR_MAGIC_RESISTANCE, ID_ZJR_AAGNG_COMPANION_TRAIT_HOUND_JUSTICAR_REBUKE_THE_UNHOLY, ID_ZJR_AAGNG_COMPANION_TRAIT_HOUND_JUSTICAR_PACK_TACTICS</set>
+			<set name="actions">ID_ZJR_AAGNG_COMPANION_ACTION_HOUND_JUSTICAR_BITE, ID_ZJR_AAGNG_COMPANION_ACTION_HOUND_JUSTICAR_BLINDING_BARK</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="14" />
+			<stat name="companion:hp:max" value="25" bonus="base" />
+			<stat name="companion:speed" value="40" bonus="base" />
+		</rules>
+	</element>
+    <element name="Fur Armor of Justice" type="Companion Trait" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_COMPANION_TRAIT_HOUND_JUSTICAR_FUR_ARMOR_OF_JUSTICE">
+        <description>
+            <p>The hound justicar is resistant to nonmagical bludgeoning, piercing, and slashing damage from chaotic or evil aligned creature. It has resistance to poison damage and immune to fire, radiant and necrotic damage. It is also immune to the poisoned and frightened conditions.</p>
+        </description>
+        <sheet>
+            <description>The hound justicar is resistant to nonmagical bludgeoning, piercing, and slashing damage from chaotic or evil aligned creature. It has resistance to poison damage and immune to fire, radiant and necrotic damage. It is also immune to the poisoned and frightened conditions.</description>
+        </sheet>
+    </element>
+    <element name="Magic Resistance" type="Companion Trait" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_COMPANION_TRAIT_HOUND_JUSTICAR_MAGIC_RESISTANCE">
+        <description>
+            <p>The hound justicar has advantage on saving throws to resist magical effects.</p>
+        </description>
+        <sheet>
+            <description>The hound justicar has advantage on saving throws to resist magical effects.</description>
+        </sheet>
+    </element>
+    <element name="Rebuke the Unholy" type="Companion Trait" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_COMPANION_TRAIT_HOUND_JUSTICAR_REBUKE_THE_UNHOLY">
+        <description>
+            <p>The hound justicar has advantage on attack rolls against fiends and the undead, and rerolls 1s and 2s to damage against them.</p>
+        </description>
+        <sheet>
+            <description>The hound justicar has advantage on attack rolls against fiends and the undead, and rerolls 1s and 2s to damage against them.</description>
+        </sheet>
+    </element>
+    <element name="Pack Tactics" type="Companion Trait" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_COMPANION_TRAIT_HOUND_JUSTICAR_PACK_TACTICS">
+        <description>
+            <p>The hound justicar has advantage on attack rolls against a creature if at least one of the hound justicar's allies is within 5 feet of the creature and the ally isn't incapacitated.</p>
+        </description>
+        <sheet>
+            <description>The hound justicar has advantage on attack rolls against a creature if at least one of the hound justicar's allies is within 5 feet of the creature and the ally isn't incapacitated.</description>
+        </sheet>
+    </element>
+    <element name="Bite" type="Companion Action" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_COMPANION_ACTION_HOUND_JUSTICAR_BITE">
+        <description>
+            <p>Melee Weapon Attack: +5 to hit, one target. Hit5 (1d6 + 3) piercing damage and 3 (1d6) radiant damage.</p>
+        </description>
+        <sheet>
+            <description>Melee Weapon Attack: +5 to hit, one target. Hit5 (1d6 + 3) piercing damage and 3 (1d6) radiant damage.</description>
+        </sheet>
+    </element>
+    <element name="Blinding Bark" type="Companion Action" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_COMPANION_ACTION_HOUND_JUSTICAR_BLINDING_BARK">
+        <description>
+            <p>As an action during its turn, the hound justicar can emit a bark that emits a beam of light out to a 15 foot cone. Any creature within the cone must make a DC 13 Constitution saving throw or take 7 (2d6) radiant damage and is blinded until the end of the hound justicar's next turn. If they succeed, they take half damage and are not blinded.</p>
+        </description>
+        <sheet>
+            <description>As an action during its turn, the hound justicar can emit a bark that emits a beam of light out to a 15 foot cone. Any creature within the cone must make a DC 13 Constitution saving throw or take 7 (2d6) radiant damage and is blinded until the end of the hound justicar's next turn. If they succeed, they take half damage and are not blinded.</description>
+        </sheet>
+    </element>
+    
+</elements>

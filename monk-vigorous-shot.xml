@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="monk-vigorous-shot.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Arcane-Artillery-Gun-Nuts-Guide/main/monk-vigorous-shot.xml" />
+        </update>
+    </info>
+    
+    <element name="Way of the Vigorous Shot" type="Archetype" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_VIGOROUS_SHOT">
+        <supports>Monastic Tradition</supports>
+        <description>
+            <p>Most monks tends to use primitive weapons while up in their monasteries, daggers, spears, axes. All of these can be wielded effectively with their martial arts and are simple to learn and master. However, there are a select few monks who choose to go for the more inventive means of dealing damage, and take up the use of certain firearms in order to deal their damage. The firearm, to most monks, may seem a loud and barbaric lead burpers that have no class and style to them. But a monk who goes down the way of the vigorous shot has learned to channel their Ki into their firearms and make them extensions of their own serene will. Beware those who cross these Gun Fu artists, for they will end up dead before they know what hit them.</p>
+            <p class="indent"></p>
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIGOROUS_SHOT_BONUS_PROF" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIGOROUS_SHOT_GUN_FU" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIGOROUS_SHOT_FORCE_BULLETS" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIGOROUS_SHOT_SEVERE_SALVO" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIGOROUS_SHOT_INNER_FOCUS" />
+        </description>
+        <sheet display="false">
+            <description>The firearm, to most monks, may seem a loud and barbaric lead burpers that have no class and style to them. But a monk who goes down the way of the vigorous shot has learned to channel their Ki into their firearms and make them extensions of their own serene will.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIGOROUS_SHOT_BONUS_PROF" level="3" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIGOROUS_SHOT_GUN_FU" level="3" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIGOROUS_SHOT_FORCE_BULLETS" level="6" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIGOROUS_SHOT_SEVERE_SALVO" level="11" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIGOROUS_SHOT_INNER_FOCUS" level="17" />
+        </rules>
+    </element>
+
+    <element name="Bonus Proficiencies" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIGOROUS_SHOT_BONUS_PROF">
+        <description>
+            <p>When you take this tradition at 3rd level, you learn how to infuse your Ki into firearms and let it flow through the bullets. You gain proficiency in two of the following weapons: Pistols, Revolvers, Rifles, or Carbines. These weapons are not considered monk weapons for you and thus do not qualify for use with the Martial Arts feature, but you can use the Martial Arts damage die as piercing damage in place of the damage these weapons would deal.</p>
+        </description>
+        <sheet>
+            <description>The weapons gained from this archetype are not considered monk weapons for you and thus do not qualify for use with the Martial Arts feature, but you can use the Martial Arts damage die as piercing damage in place of the damage these weapons would deal.</description>
+        </sheet>
+        <rules>
+            <select type="Proficiency" name="Bonus Proficiencies (Way of the Vigorous Shot)" supports="ID_ZJR_AAGNG_PROFICIENCY_PISTOLS|ID_ZJR_AAGNG_PROFICIENCY_REVOLVERS|ID_ZJR_AAGNG_PROFICIENCY_RIFLES|ID_ZJR_AAGNG_PROFICIENCY_CARBINES" number="2" />
+        </rules>
+    </element>
+
+    <element name="Gun Fu" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIGOROUS_SHOT_GUN_FU">
+        <description>
+            <p>Once you reach 3rd level and take this tradition, you have trained yourself to flow your Ki through your firearms to perform special maneuvers in place of your Martial Arts and Ki moves. You get the following maneuvers.</p>
+            <ul>
+                <li>When you make the attack action with a firearm that you are proficient in, you can make one unarmed strike or a ranged attack during your turn as a bonus action. Use your martial arts die in place of the normal damage for this attack. Spend a Ki point to make two ranged attacks, using your Martial Arts die in place of the damage.</li>
+                <li>You can spend 2 Ki points in order to shoot past your firearm's normal range without disadvantage. </li>
+                <li>When you get the Extra Attack feature at 5th level, you ignore the reload action and loading times for firearms when making the additional attacks. </li>
+                <li>You can use Deflect Missiles by using your reaction to fire a shot at a ranged weapon attack targeting your ally, at the cost of 1 Ki point. You can add Ki points to your attack roll. Missiles have 17 AC, and ranged spell attacks have 18 AC.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description usage="Ki" level="3">You get the following maneuvers.
+            When you make the attack action with a firearm that you are proficient in, you can make one unarmed strike or a ranged attack during your turn as a bonus action. Use your martial arts die in place of the normal damage for this attack. Spend a Ki point to make two ranged attacks, using your Martial Arts die in place of the damage.
+            You can spend 2 Ki points in order to shoot past your firearm's normal range without disadvantage.
+            You can use Deflect Missiles by using your reaction to fire a shot at a ranged weapon attack targeting your ally, at the cost of 1 Ki point. You can add Ki points to your attack roll. Missiles have 17 AC, and ranged spell attacks have 18 AC.</description>
+            <description usage="Ki" level="5">You get the following maneuvers.
+            When you make the attack action with a firearm that you are proficient in, you can make one unarmed strike or a ranged attack during your turn as a bonus action. Use your martial arts die in place of the normal damage for this attack. Spend a Ki point to make two ranged attacks, using your Martial Arts die in place of the damage.
+            You can spend 2 Ki points in order to shoot past your firearm's normal range without disadvantage.
+            You can use Deflect Missiles by using your reaction to fire a shot at a ranged weapon attack targeting your ally, at the cost of 1 Ki point. You can add Ki points to your attack roll. Missiles have 17 AC, and ranged spell attacks have 18 AC.
+            You ignore the reload action and loading times for firearms when making the additional attacks.</description>
+        </sheet>
+    </element>
+
+    <element name="Force of Bullets" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIGOROUS_SHOT_FORCE_BULLETS">
+        <description>
+            <p>When you reach 6th level, you have learned to harness the Ki in your body to empower your firearms beyond their normal potential. Your attacks made with the firearms you chose in your Bonus Proficiencies feature count as magical for the purposes of overcoming resistance and immunity to nonmagical attacks and damage. You can also use your Stunning Strike feature for your ranged weapon attacks using these firearms.</p>
+            <p class="indent">Additionally, you can add your Martial Arts die to your firearm's damage roll once per turn.</p>
+            <p class="indent">You can spend a Ki point in order to ignore cover bonus for your firearm's attacks out to their normal range as you curve the bullets around walls and cover.</p>
+        </description>
+        <sheet>
+            <description usage="Ki">Your attacks made with the firearms you chose in your Bonus Proficiencies feature count as magical for the purposes of overcoming resistance and immunity to nonmagical attacks and damage. You can also use your Stunning Strike feature for your ranged weapon attacks using these firearms.
+            Additionally, you can add your Martial Arts die to your firearm's damage roll once per turn.
+            You can spend a Ki point in order to ignore cover bonus for your firearm's attacks out to their normal range as you curve the bullets around walls and cover.</description>
+        </sheet>
+    </element>
+
+    <element name="Severe Salvo" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIGOROUS_SHOT_SEVERE_SALVO">
+        <description>
+            <p>At 11th level, once per turn, when you make a ranged attack with firearms you are proficient in, you can spend 1-6 Ki points to conjure additional bullets equal to the amount of Ki you spend that you fire from your gun at any creature within your gun's maximum range as beams of pure energy. Any creature targeted by these bullets must succeed a Dexterity saving throw against your Ki save DC. On a failed save, they take 2d12 + your Dexterity modifier force damage. They take half that damage on a successful save.</p>
+            <p class="indent">You can only target a creature with two beams at once, including the creature you made the attack roll against.</p>
+        </description>
+        <sheet>
+            <description usage="Ki">Once per turn, when you make a ranged attack with firearms you are proficient in, you can spend 1-6 Ki points to conjure additional bullets equal to the amount of Ki you spend that you fire from your gun at any creature within your gun's maximum range as beams of pure energy. Any creature targeted by these bullets must succeed a Dexterity saving throw against your Ki save DC. On a failed save, they take 2d12 + {{dexterity:modifier}} force damage. They take half that damage on a successful save. You can only target a creature with two beams at once, including the creature you made the attack roll against.</description>
+        </sheet>
+    </element>
+
+    <element name="Inner Focus" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIGOROUS_SHOT_INNER_FOCUS">
+        <description>
+            <p>At 17th level, you have learned to steady your mind to make nearly any shot with the firearms you chose in your Bonus Proficiencies feature. So long as you take a bonus action to aim your gun or have only moved half your movement speed in any direction, you have advantage on attacks made with these weapons within their normal range. Once per short rest, if you miss a firearm attack roll, you can reroll the attack, but must use the new roll. You can spend 2 Ki points to get advantage on the reroll.</p>
+        </description>
+        <sheet>
+            <description action="Bonus Action" usage="1/Short Rest">So long as you take a bonus action to aim your gun or have only moved half your movement speed in any direction, you have advantage on attacks made with these weapons within their normal range.
+            Once per short rest, if you miss a firearm attack roll, you can reroll the attack, but must use the new roll. You can spend 2 Ki points to get advantage on the reroll.</description>
+        </sheet>
+    </element>
+    
+</elements>

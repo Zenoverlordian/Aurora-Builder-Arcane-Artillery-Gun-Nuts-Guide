@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="artificer-gunsmith.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Arcane-Artillery-Gun-Nuts-Guide/main/artificer-gunsmith.xml" />
+        </update>
+    </info>
+
+    <element name="Gunsmith" type="Archetype" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_GUNSMITH">
+        <supports>Artificer Specialist</supports>
+        <description>
+            <p>Artificers who choose to take up the engineering of firearms are able to forge guns made from their scientifically brilliant minds and infused with powerful magic. You are a master of crafting firearms, and your brilliance gained from your trade allows you to make them in no time at all. Such artificers are sought after for their ability to quickly arm entire companies of soldiers with powerful firearms, and giving the specialists their magical ammunition to be used during their deadly missions.</p>
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_GUNSMITH_ENGINEERING_MASTER" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_GUNSMITH_GUN_SMITHY" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_GUNSMITH_ARCANE_ARMOR_PACK" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_GUNSMITH_EXPERIMENTAL_ROUNDS" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_GUNSMITH_AMMO_SMITHY_ADEPT" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_GUNSMITH_ADVANCED_GUN_SMITHY" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_GUNSMITH_FIREARM_INFUSION" />
+        </description>
+        <sheet display="false">
+            <description>Artificers who choose to take up the engineering of firearms are able to forge guns made from their scientifically brilliant minds and infused with powerful magic.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_GUNSMITH_ENGINEERING_MASTER" level="1" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_GUNSMITH_GUN_SMITHY" level="1" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_GUNSMITH_ARCANE_ARMOR_PACK" level="1" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_GUNSMITH_EXPERIMENTAL_ROUNDS" level="3" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_GUNSMITH_AMMO_SMITHY_ADEPT" level="9" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_GUNSMITH_ADVANCED_GUN_SMITHY" level="14" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_GUNSMITH_FIREARM_INFUSION" level="17" />
+        </rules>
+    </element>
+
+    <element name="Engineering Master" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_GUNSMITH_ENGINEERING_MASTER">
+        <description>
+            <p>When you choose this specialization at 1st level, you gain proficiency in either tinker’s tools or smith's tools, and you learn the mending cantrip, and can cast it at will. If you already have these, you can gain proficiency in a different tool and/or cantrip of your choice from the Wizard Spell list. You also gain proficiency in longarms and sidearms.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Proficiency" name="Engineering Master" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS" />
+            <select type="Spell" name="Engineering Master" supports="Wizard,0" default="ID_PHB_SPELL_MENDING" />
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_LONGARMS" />
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_SIDEARMS" />
+        </rules>
+    </element>
+
+    <element name="Gun Smithy" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_GUNSMITH_GUN_SMITHY">
+        <description>
+            <p>At 1st level, you can now craft Primitive Firearms. In order to craft them, you must have a set of tinker's tools or smith's tools on you. You are presumed to have the raw materials and schematics for these firearms on you when you choose this specialization. The cost to create these firearms is equal to cost in gp / 2. You can craft these firearms at a rate of 5gp per hour.</p>
+        </description>
+        <sheet>
+            <description>You can now craft Primitive Firearms. In order to craft them, you must have a set of tinker's tools or smith's tools on you. You are presumed to have the raw materials and schematics for these firearms on you when you choose this specialization. The cost to create these firearms is equal to cost in gp / 2. You can craft these firearms at a rate of 5gp per hour.</description>
+        </sheet>
+    </element>
+
+    <element name="Arcane Ammo Pack" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_GUNSMITH_ARCANE_ARMOR_PACK">
+        <description>
+            <p>When you choose this specialization at 1st level, you have forged a leather bag, backpack, bandolier, or other such storage device that carries tools and ammunition for your guns. This includes powders, lead, and other materials you need for gun maintenance and ammo crafting.</p>
+            <p class="indent">You can use your Arcane Ammo Pack to magically produce rounds for your guns. At the end of each long rest, you can magically produce mundane rounds equal to your Intelligence modifier x 10 (minimum 1). If you lose your Arcane Ammo Pack, you can make another one at the end of a long rest, at the cost of 25gp worth of resources and raw materials, such as leather and lace.</p>
+        </description>
+        <sheet>
+            <description>You have forged a leather bag, backpack, bandolier, or other such storage device that carries tools and ammunition for your guns. This includes powders, lead, and other materials you need for gun maintenance and ammo crafting.
+            You can use your Arcane Ammo Pack to magically produce rounds for your guns. At the end of each long rest, you can magically produce {{arcane ammo:pack}} mundane rounds (minimum 1). If you lose your Arcane Ammo Pack, you can make another one at the end of a long rest, at the cost of 25gp worth of resources and raw materials, such as leather and lace.</description>
+        </sheet>
+        <rules>
+            <stat name="arcane ammo:pack" value="intelligence:modifier" />
+            <stat name="arcane ammo:pack" value="intelligence:modifier" />
+            <stat name="arcane ammo:pack" value="intelligence:modifier" />
+            <stat name="arcane ammo:pack" value="intelligence:modifier" />
+            <stat name="arcane ammo:pack" value="intelligence:modifier" />
+            <stat name="arcane ammo:pack" value="intelligence:modifier" />
+            <stat name="arcane ammo:pack" value="intelligence:modifier" />
+            <stat name="arcane ammo:pack" value="intelligence:modifier" />
+            <stat name="arcane ammo:pack" value="intelligence:modifier" />
+            <stat name="arcane ammo:pack" value="intelligence:modifier" />
+        </rules>
+    </element>
+
+    <element name="Experimental Rounds" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_GUNSMITH_EXPERIMENTAL_ROUNDS">
+        <description>
+            <p>When you reach 3rd level in gunsmith, you attempt to combine the magic you've recently learned how to channel in various experiments. Over the period of 1 hour, you can attempt an experiment to infuse a number of rounds created from your Arcane Ammo Pack equal to your Intelligence modifier with magic. This number increases to your Intelligence modifier x 2 at 14th level. Make a DC 11 spellcasting ability check. If you succeed, roll on the experiment table to decide the result of each of your experimental rounds. If you fail, the experiment only produces one experimental bullet. Roll on the table to decide what that bullet is.</p>
+            <p class="indent">Alternatively, you can expend a spell slot over the course of this hour to automatically succeed this check if the level of the spell slot is equal to the DC of the check / 10.</p>
+            <p class="indent">Experimental bullets do not lose their magic nor are they destroyed if they miss a target when shot. The magical effects fade on a successful shot, and the round can always be recovered after battle.</p>
+            <table>
+                <thead>
+                    <tr><td>d8</td><td>Effects</td></tr>
+                </thead>
+                <tr><td>1</td><td>Slaying Round. The round deals an extra 2d6 damage of its type to a single creature type of your choosing.</td></tr>
+                <tr><td>2-3</td><td>Protecting Round. The round no longer deals damage. Instead it adds +1 AC to a creature friendly to you for 1 minute when shot at them. (Does not stack.)</td></tr>
+                <tr><td>4-5</td><td>Elemental Round. The round deals an extra 2d4 acid, cold, fire, lightning, poison or thunder damage (your choice).</td></tr>
+                <tr><td>6-7</td><td>Armor Breaking Round. The round no longer deals damage. Instead it reduces a target's AC by 1 for 1 round when successfully shot at them. (Does not stack.)</td></tr>
+                <tr><td>8</td><td>Heartseeking Round. The round attacks using a creature’s unarmored AC (or it’s AC without unarmored boosts, such as natural armor or unarmored defense)</td></tr>
+            </table>
+            <p>When you reach higher levels in this class, you can increase the max potential damage that damaging experimental rounds can deal by 2d6/2d4, but the DC of the spellcasting ability check goes up by 1 for every d6/d4 the damage deals higher than 2d6/2d4: 9th level (4d6/4d4), 14th level (6d6/6d4), and 17th level (8d6/8d4).</p>
+            <p class="indent">The same applies to the AC of protecting rounds and armor breaking rounds, except the DC increases by 2 for every value higher than 1: 9th level, 2 AC, 14th level, 3 AC, and 17th level, 4 AC.</p>
+            <p class="indent">Only you can use these higher powered rounds for your firearms until you reach 17th level.</p>
+        </description>
+        <sheet>
+            <description level="3">Over the period of 1 hour, you can attempt an experiment to infuse {{experimental rounds:num}} rounds created from your Arcane Ammo Pack with magic. Make a DC 11 spellcasting ability check. If you succeed, roll on the experiment table to decide the result of each of your experimental rounds. If you fail, the experiment only produces one experimental bullet. Roll on the table to decide what that bullet is.
+            Alternatively, you can expend a spell slot over the course of this hour to automatically succeed this check if the level of the spell slot is equal to the DC of the check / 10.
+            Experimental bullets do not lose their magic nor are they destroyed if they miss a target when shot. The magical effects fade on a successful shot, and the round can always be recovered after battle. Only you can use these higher powered rounds for your firearms</description>
+            <description level="9">Over the period of 1 hour, you can attempt an experiment to infuse {{experimental rounds:num}} rounds created from your Arcane Ammo Pack with magic. Make a DC 11 spellcasting ability check. If you succeed, roll on the experiment table to decide the result of each of your experimental rounds. If you fail, the experiment only produces one experimental bullet. Roll on the table to decide what that bullet is.
+            Alternatively, you can expend a spell slot over the course of this hour to automatically succeed this check if the level of the spell slot is equal to the DC of the check / 10.
+            You can increase the max potential damage that damaging experimental rounds can deal by 2d6/2d4, but the DC of the spellcasting ability check goes up by 1 for every d6/d4 the damage deals higher than 2d6/2d4. The same applies to the AC of protecting rounds and armor breaking rounds, except the DC increases by 2 for every value higher than 1 (up to 2 AC).
+            Experimental bullets do not lose their magic nor are they destroyed if they miss a target when shot. The magical effects fade on a successful shot, and the round can always be recovered after battle. Only you can use these higher powered rounds for your firearms</description>
+            <description level="14">Over the period of 1 hour, you can attempt an experiment to infuse {{experimental rounds:num}} rounds created from your Arcane Ammo Pack with magic. Make a DC 11 spellcasting ability check. If you succeed, roll on the experiment table to decide the result of each of your experimental rounds. If you fail, the experiment only produces one experimental bullet. Roll on the table to decide what that bullet is.
+            Alternatively, you can expend a spell slot over the course of this hour to automatically succeed this check if the level of the spell slot is equal to the DC of the check / 10.
+            You can increase the max potential damage that damaging experimental rounds can deal by up to 6d6/6d4, but the DC of the spellcasting ability check goes up by 1 for every d6/d4 the damage deals higher than 2d6/2d4. The same applies to the AC of protecting rounds and armor breaking rounds, except the DC increases by 2 for every value higher than 1 (up to 3 AC).
+            Experimental bullets do not lose their magic nor are they destroyed if they miss a target when shot. The magical effects fade on a successful shot, and the round can always be recovered after battle. Only you can use these higher powered rounds for your firearms</description>
+            <description level="17">Over the period of 1 hour, you can attempt an experiment to infuse {{experimental rounds:num}} rounds created from your Arcane Ammo Pack with magic. Make a DC 11 spellcasting ability check. If you succeed, roll on the experiment table to decide the result of each of your experimental rounds. If you fail, the experiment only produces one experimental bullet. Roll on the table to decide what that bullet is.
+            Alternatively, you can expend a spell slot over the course of this hour to automatically succeed this check if the level of the spell slot is equal to the DC of the check / 10.
+            You can increase the max potential damage that damaging experimental rounds can deal by up to 8d6/8d4, but the DC of the spellcasting ability check goes up by 1 for every d6/d4 the damage deals higher than 2d6/2d4. The same applies to the AC of protecting rounds and armor breaking rounds, except the DC increases by 2 for every value higher than 1 (up to 4 AC).
+            Experimental bullets do not lose their magic nor are they destroyed if they miss a target when shot. The magical effects fade on a successful shot, and the round can always be recovered after battle.</description>
+        </sheet>
+        <rules>
+            <stat name="experimental rounds:num" value="intelligence:modifier" level="3" />
+            <stat name="experimental rounds:num" value="intelligence:modifier" level="14" />
+        </rules>
+    </element>
+
+    <element name="Ammo Smithy Adept" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_GUNSMITH_AMMO_SMITHY_ADEPT">
+        <description>
+            <p>At 9th level, you have become more adept at magically producing and infusing ammunition for your guns. When you use your Arcane Ammo Pack to magically make ammunition for your guns, you can make an amount equal to your Intelligence modifier x 20. Additionally, any ammunition you create with your Arcane Ammo pack is considered magical.</p>
+            <p class="indent">Additionally, when you make Experimental Bullets, you can choose what magic to infuse into which round from the experiment table for a number of times equal to your Intelligence modifier. You cannot make this choice if you fail the Experimental Ammo spellcasting check. Once your uses of this feature are expended, you regain them once you complete a long rest.</p>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest">When you use your Arcane Ammo Pack to magically make ammunition for your guns, you can make {{ammo smithy:adept}}. Additionally, any ammunition you create with your Arcane Ammo pack is considered magical.
+            Additionally, when you make Experimental Bullets, you can choose what magic to infuse into which round from the experiment table {{intelligence:modifier}} times. You cannot make this choice if you fail the Experimental Ammo spellcasting check. Once your uses of this feature are expended, you regain them once you complete a long rest.</description>
+        </sheet>
+        <rules>
+            <stat name="ammo smithy:adept" value="arcane ammo:pack" />
+            <stat name="ammo smithy:adept" value="arcane ammo:pack" />
+        </rules>
+    </element>
+
+    <element name="Advanced Gun Smithy" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_GUNSMITH_ADVANCED_GUN_SMITHY">
+        <description>
+            <p>When you reach 14th level, you learn how to produce new and improved types of firearms. You can now create all the other types of firearms on the firearms chart, as well as Attachments and Custom Parts. Once per long rest, you must succeed an Intelligence check with your proficiency bonus added over the period of a short rest in order to make the blueprints for the gun or parts. If you fail, the DC goes down by 1 for subsequent checks (Minimum of 10). When the blueprints are created, you can then craft it. It is assumed that during your travels you came across the required materials to make these items before you took this feat. You craft these items at a rate of 5gp per hour, and can now craft primitive firearms at a rate of 10gp per hour.</p>
+            <p class="indent">The cost to create attachments is equal to (cost in gp of the item)/2 (rounded up).</p>
+            <p class="indent">The cost to craft primitive firearms is now cut in half for you (rounded up).</p>
+            <p class="indent">You can now reduce a primitive firearm's misfire number to a minimum of 1, regardless of its original misfire number.</p>
+            <p class="indent">Additionally, any primitive firearm you create starts with a misfire number of 0 and can start with one custom part or attachment built onto it. These custom parts and attachments can be replaced as normal.</p>
+        </description>
+        <sheet>
+            <description>You can now create all the other types of firearms on the firearms chart, as well as Attachments and Custom Parts. Once per long rest, you must succeed an Intelligence check with your proficiency bonus added over the period of a short rest in order to make the blueprints for the gun or parts. If you fail, the DC goes down by 1 for subsequent checks (Minimum of 10). When the blueprints are created, you can then craft it. It is assumed that during your travels you came across the required materials to make these items before you took this feat. You craft these items at a rate of 5gp per hour, and can now craft primitive firearms at a rate of 10gp per hour.
+            The cost to create attachments is equal to (cost in gp of the item)/2 (rounded up). The cost to craft primitive firearms is now cut in half for you (rounded up). You can now reduce a primitive firearm's misfire number to a minimum of 1, regardless of its original misfire number.
+            Additionally, any primitive firearm you create starts with a misfire number of 0 and can start with one custom part or attachment built onto it. These custom parts and attachments can be replaced as normal.</description>
+        </sheet>
+    </element>
+
+    <element name="Firearm Infusion" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_GUNSMITH_FIREARM_INFUSION">
+        <description>
+            <p>When you reach 17th level in this class, you learn the elemental weapon spell, if you have not already. You can infuse these spells into any nonmagical firearm you wish at their lowest level. When you infuse the spells in this way, the infusion is permanent unless you spend an action to cancel it. The infusions do continuously count against the number of infused items you can have, however.</p>
+        </description>
+        <sheet>
+            <description>You can cast elemental weapon any nonmagical firearm you wish at its lowest level. When you cast the spell in this way, the infusion is permanent unless you spend an action to cancel it. The infusions do continuously count against the number of infused items you can have.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_ELEMENTAL_WEAPON" spellcasting="Artificer" prepared="true" /> 
+        </rules>
+    </element>
+
+</elements>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="warlock-frontier-flames.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Arcane-Artillery-Gun-Nuts-Guide/main/warlock-frontier-flames.xml" />
+        </update>
+    </info>
+
+    <element name="The Frontier Flames" type="Archetype" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FRONTIER_FLAMES">
+        <supports>Otherworldly Patron</supports>
+        <description>
+            <p>Sometimes, when a world experiences a strong surge of determination for a cause or virtue, such a virtue can manifest into its own magical force. It is not an entirely sentient entity, but rather a manifiestation of the strongest ideals and emotions. This is one of those entities, representative of the strong compulsion to explore new places and exact justice upon those who would hurt others. Sometimes, such an entity can possess magical power to distribute. You have made a pact with this entity, which manifets itself as an undying flame, and are able to draw upon its boundless magical energy to exact justice on the lawless and go where no ordinary person would ever go.</p>
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_FRONTIER_FLAMES_EXPANDED_SPELL_LIST" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_FRONTIER_FLAMES_FRONTIER_SOUL" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_FRONTIER_FLAMES_BLINDING_JUSTICE" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_FRONTIER_FLAMES_TURN_THE_UNJUST" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_FRONTIER_FLAMES_CLEANSING_FIRE" />
+        </description>
+        <sheet display="false">
+            <description>You have made a pact with this entity, which manifets itself as an undying flame, and are able to draw upon its boundless magical energy to exact justice on the lawless and go where no ordinary person would ever go.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_FRONTIER_FLAMES_EXPANDED_SPELL_LIST" level="1" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_FRONTIER_FLAMES_FRONTIER_SOUL" level="1" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_FRONTIER_FLAMES_BLINDING_JUSTICE" level="6" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_FRONTIER_FLAMES_TURN_THE_UNJUST" level="10" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_FRONTIER_FLAMES_CLEANSING_FIRE" level="14" />
+        </rules>
+    </element>
+
+	<element name="Expanded Spell List" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_FRONTIER_FLAMES_EXPANDED_SPELL_LIST">
+		<description>
+			<p>The Frontier Flames let you chooose from an expanded spell list when you learn a warlock spell. The following spells are now available on the warlock spell list for you.</p>
+			<h5>FRONTIER FLAMES EXPANDED SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>Spell Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>1st</td><td><em>compelled duel, hunter's mark</em></td></tr>
+				<tr><td>2nd</td><td><em>soften the sword, zone of truth</em></td></tr>
+				<tr><td>3rd</td><td><em>spirit guardians, conjure firing squads</em></td></tr>
+				<tr><td>4th</td><td><em>drop shield, mordenkeinan's private sanctum</em></td></tr>
+				<tr><td>5th</td><td><em>hold monster, greater restoration</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false">
+			<description>The Frontier Flame lets you choose from an expanded list of spells when you learn a warlock spell.</description>
+		</sheet>
+		<spellcasting name="Warlock" extend="true">
+			<extend>ID_PHB_SPELL_COMPELLED_DUEL</extend> 
+			<extend>ID_PHB_SPELL_HUNTERS_MARK</extend>
+			<extend>ID_ZJR_AAGNG_SPELL_SOFTEN_THE_SWORD</extend>
+			<extend>ID_PHB_SPELL_ZONE_OF_TRUTH</extend>
+			<extend>ID_PHB_SPELL_SPIRIT_GUARDIANS</extend>
+			<extend>ID_ZJR_AAGNG_SPELL_CONJURE_FIRING_SQUAD</extend>
+			<extend>ID_ZJR_AAGNG_SPELL_DROP_SHIELD</extend>
+			<extend>ID_PHB_SPELL_MORDENKAINENS_PRIVATE_SANCTUM</extend>
+			<extend>ID_PHB_SPELL_HOLD_MONSTER</extend>
+			<extend>ID_PHB_SPELL_GREATER_RESTORATION</extend>
+		</spellcasting>
+	</element>	
+
+    <element name="Frontier Soul" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_FRONTIER_FLAMES_FRONTIER_SOUL">
+        <description>
+            <p>At 1st level, you get proficiency in Wisdom (Survival) and Wisdom (Perception) checks. If you are already proficient in these skills, you get double your proficiency bonus in checks you make with them. Your patron's thirst for justice manifests itself into a fire within your very soul. You can use a bonus action to manifest this fire into a personal effect that keeps you safe, such as a glowing, fiery hat, a vest made of shimmering light, or a pair of glowing wings. When you manifest the flames, your armor class is 13 + your Dexterity modifier when not wearing armor or using a shield, and you shed dim light in a 5 foot radius around you.</p>
+            <p class="indent">You can dismiss these flames as a bonus action or if you don armor or pick up a shield.</p>
+        </description>
+        <sheet>
+            <description action="Bonus Action">You can use a bonus action to manifest this fire into a personal effect that keeps you safe, such as a glowing, fiery hat, a vest made of shimmering light, or a pair of glowing wings. When you manifest the flames, your armor class is {{frontier soul:ac}} when not wearing armor or using a shield, and you shed dim light in a 5 foot radius around you. You can dismiss these flames as a bonus action or if you don armor or pick up a shield.</description>
+        </sheet>
+        <rules>
+            <stat name="survival:proficiency" value="proficiency" bonus="double" />
+            <stat name="perception:proficiency" value="proficiency" bonus="double" />
+            <stat name="frontier soul:ac" value="13" />
+            <stat name="frontier soul:ac" value="dexterity:modifier" />
+        </rules>
+    </element>
+
+    <element name="Blinding Justice" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_FRONTIER_FLAMES_BLINDING_JUSTICE">
+        <description>
+            <p>Starting at 6th level, if any creature makes a melee attack against you, you can use a reaction to surge your flames out in front of you. The creature must succeed a Constitution saving throw or be blinded until the end of your next turn. If Frontier Soul is active when you activate this ability, the creature takes radiant or fire damage equal to half your warlock level + your Charisma modifier (minimum of 1) on a failed save, and half that damage on a successful save.</p>
+            <p class="indent">Once you use this feature, you cannot use it again until you complete a short or long rest.</p>
+        </description>
+        <sheet>
+            <description usage="1/Short Rest" action="Reaction">If any creature makes a melee attack against you, you can use a reaction to surge your flames out in front of you. The creature must succeed a Constitution saving throw or be blinded until the end of your next turn. If Frontier Soul is active when you activate this ability, the creature takes {{blinding justice:dmg}} radiant or fire damage (minimum of 1) on a failed save, and half that damage on a successful save.</description>
+        </sheet>
+        <rules>
+            <stat name="blinding justice:dmg" value="level:warlock:half" />
+            <stat name="blinding justice:dmg" value="charisma:modifier" />
+        </rules>
+    </element>
+
+    <element name="Turn the Unjust" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_FRONTIER_FLAMES_TURN_THE_UNJUST">
+        <description>
+            <p>When you reach 10th level, your patron bestows upon you an unshakable courage that can strike fear deep into the hearts of those who seek to inflict chaos and evil upon society. You are immune to being frightened, and when another creature of an evil or chaotic alignment attempts to frighten you or an ally within a 10 foot radius of you, you can use your reaction to brighten the fire within your soul momentarily, turning the frightening effect against them. The creature must succeed a Wisdom saving throw against your warlock spell save DC or be frightened by you for 1 minute. The creature can remake this saving throw to end the effects of this feature at the end of each of its subsequent turns.</p>
+            <p class="indent">Creatures who's alignment is chaotic evil have disadvantage on this saving throw.</p>
+        </description>
+        <sheet>
+            <description action="Reaction">You are immune to being frightened, and when another creature of an evil or chaotic alignment attempts to frighten you or an ally within a 10 foot radius of you, you can use your reaction to brighten the fire within your soul momentarily, turning the frightening effect against them. The creature must succeed a Wisdom saving throw against your warlock spell save DC or be frightened by you for 1 minute. The creature can remake this saving throw to end the effects of this feature at the end of each of its subsequent turns. Creatures who's alignment is chaotic evil have disadvantage on this saving throw.</description>
+        </sheet>
+    </element>
+
+    <element name="Cleansing Fire" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_FRONTIER_FLAMES_CLEANSING_FIRE">
+        <description>
+            <p>At 14th level, you can manifest your patron into the force of one of your blows, sending outlaws everywhere reeling. You use a bonus action to channel the fire within your soul into a powerful physical force. For 1 minute, you are surrounded by a fiery glow, and shed bright light within a 10 foot radius, and dim light within a 30 foot radius. When you next succeed a weapon attack while glowing in this way, you can choose to send forth the flames of justice into your attack, dealing an extra 5d10 radiant damage and 5d10 Fire damage. The creature must them make a Constitution saving throw or be paralyzed until the end of your next turn. The magic then fades. The fire damage ignores resistance and immunity for evil aligned creatures, and you can reroll 1s and 2s to radiant damage dealt to chaotic aligned creatures.</p>
+            <p class="indent">Once you use this feature, you cannot use it again until you complete a long rest.</p>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest" action="Bonus Action">You use a bonus action to channel the fire within your soul into a powerful physical force. For 1 minute, you are surrounded by a fiery glow, and shed bright light within a 10 foot radius, and dim light within a 30 foot radius. When you next succeed a weapon attack while glowing in this way, you can choose to send forth the flames of justice into your attack, dealing an extra 5d10 radiant damage and 5d10 Fire damage. The creature must them make a Constitution saving throw or be paralyzed until the end of your next turn. The magic then fades. The fire damage ignores resistance and immunity for evil aligned creatures, and you can reroll 1s and 2s to radiant damage dealt to chaotic aligned creatures.</description>
+        </sheet>
+    </element>
+
+</elements>
