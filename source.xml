@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name></name>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="source.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Arcane-Artillery-Gun-Nuts-Guide/main/source.xml" />
         </update>
     </info>
