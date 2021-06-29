@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="class-gunslinger.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Arcane-Artillery-Gun-Nuts-Guide/main/class-gunslinger.xml" />
+        </update>
+    </info>
+
+    <element name="Gunslinger" type="Class" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_GUNSLINGER">
+        <description>
+    <p>A Human finishes loading rounds into her gun and and runs straight into a pack of angry kobolds that are threatening her town. She tumbles and spins, her weapon burping out salvo after salvo of hot lead against the poorly armed draconians with naught but simple spears to use against her.</p>
+    <p class="indent">Setting his perch up at the top of a tree, a Half Elf begins to train the custom built sights of his homemade rifle on his prize. Amidst the roaming herd of goblins and hobgoblins, there stands a single, massive fire giant shouting commands to the monsters near the edge of a cliff. As he lets out a haughty guffaw, the half-elf sees his opening. His lips curl into a grin, and he pulls the trigger.</p>
+    <p class="indent">A band of orcs move in and surround a Tiefling and her disarmed friends, calling for their surrender. Undeterred, the tiefling turns her steely gaze to the firearms within her hands, and imbues them with a mysterious arcane force. Suddenly, she starts to twirl about, firing a multitude of magically charged shots towards her now baffled foes.</p>
+    <p class="indent">Whether outlaws from a distant land trying to redeem themselves, swashbucklers with an eye for the explosive, or smiths that wish to show off their talents to the world in the heat of battle, gunslingers come from many backgrounds, but all have one thing in common. They’re all very good with guns, and use unique fighting styles and speed to strike down any foe that challenges them with less advanced weaponry.</p>
+    <h4>USING UNIQUE WEAPONS WITH STYLE</h4>
+    <p>Though this is heavily dependent on the adventure being run, guns are considered very rare in most adventures, and few know how to operate them. Their exotic nature can lead to confusion and panic among those at the business end of these tools. Gunslingers take advantage of this and combine the usage of these guns with a stylistic grace and speed very few can comprehend. A Gunslinger will take nearly any opportunity they feel appropriate to show off with their weapons of choice, and as they hone their skills with these distributors of supersonic lead death, they become speedy, nearly impossible to track and able to hit a target with their guns under nearly impossible circumstances.</p>
+    <h4>BORN FOR ADVENTURE</h4>
+    <p>Most adventurers seek adventure out. Others have it thrust upon them. Gunslingers seem to have been born with a natural affinity and curiosity for exploration and dealing with the problems out in the wild. You'll find them at the job board before any paladin or fighter, and they'll be eager to take on the challenges of the darkest and most dangerous dungeons. The more challenging the encounter, the greater use they'll get out of their pride and joy.</p>
+    <h4>CREATING A GUNSLINGER</h4>
+    <p>When creating a gunslinger, consider two major things. Firstly, consider how rare guns are in the adventure your DM is running, and then consider how your character came across their knowledge of how to make and use them? Did they have a eureka moment in a time of renaissance? Did they train with a mentor before deciding to go on their own path? Or did they form a pact with a dark entity for this knowledge? Either way, their background should lead them to come across these deadly tools for use in their adventures.</p>
+    <h5 class="caption">QUICK BUILD</h5>
+    <p>To quickly build a gunslinger, make Dexterity your highest ability score, followed by Intelligence. Second, choose the Investigation and Acrobatics skills. Lastly, choose the Folk Hero, Guild Artisan, or Soldier background.</p>
+    <h2>CLASS FEATURES</h2>
+    <p>As an Gunslinger, you gain the following class features.</p>
+    <h5 class="caption">HIT POINTS</h5>
+    <ul class="unstyled">
+        <li><strong>Hit Dice:</strong> 1d8 per Gunslinger level</li>
+        <li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+        <li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per Gunslinger level after 1st</li>
+    </ul>
+    <h5 class="caption">PROFICIENCIES</h5>
+    <ul class="unstyled mb">
+        <li><strong>Armor:</strong> Light Armor and Medium Armor or Shields</li>
+        <li><strong>Weapons:</strong> Longarms, Sidearms, Daggers, Shortswords, Rapiers, Scimitars, Clubs, Crossbows, Whips</li>
+        <li><strong>Tools:</strong> Tinker’s Tools or Smith's Tools</li>
+    </ul>
+    <ul class="unstyled">
+        <li><strong>Saving Throws:</strong> Dexterity, Charisma</li>
+        <li><strong>Skills:</strong> Choose two from Arcana, Acrobatics, Animal Handling, History, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand, or Survival.</li>
+    </ul>
+    <h5 class="caption">EQUIPMENT</h5>
+    <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+    <ul>
+        <li>(a) A personal effect, such as a hat, cape, or trenchoat and leather armor or (b), a personal effect and scale mail (if proficient).</li>
+        <li>(a) A Primitive Longarm and a Shortsword, Rapier, Whip, or Scimitar, (b) a Primitive Sidearm and a shortsword, rapier, whip, or scimitar, or (c) a Primitive Longarm and a shield (if proficient), along with 20 pieces of ammo that match the firearm chosen.</li>
+        <li>(a) A Primitive Sidearm and 10 rounds, or (b) two daggers, a whip or a shortsword.</li>
+        <li>(a) An dungeoneer’s pack or (b) a scholar’s pack.</li>
+    </ul>
+    <h5 class="caption">VARIANT RULE: FIREARMS ARE PROMINENT</h5>
+    <p>If firearms are prominent in your world, you may instead choose the following equipment variations.</p>
+    <ul>
+        <li>(a) An Advanced Longarm and a shortsword, rapier or scimitar or (b) an Advanced Sidearm and a shortsword, rapier, whip, or scimitar, or (c) an Advanced Longarm and a shield (if proficient) along with 20 pieces of ammo that match the firearm chosen.</li>
+        <li>(a) An Adavanced Sidearm and 10 rounds, or (b) two daggers, a whip or a shortsword.</li>
+    </ul>
+        <h5 class="caption">THE GUNSLINGER</h5>
+        <table class="class-features">
+            <thead>
+                <tr><td class="col-5">Level</td><td class="col-60 left">Features</td></tr>
+            </thead>
+            <tr><td> 1st</td><td class="left">No Coward's Weapon, Gun Tactics</td></tr>
+            <tr><td> 2nd</td><td class="left">Basic Gun Stunts, Quickdraw</td></tr>
+            <tr><td> 3rd</td><td class="left">Gunslinging Trail, Lucky Item</td></tr>
+            <tr><td> 4th</td><td class="left">Ability Score Improvement</td></tr>
+            <tr><td> 5th</td><td class="left">Bulletstorm, Overwatch</td></tr>
+            <tr><td> 6th</td><td class="left">Ability Score Improvement</td></tr>
+            <tr><td> 7th</td><td class="left">Iron Intuition, Bullet Time</td></tr>
+            <tr><td> 8th</td><td class="left">Ability Score Improvement</td></tr>
+            <tr><td> 9th</td><td class="left">Trail Feature</td></tr>
+            <tr><td>10th</td><td class="left">Shootout Sense</td></tr>
+            <tr><td>11th</td><td class="left">Advanced Gun Stunts</td></tr>
+            <tr><td>12th</td><td class="left">Ability Score Improvement</td></tr>
+            <tr><td>13th</td><td class="left">Trail Feature, Lucky Item Improvement</td></tr>
+            <tr><td>14th</td><td class="left">Superior Overwatch</td></tr>
+            <tr><td>15th</td><td class="left">Final Stand</td></tr>
+            <tr><td>16th</td><td class="left">Ability Score Improvement</td></tr>
+            <tr><td>17th</td><td class="left">Trail Feature</td></tr>
+            <tr><td>18th</td><td class="left">Superhuman Reflexes</td></tr>
+            <tr><td>19th</td><td class="left">Ability Score Improvement</td></tr>
+            <tr><td>20th</td><td class="left">Gunslinging Supreme, Bulletstorm (2)</td></tr>
+        </table>
+            <div element="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_NO_COWARDS_WEAPON" />
+            <div element="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_GUN_TACTICS" />
+            <div element="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_BASIC_GUN_STUNTS" />
+            <div element="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_QUICKDRAW" />
+            <div element="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_LUCKY_ITEM" />
+            <div element="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_GUNSLINGING_TRAIL" />
+            <div element="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_ASI" />
+            <div element="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_OVERWATCH" />
+            <div element="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_BULLETSTORM" />
+            <div element="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_BULLET_TIME" />
+            <div element="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_IRON_INTUITION" />
+            <div element="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_SHOOTOUT_SENSE" />
+            <div element="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_ADVANCED_GUN_STUNTS" />
+            <div element="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_SUPERIOR_OVERWATCH" />
+            <div element="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_FINAL_STAND" />
+            <div element="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_SUPERHUMAN_REFLEXES" />
+            <div element="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_GUNSLINGING_SUPREME" />
+        </description>
+        <setters>
+            <set name="hd">d8</set>
+            <set name="short">Wanderers wielding grace, speed, and guns</set>
+        </setters>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_LONGARMS" />
+            <grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_SIDEARMS" />
+            <select type="Proficiency" name="Tool Proficiency, Gunslinger" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" requirements="!ID_ZJR_AAGNG_MULTICLASS_GUNSLINGER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" requirements="!ID_ZJR_AAGNG_MULTICLASS_GUNSLINGER" /> 
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" requirements="!ID_ZJR_AAGNG_MULTICLASS_GUNSLINGER" /> 
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" requirements="!ID_ZJR_AAGNG_MULTICLASS_GUNSLINGER" /> 
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB" requirements="!ID_ZJR_AAGNG_MULTICLASS_GUNSLINGER" /> 
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" requirements="!ID_ZJR_AAGNG_MULTICLASS_GUNSLINGER" /> 
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HEAVY" requirements="!ID_ZJR_AAGNG_MULTICLASS_GUNSLINGER" /> 
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" requirements="!ID_ZJR_AAGNG_MULTICLASS_GUNSLINGER" /> 
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WHIP" requirements="!ID_ZJR_AAGNG_MULTICLASS_GUNSLINGER" /> 
+			<grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_REPEATING_CROSSBOW" requirements="!ID_ZJR_AAGNG_MULTICLASS_GUNSLINGER" />
+			<grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_AUTOMATIC_CROSSBOW" requirements="!ID_ZJR_AAGNG_MULTICLASS_GUNSLINGER" />
+			<grant type="Proficiency" id="ID_ZJR_AAGNG_PROFICIENCY_RELOADING_HAND_CROSSBOW" requirements="!ID_ZJR_AAGNG_MULTICLASS_GUNSLINGER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_ZJR_AAGNG_MULTICLASS_GUNSLINGER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_ZJR_AAGNG_MULTICLASS_GUNSLINGER" />
+            <select type="Proficiency" name="Skill Proficiency, Gunslinger" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_PERFORMANCE|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_SLIGHTOFHAND|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" requirements="!ID_ZJR_AAGNG_MULTICLASS_GUNSLINGER" />
+            <grant type="Class Feature" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_NO_COWARDS_WEAPON" level="1" />
+            <grant type="Class Feature" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_GUN_TACTICS" level="1" />
+            <grant type="Class Feature" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_BASIC_GUN_STUNTS" level="2" />
+            <grant type="Class Feature" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_QUICKDRAW" level="2" />
+            <grant type="Class Feature" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_LUCKY_ITEM" level="3" />
+            <grant type="Class Feature" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_GUNSLINGING_TRAIL" level="3" />
+            <grant type="Class Feature" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_ASI" level="4" />
+            <grant type="Class Feature" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_OVERWATCH" level="5" />
+            <grant type="Class Feature" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_BULLETSTORM" level="5" />
+            <grant type="Class Feature" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_BULLET_TIME" level="7" />
+            <grant type="Class Feature" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_IRON_INTUITION" level="7" />
+            <grant type="Class Feature" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_SHOOTOUT_SENSE" level="10" />
+            <grant type="Class Feature" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_ADVANCED_GUN_STUNTS" level="11" />
+            <grant type="Class Feature" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_SUPERIOR_OVERWATCH" level="14" />
+            <grant type="Class Feature" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_FINAL_STAND" level="15" />
+            <grant type="Class Feature" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_SUPERHUMAN_REFLEXES" level="18" />
+            <grant type="Class Feature" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_GUNSLINGING_SUPREME" level="20" />
+        </rules>
+        <multiclass id="ID_ZJR_AAGNG_MULTICLASS_GUNSLINGER">
+            <prerequisite>Dexterity 13, Intelligence 13</prerequisite>
+            <requirements>[int:13],[dex:13]</requirements>
+            <setters>
+                <set name="multiclass proficiencies">Light armor, medium armor, longarms, sidearms, tinker's tools or smith's tools</set>
+            </setters>
+            <rules>
+                <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+            </rules>
+        </multiclass>
+    </element>
+
+    <element name="No Coward's Weapon" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_NO_COWARDS_WEAPON">
+        <description>
+            <p>You are often given the moniker of being nothing more than a boisterous coward who uses a fool's weapon. This couldn't be further from the truth. If anything, your weapon fills you with more courage than even the angriest barbarian or the most stalwart paladin. Starting at 1st level when you choose this class, you have advantage on saving throws against being frightened. If you are frightened, you can spend an action to gaze down at your firearm if you have it drawn, instilling you with a nearly supernatural courage, ending the effect on yourself and gaining temporary hit points equal to d8 + your gunslinger level.</p>
+        </description>
+        <sheet>
+            <description action="Action">You have advantage on saving throws against being frightened. If you are frightened, you can spend an action to gaze down at your firearm if you have it drawn, instilling you with a nearly supernatural courage, ending the effect on yourself and gaining temporary hit points equal to 1d8 + {{level:gunslinger}}.</description>
+        </sheet>
+    </element>
+
+    <element name="Gun Tactics" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_GUN_TACTICS">
+        <description>
+            <p>At 1st level, you adopt a tactic with your guns that emphasizes your unique skill with them. You can’t take a gun tactic more than once, even if you get the option to choose again.</p>
+            <h5>Sniper</h5>
+            <p>If you make an attack with a two-handed firearm beyond 30 feet, you get a +2 bonus to damage rolls. The firearm cannot have the scatter property in order to gain this benefit.</p>
+            <h5>Akimbo Shooting</h5>
+            <p>When wielding two light firearms, you can add your ability score modifier to the damage of the second attack. You can reload both light firearms at once using a bonus action.</p>
+            <h5>Breacher</h5>
+            <p>When you make an attack with a firearm at a creature within 30 feet of you and you roll a 1 or 2 on the damage die, you can reroll the damage die and must take the new roll, even if the number is a 1 or a 2. The firearm must have the close quarters or scatter property for you to gain this benefit.</p>
+            <h5>Shield Shooting</h5>
+            <p>You can now wield a two-handed firearm with a shield, but must brace it against the shield as a bonus action to fire it.</p>
+            <h5>Riflery</h5>
+            <p>When wielding a two-handed firearm without the bulky or scatter property, you get a +2 to attack rolls.</p>
+            <h5>Gun Duelist</h5>
+            <p>When wielding a sidearm in one hand and no other weapons, you get a +2 bonus to your damage rolls with these weapons.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Class Feature" name="Gun Tactics, Gunslinger" supports="Gun Tactics, Gunslinger" />
+        </rules>
+    </element>
+
+    <element name="Basic Gun Stunts" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_BASIC_GUN_STUNTS">
+        <description>
+            <p>Gunslingers learn unique skills that set them apart from anyone else who can point and shoot a gun. At 2nd level, you can perform various different daring feats with your firearms. You can use the following abilities during your turn.</p>
+            <p class="indent"><strong><em>Analytical Shot.</em></strong> You can use a bonus action to train your firearm's sights on a creature's vitals before you fire. When you do, you can use your Intelligence modifier, instead of your Dexterity modifier, when making an attack roll.</p>
+            <p class="indent"><strong><em>Run 'N Gun'.</em></strong> If you make an attack roll with a firearm, you can use a bonus action to move 10 feet in any direction.</p>
+            <p class="indent"><strong><em>Quick Clear.</em></strong> You can use a bonus action to clear your firearm's chamber if it misfires.</p>
+            <p class="indent"><strong><em>Speed Loader.</em></strong> You can reload any firearm with the long load property as a bonus action, unless it has the heavy property, or load all shells instead of three for a firearm with the shell loading property as a bonus action. </p>
+            <p class="indent"><strong><em>Slinger's Senses.</em></strong> You can make a Wisdom(Perception) check as a bonus action, as long as you have a gun drawn.</p>
+        </description>
+        <sheet>
+            <description action="Bonus Action">You can use the following abilities during your turn.
+            Analytical Shot. You can use a bonus action to train your firearm's sights on a creature's vitals before you fire. When you do, you can use your Intelligence modifier, instead of your Dexterity modifier, when making an attack roll.
+            Run 'N Gun'. If you make an attack roll with a firearm, you can use a bonus action to move 10 feet in any direction.
+            Quick Clear. You can use a bonus action to clear your firearm's chamber if it misfires.
+            Speed Loader. You can reload any firearm with the long load property as a bonus action, unless it has the heavy property, or load all shells instead of three for a firearm with the shell loading property as a bonus action.
+            Slinger's Senses. You can make a Wisdom (Perception) check as a bonus action, as long as you have a gun drawn.</description>
+        </sheet>
+    </element>
+
+    <element name="Quickdraw" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_QUICKDRAW">
+        <description>
+            <p>At 2nd level, your hands are fast as lightning in a shootout. You can holster a firearm and draw a different firearm as part of your movement or action before needing to use your Use Object action. Additionally, you can use your firearms to make opportunity attacks at enemies who have moved out of melee range, if you have the ammunition to do so.</p>
+        </description>
+        <sheet>
+            <description>You can holster a firearm and draw a different firearm as part of your movement or action before needing to use your Use Object action. Additionally, you can use your firearms to make opportunity attacks at enemies who have moved out of melee range, if you have the ammunition to do so.</description>
+        </sheet>
+    </element>
+
+    <element name="Lucky Item" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_LUCKY_ITEM">
+        <description>
+            <p>When you reach 3rd level, the personal effect you chose at 1st level, such as a cigar, a trenchcoat or a ten gallon hat, has become a defining aspect of your personality. Choose from one of the following traits below. If your lucky item is lost or destroyed, it mysteriously reappears on you at the end of your next long rest. You cannot choose the Gunslinging Trail specific Lucky Item options until 13th level. </p>
+            <p class="indent">When you reach 13th level, you can choose one additional trait.</p>
+            <table>
+                <thead>
+                    <tr><td>Name</td><td>Bonus</td></tr>
+                </thead>
+                <tr><td>Savvy</td><td>Choose a skill you are proficient in. Double your proficiency bonus for checks made with that skill.</td></tr>
+                <tr><td>Eloquent</td><td>You learn two languages of your choosing.</td></tr>
+                <tr><td>Adroit</td><td>You learn a tool proficiency of your choosing, or double your proficiency bonus for one tool proficiency.</td></tr>
+                <tr><td>Erudite (Myth Breaker Only)</td><td>You get the hunter's mark spell, and can cast it once per long rest without expending a spell slot.</td></tr>
+                <tr><td>Sly (Virtuoso Only)</td><td>You gain one Battlemaster Maneuver and treat it as a Virtuoso Trick.</td></tr>
+                <tr><td>Taboo (Spellshooter Only)</td><td>You learn the thaumaturgy and mage hand cantrips.</td></tr>
+            </table>
+        </description>
+        <sheet>
+            <description>The personal effect you chose at 1st level has become a defining aspect of your personality. Choose from one of the following traits below. If your lucky item is lost or destroyed, it mysteriously reappears on you at the end of your next long rest.</description>
+        </sheet>
+        <rules>
+            <select type="Class Feature" name="Lucky Item (3)" supports="Gunslinger Lucky Item" level="3" />
+            <select type="Class Feature" name="Lucky Item (13)" supports="Gunslinger Lucky Item" level="13" />
+        </rules>
+    </element>
+    <element name="Savvy" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_LUCKY_ITEM_SAVVY">
+        <supports>Gunslinger Lucky Item</supports>
+        <description>
+            <p>Choose a skill you are proficient in. Double your proficiency bonus for checks made with that skill.</p>
+        </description>
+        <sheet>
+            <description>Choose a skill you are proficient in. Double your proficiency bonus for checks made with that skill.</description>
+        </sheet>
+        <rules>
+            <select type="Class Feature" name="Lucky Item, Savvy" supports="Expertise" />
+        </rules>
+    </element>
+    <element name="Eloquent" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_LUCKY_ITEM_ELOQUENT">
+        <supports>Gunslinger Lucky Item</supports>
+        <description>
+            <p>You learn two languages of your choosing.</p>
+        </description>
+        <sheet>
+            <description>You learn two languages of your choosing.</description>
+        </sheet>
+        <rules>
+            <select type="Language" name="Language, Eloquent" supports="Standard||Exotic" number="2" />
+        </rules>
+    </element>
+    <element name="Adroit" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_LUCKY_ITEM_ADROIT">
+        <supports>Gunslinger Lucky Item</supports>
+        <description>
+            <p>You learn a tool proficiency of your choosing, or double your proficiency bonus for one tool proficiency.</p>
+        </description>
+        <sheet>
+            <description>You learn a tool proficiency of your choosing, or double your proficiency bonus for one tool proficiency.</description>
+        </sheet>
+        <rules>
+            <select type="Proficiency" name="Tool Proficiency, Adroit" supports="Artisan tools" optional="true" />
+        </rules>
+    </element>
+    <element name="Erudite" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_LUCKY_ITEM_ERUDITE">
+        <supports>Gunslinger Lucky Item</supports>
+        <requirements>[level:gunslinger:13], ID_ZJR_AAGNG_ARCHETYPE_MYTH_BREAKER</requirements>
+        <description>
+            <p>You get the hunter's mark spell, and can cast it once per long rest without expending a spell slot.</p>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest">You get the hunter's mark spell, and can cast it once per long rest without expending a spell slot.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_HUNTERS_MARK" /> 
+        </rules>
+    </element>
+    <element name="Sly" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_LUCKY_ITEM_SLY">
+        <supports>Gunslinger Lucky Item</supports>
+        <requirements>[level:gunslinger:13], ID_ZJR_AAGNG_ARCHETYPE_VIRTUOSO</requirements>
+        <description>
+            <p>You gain one Battlemaster Maneuver and treat it as a Virtuoso Trick.</p>
+        </description>
+        <sheet>
+            <description>You gain one Battlemaster Maneuver and treat it as a Virtuoso Trick.</description>
+        </sheet>
+        <rules>
+            <select type="Class Feature" name="Battlemaster Maneuver, Sly" supports="Maneuver, Battle Master" />
+        </rules>
+    </element>
+    <element name="Taboo" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_LUCKY_ITEM_TABOO">
+        <supports>Gunslinger Lucky Item</supports>
+        <requirements>[level:gunslinger:13]</requirements>
+        <description>
+            <p>You learn the thaumaturgy and mage hand cantrips.</p>
+        </description>
+        <sheet>
+            <description>You learn the thaumaturgy and mage hand cantrips.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_THAUMATURGY" />
+            <grant type="Spell" id="ID_PHB_SPELL_MAGE_HAND" />
+        </rules>
+    </element>
+
+    <element name="Gunslinging Trail" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_GUNSLINGING_TRAIL">
+        <description>
+            <p>At 3rd level, you can choose from one of three Gunslinging Trails to begin training in. You can choose from either Myth Breaker, Virtuoso, or Spellshooter, all detailed at the end of the class description. The trail you choose grants you features at 3rd level, and again at 9th, 13th, and 17th level.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Archetype" name="Gunslinging Trail" supports="Gunslinging Trail" />
+        </rules>
+    </element>
+
+    <element name="Ability Score Improvement" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_ASI">
+        <compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 6th, 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Gunslinger 4)" supports="Improvement Option,Gunslinger,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Gunslinger 6)" supports="Improvement Option,Gunslinger,6" level="6" />
+			<select type="Class Feature" name="Improvement Option (Gunslinger 8)" supports="Improvement Option,Gunslinger,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Gunslinger 12)" supports="Improvement Option,Gunslinger,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Gunslinger 16)" supports="Improvement Option,Gunslinger,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Gunslinger 19)" supports="Improvement Option,Gunslinger,19" level="19" />
+		</rules>
+	</element>
+
+    <element name="Overwatch" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_OVERWATCH">
+        <description>
+            <p>At 5th level, you can use an action to lie in wait to make an opportunity attack against any enemy that moves, attacks, or casts a spell while in your firearm’s normal range if you have the ammunition to do so. (For example, 30 feet for a Flintlock Pistol.) You cannot use Basic Gun Stunts Or Advanced Gun Stunts in conjunction with this feature. A successful attack gives the following penalties based on when you use it:</p>
+            <ul>
+                <li>If the creature is moving, its speed is halved until the end of your next turn.</li>
+                <li>If the creature is making an attack roll, the attack is made with disadvantage.</li>
+                <li>If the creature is casting a spell, any creatures targeted by the spell have advantage on saving throws to resist the spell.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description action="Action">You can use an action to lie in wait to make an opportunity attack against any enemy that moves, attacks, or casts a spell while in your firearm’s normal range if you have the ammunition to do so. You cannot use Basic Gun Stunts Or Advanced Gun Stunts in conjunction with this feature. A successful attack gives the following penalties based on when you use it: If the creature is moving, its speed is halved until the end of your next turn. If the creature is making an attack roll, the attack is made with disadvantage. If the creature is casting a spell, any creatures targeted by the spell have advantage on saving throws to resist the spell.</description>
+        </sheet>
+    </element>
+
+    <element name="Bulletstorm" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_BULLETSTORM">
+        <description>
+            <p>At 5th level, you can attack twice, instead of once when you take the attack action on your turn. This can only be done with firearms if they have at least one round left in them.</p>
+            <p class="indent">The number of these attacks increases to 2 at 20th level, but you can only make the third attack with a firearm.</p>
+            <p class="indent">You ignore the reload action or loading time for firearms when and only when making a bulletstorm attack.</p>
+        </description>
+        <sheet>
+            <description level="5">You can attack twice, instead of once when you take the attack action on your turn. This can only be done with firearms if they have at least one round left in them. You ignore the reload action or loading time for firearms when and only when making a bulletstorm attack.</description>
+            <description level="20">You can attack three times, instead of once when you take the attack action on your turn, but you can only make the third attack with a firearm.. This can only be done with firearms if they have at least one round left in them. You ignore the reload action or loading time for firearms when and only when making a bulletstorm attack.</description>
+        </sheet>
+        <rules>
+            <stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+			<stat name="extra attack:count" value="3" level="20" bonus="extra attack" />
+        </rules>
+    </element>
+
+    <element name="Bullet Time" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_BULLET_TIME">
+        <description>
+            <p>At 7th level, your reflexes are as fast as any bullet you fire from your gun. You can now take the Dodge action using a bonus action. While dodging, the damage you take from ranged weapon attacks is reduced by half.</p>
+            <p class="indent">Additionally, when you make a Dexterity Saving Throw to take half damage from a damaging effect, such as a shotgun's scattering shells or a black dragon's acid breath, you take no damage on a successful save and only half damage on a failed save.</p>
+        </description>
+        <sheet>
+            <description action="Bonus Action">You can now take the Dodge action using a bonus action. While dodging, the damage you take from ranged weapon attacks is reduced by half. Additionally, when you make a Dexterity Saving Throw to take half damage from a damaging effect, such as a shotgun's scattering shells or a black dragon's acid breath, you take no damage on a successful save and only half damage on a failed save.</description>
+        </sheet>
+    </element>
+
+    <element name="Iron Intuition" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_IRON_INTUITION">
+        <description>
+            <p>Gunslingers pride themselves as being folks who can tell an honest person from a cheat from a mile away. The strange weapons in their holsters also give them an air of someone who can deal with many dangers. At 7th level, you can spend one minute talking to a creature or observing it to glean knowledge on their tics to gain advantage on any Insight checks to discern intent or disposition on any topic. You can also use your Intelligence instead Wisdom for your Insight roll modifier. You can spend ten minutes gathering info about a creature to gain this benefit, so long as there are a few people who know at least basic information on them. You can also spend ten minutes in a community to find any information on bounties or contracts to hunt down nasty things such as bandits or monsters.</p>
+            <p class="indent">Additionally, when you make Wisdom(Perception), Intelligence(Investigation), or Intelligence(History) checks involving firearms, double your proficiency bonus for those checks.</p>
+        </description>
+        <sheet>
+            <description>You can spend one minute talking to a creature or observing it to glean knowledge on their tics to gain advantage on any Insight checks to discern intent or disposition on any topic. You can also use your Intelligence instead Wisdom for your Insight roll modifier. You can spend ten minutes gathering info about a creature to gain this benefit, so long as there are a few people who know at least basic information on them. You can also spend ten minutes in a community to find any information on bounties or contracts to hunt down nasty things such as bandits or monsters.
+            Additionally, when you make Wisdom(Perception), Intelligence(Investigation), or Intelligence(History) checks involving firearms, double your proficiency bonus for those checks.</description>
+        </sheet>
+    </element>
+
+    <element name="Shootout Sense" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_SHOOTOUT_SENSE">
+        <description>
+            <p>Gunslingers live for the possibility of danger at any moment. At 10th level, you get advantage on initiative rolls. If you are surprised, you can take your turn as normal, but must use your action to go into Overwatch.</p>
+        </description>
+        <sheet>
+            <description>You get advantage on initiative rolls. If you are surprised, you can take your turn as normal, but must use your action to go into Overwatch.</description>
+        </sheet>
+    </element>
+
+    <element name="Advanced Gun Stunts" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_ADVANCED_GUN_STUNTS">
+        <description>
+            <p>At 11th level, you get access to new and more advanced gun stunts. When you use an Advanced Gun Stunt as your bonus action, you can also use a Basic Gun Stunt as part of that bonus action. Alternatively, you can now use two Basic Gun Stunts at once as a bonus action.</p>
+            <p class="indent"><strong><em>Vital Strike.</em></strong> You can spend a bonus action to decrease your firearm attack critical hit number by 3. If you do this, your gun's misfire number goes up by 1, to a maximum of 10. Add damage to your critical hit damage equal to half your gunslinger level. </p>
+            <p class="indent"><strong><em>Luck of the Craft.</em></strong> You can reroll a failed ranged attack roll with your firearms as a bonus action.</p>
+            <p class="indent"><strong><em>Marksman's Stance.</em></strong> When you attack with a longarm, you can draw a sidearm and fire again at any target of your choosing as a bonus action. You do not add your Dexterity modifier to the damage of this attack, unless your modifier is negative. You can use the sidearm to make a Bulletstorm attack if you have not done so already with your two-handed firearm. You must holster either the sidearm or the two-handed firearm afterwards as part of the bonus action.</p>
+            <p class="indent"><strong><em>Expert Shot.</em></strong> When you use Analytical Shot, you can then add half your Dexterity modifier to the first attack roll you make during your turn as part of that bonus action if you have not already used another Advanced Gun Stunt during your turn. If your Dexterity modifier is higher than your Intelligence modifier, then add half your Intelligence modifier instead.</p>
+            <p class="indent"><strong><em>Powershot.</em></strong> You can use a bonus action to concentrate your shots onto your target's center mass. The first attack you hit with on your turn now deals extra damage equal to half your gunslinger level (rounded down). This raises your gun's misfire number by 1, to a maximum of 10.</p>
+        </description>
+        <sheet>
+            <description action="Bonus Action">When you use an Advanced Gun Stunt as your bonus action, you can also use a Basic Gun Stunt as part of that bonus action. Alternatively, you can now use two Basic Gun Stunts at once as a bonus action.
+            Vital Strike. You can spend a bonus action to decrease your firearm attack critical hit number by 3. If you do this, your gun's misfire number goes up by 1, to a maximum of 10. Add {{level:gunslinger:half}} damage to your critical hit damage.
+            Luck of the Craft. You can reroll a failed ranged attack roll with your firearms as a bonus action.
+            Marksman's Stance. When you attack with a longarm, you can draw a sidearm and fire again at any target of your choosing as a bonus action. You do not add your Dexterity modifier to the damage of this attack, unless your modifier is negative. You can use the sidearm to make a Bulletstorm attack if you have not done so already with your two-handed firearm. You must holster either the sidearm or the two-handed firearm afterwards as part of the bonus action.
+            Expert Shot. When you use Analytical Shot, you can then add {{dexterity:modifier:half}} to the first attack roll you make during your turn as part of that bonus action if you have not already used another Advanced Gun Stunt during your turn. If your Dexterity modifier is higher than your Intelligence modifier, then add {{intelligence:modifier:half}} instead.
+            Powershot. You can use a bonus action to concentrate your shots onto your target's center mass. The first attack you hit with on your turn now deals {{level:gunslinger:half}} extra damage. This raises your gun's misfire number by 1, to a maximum of 10.</description>
+        </sheet>
+    </element>
+
+    <element name="Superior Overwatch" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_SUPERIOR_OVERWATCH">
+        <description>
+            <p>At level 14, your Overwatch attack can target any creature out to your weapon’s maximum range. You can use one Basic Gun Stunt in conjunction with the reaction you use to make the attack. This attack now adds extra penalties on a hit:</p>
+            <ul>
+                <li>If a creature is moving, its speed drops to 0 and it can't take reactions until the end of your next turn. </li>
+                <li>If the creature is making an attack roll, it deals half damage if it hits.</li>
+                <li>If the creature is casting a spell or making an area of effect attack, it deals no damage to creatures that succeed the saving throw to resist it, and half damage to creatures that fail the saving throw.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>Your Overwatch attack can target any creature out to your weapon’s maximum range. You can use one Basic Gun Stunt in conjunction with the reaction you use to make the attack. This attack now adds extra penalties on a hit: If a creature is moving, its speed drops to 0 and it can't take reactions until the end of your next turn. If the creature is making an attack roll, it deals half damage if it hits. If the creature is casting a spell or making an area of effect attack, it deals no damage to creatures that succeed the saving throw to resist it, and half damage to creatures that fail the saving throw.</description>
+        </sheet>
+    </element>
+
+    <element name="Final Stand" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_FINAL_STAND">
+        <description>
+            <p>Starting at 15th level, when your hit points are brought to 0 and you do not die outright, you can, once per long rest, enter a state of pure grit in order to keep fighting on before death takes you. You fall prone and can draw any firearm you wish without using an action. You can only reload or use Basic Gun Stunts as a bonus action, and take the attack action with your weapon. You can only move 5 feet while in Final Stand, and you cannot Dash or stand up. You make death saving throws at the end of your turns while in Final Stand.</p>
+            <p class="indent">If you manage to kill a creature or roll a natural 20 on an attack roll while in Final Stand, you regain 1d8 + your gunslinger level hit points and can use your reaction to stand up, a surge of adrenaline and stamina throwing you up on your feet so you can dive back into the fray, guns blazing.</p>
+            <p class="indent">If you succeed three death saving throws while in final stand, you are knocked unconscious and stabilized as normal.</p>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest">When your hit points are brought to 0 and you do not die outright, you can, once per long rest, enter a state of pure grit in order to keep fighting on before death takes you. You fall prone and can draw any firearm you wish without using an action. You can only reload or use Basic Gun Stunts as a bonus action, and take the attack action with your weapon. You can only move 5 feet while in Final Stand, and you cannot Dash or stand up. You make death saving throws at the end of your turns while in Final Stand.
+            If you manage to kill a creature or roll a natural 20 on an attack roll while in Final Stand, you regain 1d8 + {{level:gunslinger}} hit points and can use your reaction to stand up, a surge of adrenaline and stamina throwing you up on your feet so you can dive back into the fray, guns blazing.
+            If you succeed three death saving throws while in final stand, you are knocked unconscious and stabilized as normal.</description>
+        </sheet>
+    </element>
+
+    <element name="Superhuman Reflexes" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_SUPERHUMAN_REFLEXES">
+        <description>
+            <p>At 18th level, a you have sharpened your reflexes to supersonic proportions. You now get the following benefits:</p>
+            <ul>
+                <li>You can take the Disengage action as a bonus action, except when in Final Stand. </li>
+                <li>The damage you take from ranged attacks and ranged spell attacks can be reduced to 0 when taking the Dodge action once per short or long rest.</li>
+                <li>You can use two Advanced Gun Stunts as a bonus action. Once you use this feature, you cannot use it again until you complete a short or long rest.</li>
+                <li>You can use your Overwatch action as a bonus action once per short or long rest. When you make a successful Overwatch attack, you can make one additional attack against the same creature with advantage. You do not add your ability score modifier to the damage of this attack, unless that modifier is negative. </li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You can take the Disengage action as a bonus action, except when in Final Stand.
+            The damage you take from ranged attacks and ranged spell attacks can be reduced to 0 when taking the Dodge action once per short or long rest.
+            You can use two Advanced Gun Stunts as a bonus action. Once you use this feature, you cannot use it again until you complete a short or long rest.
+            You can use your Overwatch action as a bonus action once per short or long rest. When you make a successful Overwatch attack, you can make one additional attack against the same creature with advantage. You do not add your ability score modifier to the damage of this attack, unless that modifier is negative.</description>
+        </sheet>
+    </element>
+
+    <element name="Gunslinging Supreme" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_GUNSLINGING_SUPREME">
+        <description>
+            <p>By the time you reach 20th level, you have become an undisputed expert with firearms. Add your proficiency bonus to your firearm's damage rolls, except when in Final Stand or making an attack that does not apply your ability score modifier to it's damage. (For example, making an offhand attack with a light firearm, or using Six-Gun Ace's bonus action attacks.)</p>
+            <p class="indent">Additionally, you can use a bonus action to use a gun's automatic or burst fire attack once per short rest.</p>
+        </description>
+        <sheet>
+            <description>Add {{proficiency}} to your firearm's damage rolls, except when in Final Stand or making an attack that does not apply your ability score modifier to it's damage. Additionally, you can use a bonus action to use a gun's automatic or burst fire attack once per short rest.</description>
+        </sheet>
+    </element>
+
+    <!--MYTH BREAKER-->
+
+    <element name="Myth Breaker" type="Archetype" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_MYTH_BREAKER">
+        <supports>Gunslinging Trail</supports>
+        <description>
+            <p>Myth Breakers specialize in using their firearms to hunt down the most dangerous of beasts. They hunt down anything from ancient dragons and beholders with extreme precision and skill. Determined and well researched in a variety of lore, myth breakers are experts in hunting down that which makes the average person tremble in fear .</p>
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_MYTH_BREAKER_SLAYERS_SPECIALIZATION" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_MYTH_BREAKER_TACTICS" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_MYTH_BREAKER_MONSTROUS_DEFENSE" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_MYTH_BREAKER_STRENGTH_IN_KNOWLEDGE" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_MYTH_BREAKER_LEGENDARY_OVERWATCH" />
+        </description>
+        <sheet display="false">
+            <description>Myth Breakers specialize in using their firearms to hunt down the most dangerous of beasts.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_MYTH_BREAKER_SLAYERS_SPECIALIZATION" level="3" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_MYTH_BREAKER_TACTICS" level="3" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_MYTH_BREAKER_MONSTROUS_DEFENSE" level="9" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_MYTH_BREAKER_STRENGTH_IN_KNOWLEDGE" level="13" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_MYTH_BREAKER_LEGENDARY_OVERWATCH" level="17" />
+        </rules>
+    </element>
+
+    <element name="Slayer's Specialization" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_MYTH_BREAKER_SLAYERS_SPECIALIZATION">
+        <description>
+            <p>Beginning at 3rd level, you have become a veritable encyclopedia of knowledge on nearly any nasty creature. You can spend 10 minutes reading through your notes or recalling information from your own experiences and knowledge about a single creature. You can make an Intelligence (Arcana) check as a bonus action while in combat to recall this information if you do not know it offhand. The DC for this check is equal to the challenge rating of the creature.</p>
+            <p class="indent">When you recall these details, you immediately learn the creature’s vulnerabilities, immunities and resistances. You also learn any special effects triggered when the target takes damage, such as radiant damage halting its regeneration. You also learn any special abilities it has or the most powerful spell that the creature knows, if applicable. Once you use this feature as a bonus action, you cannot use it again until you complete a short or long rest.</p>
+        </description>
+        <sheet>
+            <description usage="1/Short Rest" action="Bonus Action">You can spend 10 minutes reading through your notes or recalling information from your own experiences and knowledge about a single creature. You can make an Intelligence (Arcana) check as a bonus action while in combat to recall this information if you do not know it offhand. The DC for this check is equal to the challenge rating of the creature.
+            When you recall these details, you immediately learn the creature’s vulnerabilities, immunities and resistances. You also learn any special effects triggered when the target takes damage, such as radiant damage halting its regeneration. You also learn any special abilities it has or the most powerful spell that the creature knows, if applicable. Once you use this feature as a bonus action, you cannot use it again until you complete a short or long rest.</description>
+        </sheet>
+    </element>
+
+    <element name="Myth Breaker's Tactics" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_MYTH_BREAKER_TACTICS">
+        <description>
+            <p>When you reach 3rd level, you can choose from one of the following tactics that help you slay various monstrosities.</p>
+            <p class="indent"><strong><em>Varmint Slayer.</em></strong> You have a knack for landing precision shots that help you hit small or dodgy pests. You get advantage with firearm attacks on creatures whose size is smaller than yours that have moved further than 20 feet, or any creature that has moved at least 30 feet or taken the disengage action before your turn. You only get this advantage for one attack per turn.</p>
+            <p class="indent"><strong><em>Wing Clipper.</em></strong> Flying creatures are no match for your expertly placed shots. If you hit with a firearm attack roll on a creature that is airborne, either as a result of flying or a spell’s effect, or has jumped, climbed or fallen before your turn, you deal an extra d8 damage to them. You can only deal this extra damage once per turn.</p>
+            <p class="indent"><strong><em>Leviathan Feller.</em></strong> Your skill with a gun can send big monstrosities reeling. When you hit with a firearm attack roll against a creature that's Large or larger, you can stagger them back 10 feet from you in the direction you hit them. This forced move can only be done once per turn.</p>
+            <p class="indent"><strong><em>Crowd Control.</em></strong> Your quick trigger finger lends itself well to killing hordes of creatures. Once per turn, when you make a firearm attack roll against a creature, you can make an additional attack against a creature that's within 5 feet of it and within normal range of your firearm.</p>
+            <p class="indent"><strong><em>Legendary Buster.</em></strong> The crack of your gun is a symbol of teamwork as you mark powerful targets for death. When you succeed a firearm attack roll against a creature that has successfully damaged you or creatures friendly to you within the last round, the next weapon attack made against the offending creature by a creature friendly to you deals an extra d8 damage on a hit.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Archetype Feature" name="Myth Breaker's Tactic" supports="Gunslinger Myth Breakers Tactic" />
+        </rules>
+    </element>
+    <element name="Varmint Slayer" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_MYTH_BREAKER_TACTICS_VARMINT_SLAYER">
+        <supports>Gunslinger Myth Breakers Tactic</supports>
+        <description>
+            <p>You have a knack for landing precision shots that help you hit small or dodgy pests. You get advantage with firearm attacks on creatures whose size is smaller than yours that have moved further than 20 feet, or any creature that has moved at least 30 feet or taken the disengage action before your turn. You only get this advantage for one attack per turn.</p>
+        </description>
+        <sheet>
+            <description>You get advantage with firearm attacks on creatures whose size is smaller than yours that have moved further than 20 feet, or any creature that has moved at least 30 feet or taken the disengage action before your turn. You only get this advantage for one attack per turn.</description>
+        </sheet>
+    </element>
+    <element name="Wing Clipper" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_MYTH_BREAKER_TACTICS_WING_CLIPPER">
+        <supports>Gunslinger Myth Breakers Tactic</supports>
+        <description>
+            <p>Flying creatures are no match for your expertly placed shots. If you hit with a firearm attack roll on a creature that is airborne, either as a result of flying or a spell’s effect, or has jumped, climbed or fallen before your turn, you deal an extra d8 damage to them. You can only deal this extra damage once per turn.</p>
+        </description>
+        <sheet>
+            <description>If you hit with a firearm attack roll on a creature that is airborne, either as a result of flying or a spell’s effect, or has jumped, climbed or fallen before your turn, you deal an extra 1d8 damage to them. You can only deal this extra damage once per turn.</description>
+        </sheet>
+    </element>
+    <element name="Leviathan Feller" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_MYTH_BREAKER_TACTICS_LEVIATHAN_FELLER">
+        <supports>Gunslinger Myth Breakers Tactic</supports>
+        <description>
+            <p>Your skill with a gun can send big monstrosities reeling. When you hit with a firearm attack roll against a creature that's Large or larger, you can stagger them back 10 feet from you in the direction you hit them. This forced move can only be done once per turn.</p>
+        </description>
+        <sheet>
+            <description>When you hit with a firearm attack roll against a creature that's Large or larger, you can stagger them back 10 feet from you in the direction you hit them. This forced move can only be done once per turn.</description>
+        </sheet>
+    </element>
+    <element name="Crowd Control" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_MYTH_BREAKER_TACTICS_CROWD_CONTROL">
+        <supports>Gunslinger Myth Breakers Tactic</supports>
+        <description>
+            <p>Your quick trigger finger lends itself well to killing hordes of creatures. Once per turn, when you make a firearm attack roll against a creature, you can make an additional attack against a creature that's within 5 feet of it and within normal range of your firearm.</p>
+        </description>
+        <sheet>
+            <description>Once per turn, when you make a firearm attack roll against a creature, you can make an additional attack against a creature that's within 5 feet of it and within normal range of your firearm.</description>
+        </sheet>
+    </element>
+    <element name="Legendary Buster" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_MYTH_BREAKER_TACTICS_LEGENDARY_BUSTER">
+        <supports>Gunslinger Myth Breakers Tactic</supports>
+        <description>
+            <p>The crack of your gun is a symbol of teamwork as you mark powerful targets for death. When you succeed a firearm attack roll against a creature that has successfully damaged you or creatures friendly to you within the last round, the next weapon attack made against the offending creature by a creature friendly to you deals an extra d8 damage on a hit.</p>
+        </description>
+        <sheet>
+            <description>When you succeed a firearm attack roll against a creature that has successfully damaged you or creatures friendly to you within the last round, the next weapon attack made against the offending creature by a creature friendly to you deals an extra 1d8 damage on a hit.</description>
+        </sheet>
+    </element>
+
+    <element name="Monstrous Defense" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_MYTH_BREAKER_MONSTROUS_DEFENSE">
+        <description>
+            <p>When you reach 9th level, you can learn one of the following defensive tactics that add to your monster hunting skillset.</p>
+            <p class="indent"><strong><em>Mythical Guardian.</em></strong> When keeping track of legendary creatures, your hunter's senses heighten your defense. You get +4 AC when you take the Overwatch action.</p>
+            <p class="indent"><strong><em>Mob Runner.</em></strong> Creatures that crowd upon you find it quite hard to kill you. When a hostile creature makes an attack against you while another hostile creature is within 5 feet of you or it, the creature makes the attack with disadvantage.</p>
+            <p class="indent"><strong><em>Skywatch.</em></strong> You always keep your eyes to the sky, making airborne ambushes difficult. When a creature that is flying, either because of wings or a spell's effect, or has fallen, climbed, or jumped before your turn makes an attack roll against you, it makes it with disadvantage. If the attack hits, you can use your reaction to halve the attack’s damage against you.</p>
+            <p class="indent"><strong><em>Critter Sense.</em></strong> Your dedication to tracking small pests has allowed you to develop senses to help hunt them down. You gain 30 feet of blindsight and tremorsense, and creatures that are small or tiny cannot get advantage on attack rolls or benefit from being hidden or invisible while within range of these senses, as long as you are not incapacitated.</p>
+            <p class="indent"><strong><em>Gargantuan Reinforcement.</em></strong> You are stalwart in the face of colossal dangers. You get proficiency in Strength saving throws.</p>
+            <p class="indent">You also learn one additional Gun Tactic when you reach this level, having honed your own gunslinging craft to keep up with having to track down and kill such a wide variety of mythical creatures.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Class Feature" name="Gun Tactics, Myth Breaker" supports="Gun Tactics, Gunslinger" />
+            <select type="Archetype Feature" name="Monstrous Defense" supports="Gunslinger Monstrous Defense" />
+        </rules>
+    </element>
+    <element name="Mythical Guardian" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_MYTH_BREAKER_MONSTROUS_DEFENSE_MYTHICAL_GUARDIAN">
+        <supports>Gunslinger Monstrous Defense</supports>
+        <description>
+            <p> When keeping track of legendary creatures, your hunter's senses heighten your defense. You get +4 AC when you take the Overwatch action.</p>
+        </description>
+        <sheet>
+            <description>You get +4 AC when you take the Overwatch action.</description>
+        </sheet>
+    </element>
+    <element name="Mob Runner" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_MYTH_BREAKER_MONSTROUS_DEFENSE_MOB_RUNNER">
+        <supports>Gunslinger Monstrous Defense</supports>
+        <description>
+            <p> Creatures that crowd upon you find it quite hard to kill you. When a hostile creature makes an attack against you while another hostile creature is within 5 feet of you or it, the creature makes the attack with disadvantage.</p>
+        </description>
+        <sheet>
+            <description>When a hostile creature makes an attack against you while another hostile creature is within 5 feet of you or it, the creature makes the attack with disadvantage.</description>
+        </sheet>
+    </element>
+    <element name="Skywatch" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_MYTH_BREAKER_MONSTROUS_DEFENSE_SKYWATCH">
+        <supports>Gunslinger Monstrous Defense</supports>
+        <description>
+            <p> You always keep your eyes to the sky, making airborne ambushes difficult. When a creature that is flying, either because of wings or a spell's effect, or has fallen, climbed, or jumped before your turn makes an attack roll against you, it makes it with disadvantage. If the attack hits, you can use your reaction to halve the attack’s damage against you.</p>
+        </description>
+        <sheet>
+            <description action="Reaction">When a creature that is flying, either because of wings or a spell's effect, or has fallen, climbed, or jumped before your turn makes an attack roll against you, it makes it with disadvantage. If the attack hits, you can use your reaction to halve the attack’s damage against you.</description>
+        </sheet>
+    </element>
+    <element name="Critter Sense" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_MYTH_BREAKER_MONSTROUS_DEFENSE_CRITTER_SENSE">
+        <supports>Gunslinger Monstrous Defense</supports>
+        <description>
+            <p> Your dedication to tracking small pests has allowed you to develop senses to help hunt them down. You gain 30 feet of blindsight and tremorsense, and creatures that are small or tiny cannot get advantage on attack rolls or benefit from being hidden or invisible while within range of these senses, as long as you are not incapacitated.</p>
+        </description>
+        <sheet>
+            <description>You gain 30 feet of blindsight and tremorsense, and creatures that are small or tiny cannot get advantage on attack rolls or benefit from being hidden or invisible while within range of these senses, as long as you are not incapacitated.</description>
+        </sheet>
+        <rules>
+            <grant type="Vision" id="ID_VISION_BLINDSIGHT" />
+        </rules>
+    </element>
+    <element name="Gargantuan Reinforcement" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_MYTH_BREAKER_MONSTROUS_DEFENSE_GARGANTUAN_REINFORCEMENT">
+        <supports>Gunslinger Monstrous Defense</supports>
+        <description>
+            <p> You are stalwart in the face of colossal dangers. You get proficiency in Strength saving throws.</p>
+        </description>
+        <sheet>
+            <description>You are stalwart in the face of colossal dangers. You get proficiency in Strength saving throws.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
+        </rules>
+    </element>
+
+    <element name="Strength in Knowledge" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_MYTH_BREAKER_STRENGTH_IN_KNOWLEDGE">
+        <description>
+            <p>At 13th level, you have augmented your mind and strengthened your resolve against the horrors out in the great beyond. You get advantage on saving throws against being charmed by creatures you have researched using Slayer's Specialization. In addition, the first time you use Slayer's Specialization on a particular creature, you get advatnage on attack rolls and saving throws against it the next time you encounter it. This benefit fades after the fight has ended.</p>
+        </description>
+        <sheet>
+            <description>You get advantage on saving throws against being charmed by creatures you have researched using Slayer's Specialization. In addition, the first time you use Slayer's Specialization on a particular creature, you get advantage on attack rolls and saving throws against it the next time you encounter it. This benefit fades after the fight has ended.</description>
+        </sheet>
+    </element>
+
+    <element name="Legendary Overwatch" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_MYTH_BREAKER_LEGENDARY_OVERWATCH">
+        <description>
+            <p>When you reach 17th level, you are able to stop the most fearsome creatures right in their tracks with nothing but your bullets. If you make a successful overwatch attack against a creature, you can make it suffer the following effects:</p>
+            <ul>
+                <li>If the creature is moving, it is stunned until the end of your next turn.</li>
+                <li>If the creature is making an attack roll, it automatically fails that attack roll and cannot make any more attacks until the end of your next turn.</li>
+                <li>If it is casting a spell or forcing a creature or creatures to make a saving throw, the spell or area of effect attack automatically fails, dealing no damage if it would normally do so. If the creature was casting a spell, the spell slot is wasted.</li>
+            </ul>
+            <p class="indent">Once you use this feature, you cannot use it again until you complete a short or long rest.</p>
+        </description>
+        <sheet>
+            <description usage="1/Short Rest">If you make a successful overwatch attack against a creature, you can make it suffer the following effects: If the creature is moving, it is stunned until the end of your next turn. If the creature is making an attack roll, it automatically fails that attack roll and cannot make any more attacks until the end of your next turn. If it is casting a spell or forcing a creature or creatures to make a saving throw, the spell or area of effect attack automatically fails, dealing no damage if it would normally do so. If the creature was casting a spell, the spell slot is wasted.</description>
+        </sheet>
+    </element>
+
+    <!--VIRTUOSO-->
+
+    <element name="Virtuoso" type="Archetype" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_VIRTUOSO">
+        <supports>Gunslinging Trail</supports>
+        <description>
+            <p>Virtuosos don’t see guns as just a mere tool of destruction, they see them as an art form that they wish to master. Those who chose to train as virtuosos collect and train with as many guns as possible in to become more versatile and powerful shooters whose skill and showmanship is unrivaled.</p>
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_ART_OF_LEAD" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_HEAD_IN_THE_GAME" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_SKILLED_WITTY" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_TRICK_PRODIGY" />
+        </description>
+        <sheet display="false">
+            <description>Virtuosos don’t see guns as just a mere tool of destruction, they see them as an art form that they wish to master.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_ART_OF_LEAD" level="3" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_HEAD_IN_THE_GAME" level="9" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_SKILLED_WITTY" level="13" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_TRICK_PRODIGY" level="17" />
+        </rules>
+    </element>
+
+    <element name="The Art of Lead" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_ART_OF_LEAD">
+        <description>
+            <p>Starting at level 3, Virtuosos get a bevy of special skills enhanced by special dice called superiority dice.</p>
+            <p class="indent"><strong><em>Tricks.</em></strong> You learn three tricks of your choice, which are detailed under "tricks" below. Many tricks enhance an attack or assist allies/debilitate enemies in some way, shape or form.</p>
+            <p class="indent">You learn two additional tricks at level 9, level 13, and level 18. Each time you learn a new trick, you can also replace one Trick you know with a different one.</p>
+            <p class="indent"><strong><em>Superiority Dice.</em></strong> You have four superiority dice, which are d8s, to spend on either Gun Stunts or Tricks. When you use a superiority die, it's expended. You regain all your superiority dice when you finish a short or long rest. You get an additional superiority die at 9th level, and one more at 17th level.</p>
+            <p class="indent"><strong><em>Superiority Dice Improvements.</em></strong> Superiority dice turn into d10s at 9th level and d12s at 17th level.</p>
+            <p class="indent"><strong><em>Saving Throws.</em></strong> Some of your Tricks require your target to make a saving throw to resist the trick's effects. The save DC is calculated as follows:</p>
+            <p class="indent"><strong><em>Trick Save DC.</em></strong> 8 + your proficiency bonus + your Dexterity, Intelligence or Charisma modifier.</p>
+        </description>
+        <sheet>
+            <description usage="{{trick:num}}/Short Rest" level="3">You have {{trick:num}} superiority dice, which are d8s, to spend on either Gun Stunts or Tricks. When you use a superiority die, it's expended. You regain all your superiority dice when you finish a short or long rest. Your Trick Save DC is {{trick save:dc}}.</description>
+        </sheet>
+        <rules>
+            <stat name="trick save:dc" value="8" />
+            <stat name="trick save:dc" value="proficiency" />
+            <stat name="trick save:dc" value="dexterity:modifier" bonus="trick" />
+            <stat name="trick save:dc" value="intelligence:modifier" bonus="trick" />
+            <stat name="trick save:dc" value="charisma:modifier" bonus="trick" />
+            <stat name="trick:num" value="4" level="3" />
+            <stat name="trick:num" value="1" level="9" />
+            <stat name="trick:num" value="1" level="17" />
+            <select type="Archetype Feature" name="The Art of Lead (3)" supports="Gunslinger Virtuoso Trick" number="3" level="3" />
+            <select type="Archetype Feature" name="The Art of Lead (9)" supports="Gunslinger Virtuoso Trick" number="2" level="9" />
+            <select type="Archetype Feature" name="The Art of Lead (13)" supports="Gunslinger Virtuoso Trick" number="2" level="13" />
+            <select type="Archetype Feature" name="The Art of Lead (18)" supports="Gunslinger Virtuoso Trick" number="2" level="18" />
+        </rules>
+    </element>
+
+    <element name="Head in the Game" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_HEAD_IN_THE_GAME">
+        <description>
+            <p>At 9th level, you are constantly on top of your game, and are always ready for action. You can use a single Basic Gun Stunt once per turn without using a bonus action. Once you use this feature, you cannot use it again until you complete a short or long rest.</p>
+            <p class="indent">Your mind also becomes a bastion for quick thinking and creativity. You get proficiency in Intelligence saving throws.</p>
+            <p class="indent">Additonally, once per long rest, when you are reduced to 0 HP, you can channel your inherent luck and focus to fly in the face of death itself. Spend any number of superiority die and add the result + your Constitution modifier to your hit points.</p>
+        </description>
+        <sheet>
+            <description>You can use a single Basic Gun Stunt once per turn without using a bonus action. Once you use this feature, you cannot use it again until you complete a short or long rest.
+            Additonally, once per long rest, when you are reduced to 0 HP, you can channel your inherent luck and focus to fly in the face of death itself. Spend any number of superiority die and add the result + {{constitution:modifier}} to your hit points.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
+        </rules>
+    </element>
+
+    <element name="Skilled &amp; Witty" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_SKILLED_WITTY">
+        <description>
+            <p>Starting at 13th level, you have become an epitome of expertise and sheer skill, both on and off the battlefield. You learn two additional skills, tools, or languages of your choice. Alternatively, you can choose one skill or tool you have proficiency in. Double your proficiency bonus for checks made using that skill.</p>
+            <p class="indent">Additionally, you get advantage on Persuasion and Intimidation checks when trying to defuse a fight.</p>
+        </description>
+        <sheet>
+            <description></description>
+        </sheet>
+    </element>
+    <element name="Skilled &amp; Witty" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_SKILLED_WITTY">
+        <description>
+            <p>Starting at 13th level, you have become an epitome of expertise and sheer skill, both on and off the battlefield. You learn two additional skills, tools, or languages of your choice. Alternatively, you can choose one skill or tool you have proficiency in. Double your proficiency bonus for checks made using that skill.</p>
+            <p class="indent">Additionally, you get advantage on Persuasion and Intimidation checks when trying to defuse a fight.</p>
+        </description>
+        <sheet>
+            <description>You get advantage on Persuasion and Intimidation checks when trying to defuse a fight.</description>
+        </sheet>
+        <rules>
+            <select type="Proficiency" name="Proficiency, Skilled &amp; Witty" supports="Tool||Skill" number="2" optional="true" />
+            <select type="Language" name="Language, Skilled &amp; Witty" supports="Standard||Exotic" number="2" optional="true" />
+            <select type="Class Feature" name="Expertise, Skilled &amp; Witty" supports="Expertise" optional="true" />
+        </rules>
+    </element>
+
+    <element name="Trick Prodigy" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_TRICK_PRODIGY">
+        <description>
+            <p>At 17th level, you regain 1 superiority die if you roll initiative and have no superiority dice remaining. Choose a single trick you know. You can now use this trick once per long rest without spending a superiority die.</p>
+            <p class="indent">Additionally, you can use a single Advanced Gun Stunt once per turn without using a bonus action. Once you use this feature, you cannot use it again until you complete a long rest.</p>
+        </description>
+        <sheet>
+            <description>You regain 1 superiority die if you roll initiative and have no superiority dice remaining. Choose a single trick you know. You can now use this trick once per long rest without spending a superiority die.
+            Additionally, you can use a single Advanced Gun Stunt once without using a bonus action. Once you use this feature, you cannot use it again until you complete a long rest.</description>
+        </sheet>
+    </element>
+
+    <element name="Bleeding Attack" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_TRICK_BLEEDING">
+        <supports>Gunslinger Virtuoso Trick</supports>
+        <description>
+            <p>When you make a successful weapon attack, spend a superiority die to cause the creature to begin bleeding from the wound. The target of your attack takes necrotic damage equal to your superiority die for as many turns as your Dexterity or Intelligence modifier; whichever is higher. They take this damage on the beginning of their turns. They can make a Constitution saving throw in order to halve this damage. (Rounded down.)</p>
+            <p class="indent">Creatures that do not bleed are not affected by this trick, and simply suffer extra damage equal to your superiority die + half your gunslinger level (rounded down).</p>
+        </description>
+        <sheet>
+            <description>When you make a successful weapon attack, spend a superiority die to cause the creature to begin bleeding from the wound. The target of your attack takes necrotic damage equal to your superiority die for {{bleed:turns}} turns. They take this damage on the beginning of their turns. They can make a Constitution saving throw in order to halve this damage.
+            Creatures that do not bleed are not affected by this trick, and simply suffer extra damage equal to your superiority die + {{level:gunslinger:half}}</description>
+        </sheet>
+        <rules>
+            <stat name="bleed:turns" value="dexterity:modifier" bonus="bleed" />
+            <stat name="bleed:turns" value="intelligence:modifier" bonus="bleed" />
+        </rules>
+    </element>
+    <element name="Break Cover" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_TRICK_BREAK_COVER">
+        <supports>Gunslinger Virtuoso Trick</supports>
+        <description>
+            <p>Spend a superiority die to attack a creature in cover with an attack roll. Add the number rolled to the attack's damage. The target is considered to be in half cover if they are in 3/4's cover, and no cover if in half cover. You can attack a creature in total cover with disadvantage, as long as you are aware of them. Targets attacked in this manner are considered to be in three-quarters cover. If this is done to a creature that has been swallowed by another creature, the creature that swallowed it takes the damage you deal with this attack, and the creature inside takes damage equal to the number rolled on your superiority die.</p>
+        </description>
+        <sheet>
+            <description>Spend a superiority die to attack a creature in cover with an attack roll. Add the number rolled to the attack's damage. The target is considered to be in half cover if they are in 3/4's cover, and no cover if in half cover. You can attack a creature in total cover with disadvantage, as long as you are aware of them. Targets attacked in this manner are considered to be in three-quarters cover. If this is done to a creature that has been swallowed by another creature, the creature that swallowed it takes the damage you deal with this attack, and the creature inside takes damage equal to the number rolled on your superiority die.</description>
+        </sheet>
+    </element>
+    <element name="Concussive Attack" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_TRICK_CONC_ATK">
+        <supports>Gunslinger Virtuoso Trick</supports>
+        <description>
+            <p>When you make a successful weapon attack, you can spend a superiority die and add the number rolled to the attack's damage. You cause your target to be discombobulated, imposing disadvantage on the next attack they make.</p>
+        </description>
+        <sheet>
+            <description>When you make a successful weapon attack, you can spend a superiority die and add the number rolled to the attack's damage. You cause your target to be discombobulated, imposing disadvantage on the next attack they make.</description>
+        </sheet>
+    </element>
+    <element name="Defensive Stance" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_TRICK_DEF">
+        <supports>Gunslinger Virtuoso Trick</supports>
+        <description>
+            <p>When you make more than one attack with your firearms, spend a superiority die. You go into a stance that makes you a harder target to hit as you take shot after shot against your enemies. Roll the superiority die + your Dexterity modifier. Subtract the result from the first attack roll made against you before the beginning of your next turn.</p>
+        </description>
+        <sheet>
+            <description>When you make more than one attack with your firearms, spend a superiority die. You go into a stance that makes you a harder target to hit as you take shot after shot against your enemies. Roll the superiority die + {{dexterity:modifier}}. Subtract the result from the first attack roll made against you before the beginning of your next turn.</description>
+        </sheet>
+    </element>
+    <element name="Disarming Attack" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_TRICK_DISARM">
+        <supports>Gunslinger Virtuoso Trick</supports>
+        <description>
+            <p>Make an attack roll and expend a superiority die and add the number rolled to the attack's damage. If it succeeds, you force the creature hit to drop one of its held items. The creature must make a Strength saving throw. If they fail, they drop the held item down to their feet.</p>
+        </description>
+        <sheet>
+            <description>Make an attack roll and expend a superiority die and add the number rolled to the attack's damage. If it succeeds, you force the creature hit to drop one of its held items. The creature must make a Strength saving throw. If they fail, they drop the held item down to their feet.</description>
+        </sheet>
+    </element>
+    <element name="Disorienting Attack" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_TRICK_DISORIENT">
+        <supports>Gunslinger Virtuoso Trick</supports>
+        <description>
+            <p>When you make a successful weapon attack, you can spend a superiority die to disorient them, leaving them open for your allies to attack. The next attack roll that's made against the target has advantage if the attack is made before the start of your next turn. Add the result of your superiority die to the ally's attack roll.</p>
+        </description>
+        <sheet>
+            <description>When you make a successful weapon attack, you can spend a superiority die to disorient them, leaving them open for your allies to attack. The next attack roll that's made against the target has advantage if the attack is made before the start of your next turn. Add the result of your superiority die to the ally's attack roll.</description>
+        </sheet>
+    </element>
+    <element name="Dodge Roll" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_TRICK_DODGE">
+        <supports>Gunslinger Virtuoso Trick</supports>
+        <description>
+            <p>When a creature damages you, you can use your reaction to expend a superiority die to deftly roll out of the way as a reaction. The damage you take is reduced by the number rolled on your superiority die, and you can move 10 feet in any direction without provoking opportunity attacks.</p>
+        </description>
+        <sheet>
+            <description action="Reaction">When a creature damages you, you can use your reaction to expend a superiority die to deftly roll out of the way as a reaction. The damage you take is reduced by the number rolled on your superiority die, and you can move 10 feet in any direction without provoking opportunity attacks.</description>
+        </sheet>
+    </element>
+    <element name="Slinger's Luck" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_TRICK_SLINGERS_LUCK">
+        <supports>Gunslinger Virtuoso Trick</supports>
+        <description>
+            <p>If your firearm would misfire, you can expend a superiority die in order to channel the inherent luck of your craft to avoid the misfire entirely. Add the number rolled on your superiority die to your next attack roll.</p>
+        </description>
+        <sheet>
+            <description>If your firearm would misfire, you can expend a superiority die in order to channel the inherent luck of your craft to avoid the misfire entirely. Add the number rolled on your superiority die to your next attack roll.</description>
+        </sheet>
+    </element>
+    <element name="Intercept" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_TRICK_INTERCEPT">
+        <supports>Gunslinger Virtuoso Trick</supports>
+        <description>
+            <p>When an enemy makes a ranged spell attack or a ranged attack within your ranged weapon's range, you can expend a tsuperiority die in order to use a reaction to attempt to shoot it out of the air. Make a ranged weapon attack against the missile or spell. Add the number rolled on your superiority die to the attack roll. These missiles and ranged spells have an AC equal to the attack roll of the creature that shot or cast them. If you succeed, the attack automatically fails as you strike it and either interrupts its effects or knocks it off course. You can use this trick before or after the attack roll is made, but before it's revealed to be a hit or a miss.</p>
+        </description>
+        <sheet>
+            <description action="Reaction">Make a ranged weapon attack against the missile or spell. Add the number rolled on your superiority die to the attack roll. These missiles and ranged spells have an AC equal to the attack roll of the creature that shot or cast them. If you succeed, the attack automatically fails. You can use this trick before or after the attack roll is made, but before it's revealed to be a hit or a miss.</description>
+        </sheet>
+    </element>
+    <element name="Piercing Attack" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_TRICK_PIERCE">
+        <supports>Gunslinger Virtuoso Trick</supports>
+        <description>
+            <p>When you hit with an attack with your ranged weapon, you can expend a superiority die to have the shot continue on through the target after hitting it in order to attempt to damage an additional creature. If the creature within range of your shot and in the same line as your shot would have been hit by your attack roll, they take damage equal to the number rolled on your techninque die. The damage is the same as the type dealt by the original attack.</p>
+        </description>
+        <sheet>
+            <description>When you hit with an attack with your ranged weapon, you can expend a superiority die to have the shot continue on through the target after hitting it in order to attempt to damage an additional creature. If the creature within range of your shot and in the same line as your shot would have been hit by your attack roll, they take damage equal to the number rolled on your techninque die. The damage is the same as the type dealt by the original attack.</description>
+        </sheet>
+    </element>
+    <element name="Precision Attack" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_TRICK_PRECISION">
+        <supports>Gunslinger Virtuoso Trick</supports>
+        <description>
+            <p>When you make a weapon attack roll against a creature, you can expend one superiority die and add the number rolled to the roll. You can use this trick before or after making the attack roll, but before any effects of the attack are applied.</p>
+        </description>
+        <sheet>
+            <description>When you make a weapon attack roll against a creature, you can expend one superiority die and add the number rolled to the roll. You can use this trick before or after making the attack roll, but before any effects of the attack are applied.</description>
+        </sheet>
+    </element>
+    <element name="Rocket Jump" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_TRICK_ROCKET">
+        <supports>Gunslinger Virtuoso Trick</supports>
+        <description>
+            <p>If you make a jump, you can spend a superiority die to make the jump with vim and vigor, adding the number rolled + your Dexterity modifier to that jump's distance and make it not cost additional movement to make the jump.</p>
+        </description>
+        <sheet>
+            <description>If you make a jump, you can spend a superiority die to make the jump with vim and vigor, adding the number rolled + {{dexterity:modifier}} to that jump's distance and make it not cost additional movement to make the jump.</description>
+        </sheet>
+    </element>
+    <element name="Sprint" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_TRICK_SPRINT">
+        <supports>Gunslinger Virtuoso Trick</supports>
+        <description>
+            <p>When you move, you can expend a superiority die to go sprinting at full speed across the battlefield. Your walking speed increases by 10 feet until you stop moving. You can spend additional superiority die, up to 2, to increase this distance by an additional 10 feet per point spent. If someone makes an opportunity attack against you, you can roll a superiority die you expended and add that number to your AC for that attack. You can do this as many times as you expended superiority die.</p>
+        </description>
+        <sheet>
+            <description>When you move, you can expend a superiority die to go sprinting at full speed across the battlefield. Your walking speed increases by 10 feet until you stop moving. You can spend additional superiority die, up to 2, to increase this distance by an additional 10 feet per point spent. If someone makes an opportunity attack against you, you can roll a superiority die you expended and add that number to your AC for that attack. You can do this as many times as you expended superiority die.</description>
+        </sheet>
+    </element>
+    <element name="Trip Attack" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_TRICK_TRIP">
+        <supports>Gunslinger Virtuoso Trick</supports>
+        <description>
+            <p>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add a superiority die to the attack’s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone.</p>
+        </description>
+        <sheet>
+            <description>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add a superiority die to the attack’s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone.</description>
+        </sheet>
+    </element>
+    <element name="Warning Attack" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_VIRTUOSO_TRICK_WARNING">
+        <supports>Gunslinger Virtuoso Trick</supports>
+        <description>
+            <p>When you miss a creature with a weapon attack, you can expend one superiority die to attempt to frighten the target as the shot whizzes past them. The target must make a Wisdom saving throw. Subtract the result of your superiority die from their roll. On a failed save, it is frightened of you until the end of your next turn.</p>
+        </description>
+        <sheet>
+            <description>When you miss a creature with a weapon attack, you can expend one superiority die to attempt to frighten the target as the shot whizzes past them. The target must make a Wisdom saving throw. Subtract the result of your superiority die from their roll. On a failed save, it is frightened of you until the end of your next turn.</description>
+        </sheet>
+    </element>
+
+    <!--SPELLSHOOTER-->
+
+    <element name="Spellshooter" type="Archetype" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_SPELLSHOOTER">
+        <supports>Gunslinging Trail</supports>
+        <description>
+            <p>Spellshooters are those who have melded the pursuits of magic and engineering in search of greater potential that neither are able to deliver by themselves. By means of preparation, they are able to condense and store the energies of spells in material vessels, creating dangerous weapons that act not merely as conduits for magic, but enhancers.</p>
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_SPELLSHOOTER_SPELLCASTING" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_SPELLSHOOTER_ARCANE_AMMO" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_SPELLSHOOTER_FLEXIBLE_PREP" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_SPELLSHOOTER_ARCANE_SMITH" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_SPELLSHOOTER_BLUEPRINTS" />
+            <div element="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_SPELLSHOOTER_EYE_FOR_EYE" />
+        </description>
+        <sheet display="false">
+            <description>Spellshooters are those who have melded the pursuits of magic and engineering in search of greater potential that neither are able to deliver by themselves.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_SPELLSHOOTER_SPELLCASTING" level="3" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_SPELLSHOOTER_ARCANE_AMMO" level="3" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_SPELLSHOOTER_FLEXIBLE_PREP" level="3" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_SPELLSHOOTER_ARCANE_SMITH" level="9" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_SPELLSHOOTER_BLUEPRINTS" level="13" />
+            <grant type="Archetype Feature" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_SPELLSHOOTER_EYE_FOR_EYE" level="17" />
+        </rules>
+    </element>
+
+    <element name="Spellcasting" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_SPELLSHOOTER_SPELLCASTING">
+        <description>
+            <p>When you reach 3rd level and choose the Spellshooter Principle, you gain the ability to cast magic from the wizard Spell List. You channel the energy of your spells through your own memorization of spells and pure mental acuity.</p>
+            <p class="indent"><strong><em>Spellcasting Conduit.</em></strong> Spellshooters can cast spells as normal or infuse them within their bullets for increased range or more powerful effects. See the Arcane Ammunition feature for more information.</p>
+            <p class="indent"><strong><em>Cantrips.</em></strong> You learn two cantrips from the wizard spell list.</p>
+            <p class="indent"><strong><em>Spell Slots.</em></strong> The Spellshooter Spellcasting table shows how many spell slots you have to use your spells of 1st level and higher. See Flexible Preparation on how to use these slots. You regain all expended spell slots when you finish a long rest.</p>
+            <p class="indent"><strong><em>Spells Known of 1st-Level and Higher.</em></strong> You know two 1st-level spells of your choice from the Wizard spell list, which must be chosen from the evocation or transmutation spells on respective spell list. The Spells Known column of the Spellshooter Spellcasting table shows when you learn more Wizard spells of 1st level or higher. Each of these spells must be a transmutation or evocation spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 10th level in this class, you can learn one new spell of 1st or 2nd level.</p>
+            <p class="indent">The spells you learn at 8th, 14th, and 20th level can come from any school of magic.</p>
+            <p class="indent">Whenever you gain a level in this class, you can replace one of the Wizard spells you know with another spell of your choice from the Wizard spell list. The new spell must be of a level for which you have spell slots, and it must be a transmutation or evocation spell, unless you’re replacing the spell you gained at 8th, 14th, or 20th level.</p>
+            <p class="indent"><strong><em>Spellcasting Ability.</em></strong> Intelligence is your spellcasting ability for your spells, as you study the ways of science and magic through learning and experimentation, and your sheer intellect powers your arcane potential. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a spell you cast and when making an attack roll with one.</p>
+            <center>
+                <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
+                <p><strong>Spell attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>
+            </center>
+            <h5 class="caption">SPELLSHOOTER SPELLCASTING</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-10">Gunslinger Level</td><td class="col-10">Grit Points</td><td class="col-10">Cantrips Known</td><td class="col-10">Spells Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td></tr>
+				</thead>
+				<tr><td> 3rd</td><td>2</td><td>2</td><td> 3</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4th</td><td>4</td><td>2</td><td> 4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5th</td><td>4</td><td>2</td><td> 4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6th</td><td>6</td><td>2</td><td> 4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7th</td><td>6</td><td>2</td><td> 5</td><td>4</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td> 8th</td><td>8</td><td>3</td><td> 6</td><td>4</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td> 9th</td><td>8</td><td>3</td><td> 6</td><td>4</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td>10th</td><td>10</td><td>3</td><td> 7</td><td>4</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>11th</td><td>10</td><td>3</td><td> 8</td><td>4</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>12th</td><td>12</td><td>3</td><td> 8</td><td>4</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>13th</td><td>12</td><td>3</td><td> 9</td><td>4</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>14th</td><td>14</td><td>3</td><td>10</td><td>4</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>15th</td><td>14</td><td>3</td><td>10</td><td>4</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>16th</td><td>16</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr>
+				<tr><td>17th</td><td>16</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr>
+				<tr><td>18th</td><td>18</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr>
+				<tr><td>19th</td><td>18</td><td>4</td><td>12</td><td>4</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td>20th</td><td>20</td><td>4</td><td>13</td><td>4</td><td>3</td><td>3</td><td>1</td></tr>
+			</table>
+        </description>
+        <sheet display="false" />
+        <spellcasting name="Spellshooter" ability="Intelligence" prepare="false" allowReplace="true">
+			<list>Wizard,(Transmutation||Evocation)</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_THIRD" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+			<stat name="spellshooter:spellcasting:slots:1" value="2" level="3" />
+			<stat name="spellshooter:spellcasting:slots:1" value="1" level="4" />
+			<stat name="spellshooter:spellcasting:slots:1" value="1" level="7" />
+			<stat name="spellshooter:spellcasting:slots:2" value="2" level="7" />
+			<stat name="spellshooter:spellcasting:slots:2" value="1" level="10" />
+			<stat name="spellshooter:spellcasting:slots:3" value="2" level="13" />
+			<stat name="spellshooter:spellcasting:slots:3" value="1" level="16" />
+			<stat name="spellshooter:spellcasting:slots:4" value="1" level="19" />
+			<select type="Spell" name="Cantrip (Spellshooter)" supports="Wizard, 0" level="3" number="2" spellcasting="Spellshooter" />
+			<select type="Spell" name="Cantrip (Spellshooter)" supports="Wizard, 0" level="8" number="1" spellcasting="Spellshooter" />
+			<select type="Spell" name="Cantrip (Spellshooter)" supports="Wizard, 0" level="19" number="1" spellcasting="Spellshooter" />
+			<select type="Spell" name="Spellcasting (Spellshooter)" supports="($(spellcasting:list)||Wizard), 1" level="3" number="1" spellcasting="Spellshooter" />
+			<select type="Spell" name="Spellcasting (Spellshooter)" supports="$(spellcasting:list), 1" level="3" number="2" spellcasting="Spellshooter" />
+			<select type="Spell" name="Spellcasting (Spellshooter)" supports="$(spellcasting:list), $(spellcasting:slots)" level="4" spellcasting="Spellshooter"/>
+			<select type="Spell" name="Spellcasting (Spellshooter)" supports="$(spellcasting:list), $(spellcasting:slots)" level="7" spellcasting="Spellshooter"/>
+			<select type="Spell" name="Spellcasting (Spellshooter)" supports="(Wizard||$(spellcasting:list)), $(spellcasting:slots)" level="8" spellcasting="Spellshooter"/>
+			<select type="Spell" name="Spellcasting (Spellshooter)" supports="$(spellcasting:list), $(spellcasting:slots)" level="10" spellcasting="Spellshooter"/>
+			<select type="Spell" name="Spellcasting (Spellshooter)" supports="$(spellcasting:list), $(spellcasting:slots)" level="11" spellcasting="Spellshooter"/>
+			<select type="Spell" name="Spellcasting (Spellshooter)" supports="$(spellcasting:list), $(spellcasting:slots)" level="13" spellcasting="Spellshooter"/>
+			<select type="Spell" name="Spellcasting (Spellshooter)" supports="(Wizard||$(spellcasting:list)), $(spellcasting:slots)" level="14" spellcasting="Spellshooter"/>
+			<select type="Spell" name="Spellcasting (Spellshooter)" supports="$(spellcasting:list), $(spellcasting:slots)" level="16" spellcasting="Spellshooter"/>
+			<select type="Spell" name="Spellcasting (Spellshooter)" supports="$(spellcasting:list), $(spellcasting:slots)" level="19" spellcasting="Spellshooter"/>
+			<select type="Spell" name="Spellcasting (Spellshooter)" supports="(Wizard||$(spellcasting:list)), $(spellcasting:slots)" level="20" spellcasting="Spellshooter"/>
+		</rules>
+    </element>
+
+    <element name="Arcane Ammunition" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_SPELLSHOOTER_ARCANE_AMMO">
+        <description>
+            <p>Spellshooters can condense the magical energy of spells into their guns, and are able to fuse the spells into their ammunition for their attacks. Their firearms are therefore modified to withstand the energy of powerful spells within their confines. At 3rd level you can, over the period of two hours out of a long rest, infuse a number of spells into your gun as you have available spell slots, instead of just casting the spell as normal. Your gun contains this magic until you next complete a long rest, upon which the magic dissipates. During your turn, when you cast a spell, you can instead cast it through your gun as a spell bullet. Each spell bullet has the following properties:</p>
+            <ul>
+                <li>You must make a ranged spell attack roll against the target of your spell in order to cast it successfully. </li>
+                <li>Somatic, verbal and material components for spells are fulfilled while infusing the spell into the gun, and thus you do not need to expend them when it is cast through the bullet.</li>
+                <li>All spells prepared in this manner have the same range as the range of the firearm.</li>
+                <li>If the bullet misses the target, the spell is wasted and not cast. If the spell has an area of effect, it is cast against the nearest object or wall in the same direction of your attack.</li>
+                <li>Spell bullets do not deal damage on their own. If the spell being cast through it deals damage or heals, the bullet does not compound with the damage, as the bullet must break apart to cast the damaging spell. </li>
+                <li>Any spell that requires a single spell attack roll automatically succeeds if the bullet hits its target. Spells with multiple attack rolls are cast as normal, although if the first spell attack roll is made against the target of the bullet, it automatically succeeds.</li>
+                <li>If you are wielding two light firearms at once, then only one gun can fire a spell bullet at a time.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You can, over the period of two hours out of a long rest, infuse a number of spells into your gun as you have available spell slots, instead of just casting the spell as normal. Your gun contains this magic until you next complete a long rest, upon which the magic dissipates. During your turn, when you cast a spell, you can instead cast it through your gun as a spell bullet.</description>
+        </sheet>
+    </element>
+
+    <element name="Flexible Preparation" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_SPELLSHOOTER_FLEXIBLE_PREP">
+        <description>
+            <p>Starting at 3rd level, you entirely alter the properties of spells you infuse into your bullets.</p>
+            <p class="indent">When you prepare a spell into your gun that deals acid, cold, fire, force, lightning, necrotic, radiant, or thunder damage, you can substitute that damage type with another damage type from this list by altering its properties before you infuse it within your ammunition.</p>
+        </description>
+        <sheet>
+            <description>When you prepare a spell into your gun that deals acid, cold, fire, force, lightning, necrotic, radiant, or thunder damage, you can substitute that damage type with another damage type from this list by altering its properties before you infuse it within your ammunition.</description>
+        </sheet>
+    </element>
+
+    <element name="Arcane Smith" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_SPELLSHOOTER_ARCANE_SMITH">
+        <description>
+            <p>When you reach 9th level, you have become adept at creating your magic munitions far more quickly than normal. As long as you have spell slots and mundane ammunition left, you can prepare spell bullets equal to half your Intelligence modifier (rounded up) over the period of a short rest.</p>
+            <p class="indent">Additionally, you have improved your gun to be able to handle spell bullet magic far more easily. When you take the attack action during your turn, you can replace one of the attacks with a spell bullet attack.</p>
+        </description>
+        <sheet>
+            <description>As long as you have spell slots and mundane ammunition left, you can prepare {{intelligence:modifier:half}} spell bullets over the period of a short rest.
+            Additionally, when you take the attack action during your turn, you can replace one of the attacks with a spell bullet attack.</description>
+        </sheet>
+    </element>
+
+    <element name="Blueprints" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_SPELLSHOOTER_BLUEPRINTS">
+        <description>
+            <p>At 13th level, Spellshooters have become well learned in the studies of the arcane, and can use this knowledge to create blueprints containing new spells to cast or infuse into their ammunition. You get proficiency in Intelligence(Arcana) checks if you don't have it already. If you do, double your proficiency bonus for checks you make with that skill.</p>
+            <p class="indent">If you have a piece of parchment and fine ink, you can create blueprints for a number of spells equal to your Intelligence modifier. The spells you mark into the blueprint must be a level of which you can cast. Making these blueprints works just like logging spells into a wizard’s spellbook, and you can keep them in a binder or stack that holds them all together. (See “Your Spellbook” on the Wizard section in the player’s handbook.) You can mark spells in your book from the Wizard and Cleric spell list.</p>
+        </description>
+        <sheet>
+            <description>If you have a piece of parchment and fine ink, you can create blueprints for {{intelligence:modifier}} spells. The spells you mark into the blueprint must be a level of which you can cast. Making these blueprints works just like logging spells into a wizard’s spellbook, and you can keep them in a binder or stack that holds them all together. You can mark spells in your book from the Wizard and Cleric spell list.</description>
+        </sheet>
+        <rules>
+            <stat name="arcana:proficiency" value="proficiency" bonus="double" />
+            <select type="Spell" name="Blueprints" supports="(Cleric||Wizard), $(spellcasting:slots)" spellcasting="Spellshooter" level="13" number="5" optional="true" />
+        </rules>
+    </element>
+
+    <element name="Eye for an Eye" type="Archetype Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_ARCHETYPE_FEATURE_SPELLSHOOTER_EYE_FOR_EYE">
+        <description>
+            <p>When you reach 17th level, you gain the ability to glean the knowledge from any spellcaster into the ammunition of your weapons as long as you throw yourself right into the line of fire to collect it. Once per long rest, when you are the target of a spell of 1st level or higher, you can use your reaction to hone your gunslinger wits to resist and study the spell and copy its knowledge in order to harness its effects into a single bullet. If the spell is a spell attack roll, it is made with disadvantage. If the spell requires you to make a saving throw to resist its effects, you make the save with advantage.</p>
+            <p class="indent">After the spell is cast, roll an Intelligence(Arcana) check. The DC is 10 + twice the spell's level. If you succeed, you immediately create a blueprint or a spell bullet that has the spell infused within it. This happens even if the spell reduced your hit points to 0, as long as it did not kill you outright. This bullet or blueprint has the spell inside it for another 8 hours, after which the magic fades.</p>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest" action="Reaction">Once per long rest, when you are the target of a spell of 1st level or higher, you can use your reaction to hone your gunslinger wits to resist and study the spell and copy its knowledge in order to harness its effects into a single bullet. If the spell is a spell attack roll, it is made with disadvantage. If the spell requires you to make a saving throw to resist its effects, you make the save with advantage.
+            After the spell is cast, roll an Intelligence (Arcana) check. The DC is 10 + twice the spell's level. If you succeed, you immediately create a blueprint or a spell bullet that has the spell infused within it. This happens even if the spell reduced your hit points to 0, as long as it did not kill you outright. This bullet or blueprint has the spell inside it for another 8 hours, after which the magic fades.</description>
+        </sheet>
+    </element>
+
+</elements>

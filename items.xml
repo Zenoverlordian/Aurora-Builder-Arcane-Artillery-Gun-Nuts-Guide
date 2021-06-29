@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name></name>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="items.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Arcane-Artillery-Gun-Nuts-Guide/main/items.xml" />
         </update>
     </info>
@@ -420,6 +420,303 @@
 	</element>
     <element name="Weapon Proficiency (Reloading Hand Crossbow)" type="Proficiency" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_PROFICIENCY_RELOADING_HAND_CROSSBOW">
 		<sheet alt="Reloading Hnad Crossbow" />
+	</element>
+
+	<!--SPECIAL FIREARMS-->
+
+	<element name="Automatic Pistol" type="Weapon" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_WEAPON_AUTOMATIC_PISTOL">
+		<supports> ID_INTERNAL_WEAPON_CATEGORY_FIREARM,ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,ID_INTERNAL_WEAPON_PROPERTY_RANGED, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_SPECIAL_FIREARM, ID_INTERNAL_DAMAGETYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_RELOAD, ID_INTERNAL_WEAPON_PROPERTY_SIDEARMS, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_AUTOMATIC</supports>
+		<description>
+			<p>Ammunition (range 30/90), Light, Reload 24, Automatic (6d4)</p>
+		</description>
+		<setters>
+			<set name="category">Arcane Artillery</set>
+			<set name="cost" currency="gp">21000</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">30/90</set>
+			<set name="damage" type="piercing">2d4</set>
+			<set name="reload">24</set>
+			<set name="proficiency">ID_ZJR_AAGNG_PROFICIENCY_AUTOMATIC_PISTOL</set>
+		</setters>
+	</element>
+    <element name="Weapon Proficiency (Automatic Pistol)" type="Proficiency" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_PROFICIENCY_AUTOMATIC_PISTOL">
+		<requirements>ID_WOTC_DMG_OPTION_FIREARMS</requirements>
+		<sheet alt="Automatic Pistol" />
+	</element>
+
+	<element name="Burst Pistol" type="Weapon" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_WEAPON_BURST_PISTOL">
+		<supports> ID_INTERNAL_WEAPON_CATEGORY_FIREARM,ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,ID_INTERNAL_WEAPON_PROPERTY_RANGED, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_SPECIAL_FIREARM, ID_INTERNAL_DAMAGETYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_RELOAD, ID_INTERNAL_WEAPON_PROPERTY_SIDEARMS, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_BURST_FIRE</supports>
+		<description>
+			<p>Ammunition (range 30/90), Light, Reload 24, Burst Fire (3d8)</p>
+		</description>
+		<setters>
+			<set name="category">Arcane Artillery</set>
+			<set name="cost" currency="gp">21000</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">30/90</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="reload">24</set>
+			<set name="burst fire">3d8</set>
+			<set name="proficiency">ID_ZJR_AAGNG_PROFICIENCY_BURST_PISTOL</set>
+		</setters>
+	</element>
+    <element name="Weapon Proficiency (Burst Pistol)" type="Proficiency" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_PROFICIENCY_BURST_PISTOL">
+		<requirements>ID_WOTC_DMG_OPTION_FIREARMS</requirements>
+		<sheet alt="Burst Pistol" />
+	</element>
+
+	<element name="Revolver" type="Weapon" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_WEAPON_BURST_REVOLVER">
+		<supports> ID_INTERNAL_WEAPON_CATEGORY_FIREARM,ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,ID_INTERNAL_WEAPON_PROPERTY_RANGED, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_SPECIAL_FIREARM, ID_INTERNAL_DAMAGETYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_SHELL_LOADING, ID_INTERNAL_WEAPON_PROPERTY_SIDEARMS, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+		<description>
+			<p>Ammunition (50/180), Light, Shell Loading 6</p>
+		</description>
+		<setters>
+			<set name="category">Arcane Artillery</set>
+			<set name="cost" currency="gp">22000</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">50/180</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="reload">6</set>
+			<set name="proficiency">ID_ZJR_AAGNG_PROFICIENCY_REVOLVER</set>
+		</setters>
+	</element>
+    <element name="Weapon Proficiency (Revolver)" type="Proficiency" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_PROFICIENCY_REVOLVER">
+		<requirements>ID_WOTC_DMG_OPTION_FIREARMS</requirements>
+		<sheet alt="Revolver" />
+	</element>
+
+	<element name="Hand Cannon" type="Weapon" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_WEAPON_BURST_HAND_CANNON">
+		<supports> ID_INTERNAL_WEAPON_CATEGORY_FIREARM,ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,ID_INTERNAL_WEAPON_PROPERTY_RANGED, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_SPECIAL_FIREARM, ID_INTERNAL_DAMAGETYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_SHELL_LOADING, ID_INTERNAL_WEAPON_PROPERTY_SIDEARMS</supports>
+		<description>
+			<p>Ammunition (60/200), Shell Loading 6</p>
+		</description>
+		<setters>
+			<set name="category">Arcane Artillery</set>
+			<set name="cost" currency="gp">27000</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">60/200</set>
+			<set name="damage" type="piercing">1d10</set>
+			<set name="reload">6</set>
+			<set name="proficiency">ID_ZJR_AAGNG_PROFICIENCY_HAND_CANNON</set>
+		</setters>
+	</element>
+    <element name="Weapon Proficiency (Hand Cannon)" type="Proficiency" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_PROFICIENCY_HAND_CANNON">
+		<requirements>ID_WOTC_DMG_OPTION_FIREARMS</requirements>
+		<sheet alt="Hand Cannon" />
+	</element>
+
+	<element name="Automatic Rifle" type="Weapon" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_WEAPON_AUTOMATIC_RIFLE">
+		<supports> ID_INTERNAL_WEAPON_CATEGORY_FIREARM,ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,ID_INTERNAL_WEAPON_PROPERTY_RANGED, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_SPECIAL_FIREARM, ID_INTERNAL_DAMAGETYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_RELOAD, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_LONGARMS, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_AUTOMATIC</supports>
+		<description>
+			<p>Ammunition (range 90/300), Two-Handed, Reload 30, Automatic (6d6)</p>
+		</description>
+		<setters>
+			<set name="category">Arcane Artillery</set>
+			<set name="cost" currency="gp">3500</set>
+			<set name="weight" lb="8">8 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="range">90/300</set>
+			<set name="damage" type="piercing">2d6</set>
+			<set name="reload">30</set>
+			<set name="proficiency">ID_ZJR_AAGNG_PROFICIENCY_AUTOMATIC_RIFLE</set>
+		</setters>
+	</element>
+    <element name="Weapon Proficiency (Automatic Rifle)" type="Proficiency" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_PROFICIENCY_AUTOMATIC_RIFLE">
+		<requirements>ID_WOTC_DMG_OPTION_FIREARMS</requirements>
+		<sheet alt="Automatic Rifle" />
+	</element>
+
+	<element name="Burst Rifle" type="Weapon" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_WEAPON_BURST_RIFLE">
+		<supports> ID_INTERNAL_WEAPON_CATEGORY_FIREARM,ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,ID_INTERNAL_WEAPON_PROPERTY_RANGED, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_SPECIAL_FIREARM, ID_INTERNAL_DAMAGETYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_RELOAD, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_LONGARMS, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_BURST_FIRE</supports>
+		<description>
+			<p>Ammunition (range 90/300), Two-Handed, Reload 24, Burst Fire (3d12)</p>
+		</description>
+		<setters>
+			<set name="category">Arcane Artillery</set>
+			<set name="cost" currency="gp">3500</set>
+			<set name="weight" lb="8">8 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="range">90/300</set>
+			<set name="damage" type="piercing">1d12</set>
+			<set name="burst">3d12</set>
+			<stat name="reload" value="24" />
+			<set name="proficiency">ID_ZJR_AAGNG_PROFICIENCY_BURST_RIFLE</set>
+		</setters>
+	</element>
+    <element name="Weapon Proficiency (Burst Rifle)" type="Proficiency" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_PROFICIENCY_BURST_RIFLE">
+		<requirements>ID_WOTC_DMG_OPTION_FIREARMS</requirements>
+		<sheet alt="Burst Rifle" />
+	</element>
+
+	<element name="Double Barrel Shotgun" type="Weapon" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_WEAPON_DOUBLE_BARREL_SHOTGUN">
+		<supports> ID_INTERNAL_WEAPON_CATEGORY_FIREARM,ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,ID_INTERNAL_WEAPON_PROPERTY_RANGED, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_SPECIAL_FIREARM, ID_INTERNAL_DAMAGETYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_SCATTER, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_LONGARMS, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_DOUBLE_BARREL_SHOTGUN</supports>
+		<description>
+			<p>Ammunition (range 90/300), Two-Handed, Scatter (1d8) Loading</p>
+			<div element="ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_DOUBLE_BARREL_SHOTGUN" />
+		</description>
+		<setters>
+			<set name="category">Arcane Artillery</set>
+			<set name="cost" currency="gp">2400</set>
+			<set name="weight" lb="11">11 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="range">90/300</set>
+			<set name="damage" type="bludgeoning">2d6</set>
+			<set name="scatter">1d8</set>
+			<set name="proficiency">ID_ZJR_AAGNG_PROFICIENCY_DOUBLE_BARREL_SHOTGUN</set>
+		</setters>
+	</element>
+    <element name="Weapon Proficiency (Double Barrel Shotgun)" type="Proficiency" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_PROFICIENCY_DOUBLE_BARREL_SHOTGUN">
+		<requirements>ID_WOTC_DMG_OPTION_FIREARMS</requirements>
+		<sheet alt="Double Barrel Shotgun" />
+	</element>
+	<element name="Double Barrel Shotgun Special Rules" type="Weapon Property" source="Arcane Artillery Gun Nuts Guide" id="ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_DOUBLE_BARREL_SHOTGUN">
+		<description>
+			<p>Double Barrel shotguns can be fired twice per attack. When you make an attack roll with a double barrel shotgun, you can make two attack rolls at the same creature. The second attack roll is made with disadvantage, and on a hit, you do not add your ability score modifier to the damage of that attack, unless your modifier is negative.</p>
+		</description>
+		<sheet>
+			<description>Double Barrel shotguns can be fired twice per attack. When you make an attack roll with a double barrel shotgun, you can make two attack rolls at the same creature. The second attack roll is made with disadvantage, and on a hit, you do not add your ability score modifier to the damage of that attack, unless your modifier is negative.</description>
+		</sheet>
+	</element>
+
+	<element name="Anti-Material Rifle" type="Weapon" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_WEAPON_ANTI_MATERIAL_RIFLE">
+		<supports> ID_INTERNAL_WEAPON_CATEGORY_FIREARM,ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,ID_INTERNAL_WEAPON_PROPERTY_RANGED, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_SPECIAL_FIREARM, ID_INTERNAL_DAMAGETYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_LONG_LOAD, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_BULKY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_LONGARMS</supports>
+		<description>
+			<p>Ammunition (range 300/1,800), Two-Handed, Long Load 4, Bolt-Action, Heavy, Bulky</p>
+		</description>
+		<setters>
+			<set name="category">Arcane Artillery</set>
+			<set name="cost" currency="gp">4500</set>
+			<set name="weight" lb="18">18 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="range">300/1800</set>
+			<set name="damage" type="piercing">3d12</set>
+			<set name="reload">4</set>
+			<set name="proficiency">ID_ZJR_AAGNG_PROFICIENCY_ANTI_MATERIAL_RIFLE</set>
+		</setters>
+	</element>
+    <element name="Weapon Proficiency (Anti-Material Rifle)" type="Proficiency" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_PROFICIENCY_ANTI_MATERIAL_RIFLE">
+		<requirements>ID_WOTC_DMG_OPTION_FIREARMS</requirements>
+		<sheet alt="Anti-Material Rifle" />
+	</element>
+
+	<element name="Shoulder Cannon" type="Weapon" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_WEAPON_SHOULDER_CANNON">
+		<supports> ID_INTERNAL_WEAPON_CATEGORY_FIREARM,ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,ID_INTERNAL_WEAPON_PROPERTY_RANGED, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_SPECIAL_FIREARM, ID_INTERNAL_DAMAGETYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_BULKY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_LONGARMS, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_SHOULDER_CANNON</supports>
+		<description>
+			<p>Ammunition (range 200), Two-Handed, Loading, Bulky, Special</p>
+			<div class="reference">
+				<div element="ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_SHOULDER_CANNON" />
+			</div>
+		</description>
+		<setters>
+			<set name="category">Arcane Artillery</set>
+			<set name="cost" currency="gp">6500</set>
+			<set name="weight" lb="30">30 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="range">200</set>
+			<set name="damage" type="bludgeoning">4d10</set>
+			<set name="proficiency">ID_ZJR_AAGNG_PROFICIENCY_SHOULDER_CANNON</set>
+		</setters>
+	</element>
+    <element name="Weapon Proficiency (Shoulder Cannon)" type="Proficiency" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_PROFICIENCY_SHOULDER_CANNON">
+		<requirements>ID_WOTC_DMG_OPTION_FIREARMS</requirements>
+		<sheet alt="Shoulder Cannon" />
+	</element>
+	<element name="Shoulder Cannon Special Rules" type="Weapon Property" source="Arcane Artillery Gun Nuts Guide" id="ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_SHOULDER_CANNON">
+		<description>
+			<p>You can make a special attack with a Shoulder Cannon that targets any creature within a 5 wide foot line out to their maximum range. Any target in the path of this special attack must succeed a DC (8 + your Dexterity modifier + your proficiency bonus) Strength saving throw or take it's damage roll and be knocked prone. They take half damage on a success and are not knocked prone. Shoulder Cannons are considered siege weapons for the purposes of damage.</p>
+		</description>
+		<sheet>
+			<description>You can make a special attack with a Shoulder Cannon that targets any creature within a 5 wide foot line out to their maximum range. Any target in the path of this special attack must succeed a DC (8 + your Dexterity modifier + your proficiency bonus) Strength saving throw or take it's damage roll and be knocked prone. They take half damage on a success and are not knocked prone. Shoulder Cannons are considered siege weapons for the purposes of damage.</description>
+		</sheet>
+	</element>
+
+	<element name="Rifleblade" type="Weapon" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_WEAPON_RIFLEBLADE">
+		<supports> ID_INTERNAL_WEAPON_CATEGORY_FIREARM,ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,ID_INTERNAL_WEAPON_PROPERTY_RANGED, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_SPECIAL_FIREARM, ID_INTERNAL_DAMAGETYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_RELOAD, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_LONGARMS</supports>
+		<description>
+			<p>Ammunition (range 90/300), Two-Handed, Reload 6, Bayonet (1d6 Piercing/Slashing)</p>
+		</description>
+		<setters>
+			<set name="category">Arcane Artillery</set>
+			<set name="cost" currency="gp">5000</set>
+			<set name="weight" lb="10">10 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="range">90/300</set>
+			<set name="damage" type="piercing">1d12</set>
+			<set name="reload">6</set>
+			<set name="proficiency">ID_ZJR_AAGNG_PROFICIENCY_RIFLEBLADE</set>
+		</setters>
+	</element>
+    <element name="Weapon Proficiency (Rifleblade)" type="Proficiency" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_PROFICIENCY_RIFLEBLADE">
+		<requirements>ID_WOTC_DMG_OPTION_FIREARMS</requirements>
+		<sheet alt="Rifleblade" />
+	</element>
+
+	<element name="Gunlance" type="Weapon" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_WEAPON_GUNLANCE">
+		<supports> ID_INTERNAL_WEAPON_CATEGORY_FIREARM,ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,ID_INTERNAL_WEAPON_PROPERTY_RANGED, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_SPECIAL_FIREARM, ID_INTERNAL_DAMAGETYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_LONG_LOAD, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_LONGARMS, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_GUNLANCE</supports>
+		<description>
+			<p>Ammunition (range 70/230), Two-Handed, Long Load 6, Bayonet (1d12 Piercing, Reach), Special</p>
+			<div class="reference">
+				<div element="ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_GUNLANCE" />
+			</div>
+		</description>
+		<setters>
+			<set name="category">Arcane Artillery</set>
+			<set name="cost" currency="gp">6000</set>
+			<set name="weight" lb="16">16 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="range">70/230</set>
+			<set name="damage" type="piercing">2d6</set>
+			<set name="reload">6</set>
+			<set name="proficiency">ID_ZJR_AAGNG_PROFICIENCY_GUNLANCE</set>
+		</setters>
+	</element>
+    <element name="Weapon Proficiency (Gunlance)" type="Proficiency" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_PROFICIENCY_GUNLANCE">
+		<requirements>ID_WOTC_DMG_OPTION_FIREARMS</requirements>
+		<sheet alt="Gunlance" />
+	</element>
+	<element name="Gunlance Special Rules" type="Weapon Property" source="Arcane Artillery Gun Nuts Guide" id="ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_GUNLANCE">
+		<description>
+			<p>You have disadvantage when you use the lance to attack a target within 5 feet of you. You can wield the lance one handed when mounted.</p>
+		</description>
+		<sheet>
+			<description>You have disadvantage when you use the lance to attack a target within 5 feet of you. You can wield the lance one handed when mounted.</description>
+		</sheet>
+	</element>
+
+	<element name="Nock Gun" type="Weapon" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_WEAPON_NOCK_GUN">
+		<supports> ID_INTERNAL_WEAPON_CATEGORY_FIREARM,ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,ID_INTERNAL_WEAPON_PROPERTY_RANGED, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_SPECIAL_FIREARM, ID_INTERNAL_DAMAGETYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_SHELL_LOADING, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_BULKY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_LONGARMS, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_NOCK_GUN</supports>
+		<description>
+			<p>Ammunition (range 70/210), Two-Handed, Shell Loading 7, Bulky, Special</p>
+			<div class="reference">
+				<div element="ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_NOCK_GUN" />
+			</div>
+		</description>
+		<setters>
+			<set name="category">Arcane Artillery</set>
+			<set name="cost" currency="gp">5500</set>
+			<set name="weight" lb="20">20 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="range">70/210</set>
+			<stat name="reload" value="7" />
+			<set name="damage" type="piercing">1d12</set>
+			<set name="proficiency">ID_ZJR_AAGNG_PROFICIENCY_NOCK_GUN</set>
+		</setters>
+	</element>
+    <element name="Weapon Proficiency (Nock Gun)" type="Proficiency" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_PROFICIENCY_NOCK_GUN">
+		<requirements>ID_WOTC_DMG_OPTION_FIREARMS</requirements>
+		<sheet alt="Nock Gun" />
+	</element>
+	<element name="Shoulder Cannon Special Rules" type="Weapon Property" source="Arcane Artillery Gun Nuts Guide" id="ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_NOCK_GUN">
+		<description>
+			<p>You can use your action to fire all 7 barrels of this gun at once. Make an attack roll with disadvantage. If you succeed, roll 7d12 piercing damage. This attack deals 7d4 bludgeoning damage to you and forces you to make a DC 10 Strength saving throw or be knocked prone.</p>
+		</description>
+		<sheet>
+			<description>You can use your action to fire all 7 barrels of this gun at once. Make an attack roll with disadvantage. If you succeed, roll 7d12 piercing damage. This attack deals 7d4 bludgeoning damage to you and forces you to make a DC 10 Strength saving throw or be knocked prone.</description>
+		</sheet>
 	</element>
 
     <!--ATTACHMENTS-->
