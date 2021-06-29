@@ -19,5 +19,7 @@
 <file name="gun-tactics.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Arcane-Artillery-Gun-Nuts-Guide/main/gun-tactics.xml" />
 <file name="spells.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Arcane-Artillery-Gun-Nuts-Guide/main/spells.xml" />
 <file name="source.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Arcane-Artillery-Gun-Nuts-Guide/main/source.xml" />
+<file name="feats.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Arcane-Artillery-Gun-Nuts-Guide/main/feats.xml" />
+<file name="class-gunslinger.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Arcane-Artillery-Gun-Nuts-Guide/main/class-gunslinger.xml" />
 	</files>
 </index>
