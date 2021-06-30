@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name></name>
-        <update version="0.0.2">
+        <update version="0.0.3">
             <file name="items.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Arcane-Artillery-Gun-Nuts-Guide/main/items.xml" />
         </update>
     </info>
@@ -488,7 +488,7 @@
 		<sheet alt="Revolver" />
 	</element>
 
-	<element name="Hand Cannon" type="Weapon" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_WEAPON_BURST_HAND_CANNON">
+	<element name="Hand Cannon" type="Weapon" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_WEAPON_HAND_CANNON">
 		<supports> ID_INTERNAL_WEAPON_CATEGORY_FIREARM,ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,ID_INTERNAL_WEAPON_PROPERTY_RANGED, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_SPECIAL_FIREARM, ID_INTERNAL_DAMAGETYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_AAGNG_WEAPON_PROPERTY_SHELL_LOADING, ID_INTERNAL_WEAPON_PROPERTY_SIDEARMS</supports>
 		<description>
 			<p>Ammunition (60/200), Shell Loading 6</p>

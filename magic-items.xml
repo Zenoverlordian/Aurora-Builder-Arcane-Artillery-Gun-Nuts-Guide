@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.1.0">
+            <file name="magic-items.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Arcane-Artillery-Gun-Nuts-Guide/main/magic-items.xml" />
+        </update>
+    </info>
+
+    <element name="Ammunition, Double Tap" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_AMMUNITION_DOUBLE_TAP">
+        <description>
+            <p>When you attack with this ammunition, regardless of whether or not you hit, you can repeat the attack roll against the same creature you fired at again at the beginning of your next turn. If the creature was brought to 0 HP by the ammunition on the first attack, you can instead make the second attack roll at a different target within 30 feet of the creature attacked at the beginning of your next turn. Otherwise this ammunition drops to the ground harmlessly. If both attack rolls were able to be made with this ammunition, it loses its magic and becomes mundane.</p>
+        </description>
+        <setters>
+            <set name="category">Ammunition</set>
+			<set name="type" addition="any ammunition">Weapon</set>
+			<set name="keywords">ammunition</set>
+            <set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+        </setters>
+    </element>
+
+    <element name="Ammunition, Returning" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_AMMUNITION_RETURNING">
+        <description>
+            <p>This ammunition can take the form of either arrows, sling bullets, crossbow bolts, or gun rounds. When it is fired for the first time, it teleports back to you/back into your gun. Every time you fire this ammunition from here on out, there's a 50% chance it will teleport back into you. This ammunition can always be recovered after battles.</p>
+        </description>
+        <setters>
+            <set name="category">Ammunition</set>
+			<set name="type" addition="any ammunition">Weapon</set>
+			<set name="keywords">ammunition</set>
+            <set name="rarity">Rare</set>
+			<set name="stackable">true</set>
+        </setters>
+    </element>
+
+    <element name="Ammunition, Tracer" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_AMMUNITION_TRACER">
+        <description>
+            <p>When you make an attack roll with this ammunition, it has advantage. On a hit, the round begins to glow and seems to draw attacks toward it. The next creature that makes an attack roll against the creature hit by the ammunition makes the roll with advantage. On a hit, the creature's attack deals an extra d8 damage. The ammunition then loses its magic.</p>
+            <p class="indent">The round can always be recovered after a battle if it does not hit a creature.</p>
+        </description>
+        <setters>
+            <set name="category">Ammunition</set>
+			<set name="type" addition="any ammunition">Weapon</set>
+			<set name="keywords">ammunition</set>
+            <set name="rarity">Very Rare</set>
+			<set name="stackable">true</set>
+        </setters>
+    </element>
+
+    <element name="Artemis Cannon" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_ARTEMIS_CANNON">
+        <description>
+            <p>You gain a +1 to attack and damage rolls made with this magic rifle, and it deals an extra d4 force damage on a hit. This weapon has 4 charges. You can use an action to expend one charge and cast conjure barrage, or you can use an action to expend 2 charges to cast conjure volley. The spells are cast with the following changes: </p>
+            <ul>
+                <li>You can exclude a number of creatures from the effect of these spells equal to 2 + your Dexterity or Wisdom modifier.</li>
+            </ul>
+            <p class="indent">You regain 1d4 charges with this weapon when you complete a long rest.</p>
+        </description>
+        <setters>
+			<set name="keywords">rifle</set>
+            <set name="category">Magic Weapons</set>
+			<set name="type" addition="Rifle">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Very Rare</set>
+            <set name="enhancement">1</set>
+            <set name="weapon">Rifle</set>
+        </setters>
+    </element>
+
+    <element name="Brimstone" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_BRIMSTONE">
+        <description>
+            <p>This shoulder cannon has the automatic property, and does not fire cannonballs, instead firing 1st level fire bolt cantrips as its attacks. It takes an action to reload the weapon after it fires 24 fire bolts.</p>
+            <p class="indent">This cannon has 3 charges. You can expend one of these charges to cast fireball without expending a spell slot. When you expend this charge, your shoulder cannon loses its magic for 1 hour, and fires and endless supply of rifled rounds that deal 1d6 piercing damage. You regain all expended charges when you complete a long rest.</p>
+        </description>
+        <setters>
+			<set name="keywords">shoulder cannon</set>
+            <set name="category">Magic Weapons</set>
+			<set name="type" addition="Shoulder Cannon">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Very Rare</set>
+            <set name="weapon">Shoulder Cannon</set>
+            <set name="charges">3</set>
+        </setters>
+    </element>
+
+    <element name="Crimson Fang" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_CRIMSON_FANG">
+        <description>
+            <p>You gain a +2 bonus to attack and damage rolls made with this magic pistol. In addition, while you are attuned to this weapon, you regenerate 10 hit points per round that you are not in direct sunlight. You also gain 120 feet of darkvision, are permanently under the effects of a spider climb spell, and get a Dexterity, Strength and Constitution score of 18, unless any of your scores were higher than that.</p>
+            <p class="indent"><strong><em>Blood Draining Shot.</em></strong> When you deal damage to a target using this pistol, you regain hit points equal to half the damage you dealt.</p>
+            <p class="indent"><strong><em>Charm.</em></strong> Once per long rest, you can attempt to charm a creature within 30 feet of you that you can see. The creature must succeed a DC 15 Wisdom saving throw against this magic or become charmed by you. The charmed target regards you as a trusted friend to be heeded and protected. Although the target isn’t under your control, it takes your requests or actions in the most favorable way it can.</p>
+            <p class="indent">Each time you or creatures friendly to you do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until you are killed, are on a different plane of existence than the target, or if you take a bonus action to end the effect.</p>
+            <p class="indent"><strong><em>Curse.</em></strong> This pistol is cursed, and becoming attuned to it extends the curse to you. Using the identify spell on this weapon will reveal it to be a +2 pistol. As long as you remain cursed, you are unwilling to part with the pistol, and keep it as close to you as possible. Every time you complete a long rest, you must drink the blood of a humanoid creature that is indifferent to you or friendly to you, willing or unwilling. If you do not, you gain 1 point of exhaustion after you complete the rest. This number goes up by 1 every 2 weeks you are attuned to this weapon. In addition, your skin slowly starts to become pallid and sickly, and any creature with a passive perception of 12 or higher notices that your canines have grown longer and sharper when talking to you. When you kill a humanoid creature with this pistol, you must succeed a DC 15 Wisdom saving throw or spend any actions during your turns moving toward the creature’s corpse and feasting on its blood. Once you do this, you lose the compulsion for blood. You must consume the blood of 10 hostile humanoid creatures in order to stave off the exhaustion from the weapon’s curse. This number goes up by 10 every 2 weeks you are attuned to this weapon.</p>
+        </description>
+        <setters>
+			<set name="keywords">pistol</set>
+            <set name="category">Magic Weapons</set>
+			<set name="type" addition="Pistol">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Legendary</set>
+            <set name="weapon">Pistol</set>
+            <set name="enhancement">2</set>
+        </setters>
+    </element>
+
+    <element name="Cursebringer" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_CURSEBRINGER">
+        <description>
+            <p>You gain a +3 bonus to attack and damage rolls made with this magic carbine, and rounds fired from it deal necrotic damage instead of piercing damage.</p>
+            <p class="indent"><strong><em>Deathcurse.</em></strong> You can cast the hex spell two times without expending a spell slot per long rest. When you reduce a creature to 0 hit points that has the hex on it, the round explodes. Any creature within a 10 foot radius around the creature hit must succeed a DC 14 Dexterity saving throw. They take 8d6 necrotic damage on a failed save, and half that damage on a successful save.</p>
+        </description>
+        <setters>
+			<set name="keywords">carbine</set>
+            <set name="category">Magic Weapons</set>
+			<set name="type" addition="Carbine">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Legendary</set>
+            <set name="weapon">Carbine</set>
+            <set name="enhancement">3</set>
+        </setters>
+    </element>
+
+    <element name="Cold Famine" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_COLD_FAMINE">
+        <description>
+            <p>You gain a +2 bonus to attack and damage rolls you make with this magic gun. This weapon deals an extra 1d4 cold damage on a hit. This rifle cannot be reloaded, and once its ammunition is spent, it’s spent. It regains 1d4 rounds at the start of each of your turns. This cannot increase the rifle’s ammunition count past 4.</p>
+        </description>
+        <setters>
+			<set name="keywords">bulky rifle</set>
+            <set name="category">Magic Weapons</set>
+			<set name="type" addition="Bulky Rifle">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Rare</set>
+            <set name="weapon">Bulky Rifle</set>
+            <set name="enhancement">2</set>
+        </setters>
+    </element>
+
+    <element name="Debt Collector" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_DEBT_COLLECTOR">
+        <description>
+            <p>You gain a +3 bonus to attack and damage rolls made with this magic gun, and you can critically hit on an 18 and 19 as well as a 20. When you score a critical hit with this weapon on a creature within 5 feet of you, you can immediately make a bayonet attack that deals 1d10 slashing damage on a hit as part of that attack.</p>
+        </description>
+        <setters>
+			<set name="keywords">riflebalde</set>
+            <set name="category">Magic Weapons</set>
+			<set name="type" addition="Rifleblade">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Legendary</set>
+            <set name="weapon">Rifleblade</set>
+            <set name="enhancement">3</set>
+        </setters>
+    </element>
+
+    <element name="Dragon Cannon" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_DRAGON_CANNON">
+        <description>
+            <p>You get a +1 to attack and damage rolls made with this weapon. This gun is molded into a particular dragon's likeness, whether chromatic or metallic. Depending on which dragon it's made to look like, this weapon deals d4 damage of the breath weapon damage of that dragon. This also alters the weapon's name. (for example, Bronze Dragon Cannon)</p>
+            <p class="indent">As an action, you can speak this weapon's command word and fire out the breath weapon of a young dragon. This breath weapon's damage and saving throw stat and DC is determined by the type of dragon the gun was made to look like.</p>
+            <p class="indent">After making this attack, as long as you have this firearm drawn, roll a d6 at the start of each of your subsequent turns. On a 6, the breath weapon recharges, and you can use it again.</p>
+        </description>
+        <setters>
+			<set name="keywords">scatter</set>
+            <set name="category">Magic Weapons</set>
+			<set name="type" addition="any firearm with the scatter property">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Legendary</set>
+            <set name="weapon">ID_INTERNAL_AAGNG_WEAPON_PROPERTY_SCATTER</set>
+            <set name="enhancement">1</set>
+        </setters>
+    </element>
+
+    <element name="Exuberant Radiance" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_EXUBERANT_RADIANCE">
+        <description>
+            <p>You gain a +1 to attack and damage rolls made with this magic rifle. As a bonus action, you can cause this rifle to shine brilliantly, shedding bright light out to a 30 foot radius and dim light out to a 90 foot radius. Its rounds deal an extra d6 radiant damage on a hit.</p>
+            <p class="indent"><strong><em>Touched by Angels.</em></strong> Once per long rest, you can sprout wings that give you a flying speed of 40 feet for 1 hour.</p>
+            <p class="indent"><strong><em>Blinding Critical.</em></strong> When you score a critical hit with this weapon, the creature you hit is blinded for 1 minute. It can succeed a DC 12 Constitution saving throw to end this effect at the end of each of its subsequent turns. When it succeeds the saving throw, it is immune to the effects of blinding critical for 12 hours</p>
+        </description>
+        <setters>
+			<set name="keywords">bulky rifle</set>
+            <set name="category">Magic Weapons</set>
+			<set name="type" addition="Bulky Rifle">Weapon</set>
+            <set name="attunement" addition="by a good aligned character">true</set>
+            <set name="rarity">Very Rare</set>
+            <set name="weapon">Bulky Rifle</set>
+            <set name="enhancement">1</set>
+        </setters>
+    </element>
+
+    <element name="Firearm of Swift Hands" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_FIREARM_SWIFT_HANDS">
+        <description>
+            <p>While attuned to this firearm, you ignore the reload action for it when its ammunition count goes to 0, or you ignore the loading times for it.</p>
+        </description>
+        <setters>
+			<set name="keywords">firearm</set>
+            <set name="category">Magic Weapons</set>
+			<set name="type" addition="any firearm">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Rare</set>
+            <set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_FIREARM</set>
+			<set name="name-format">{{parent}} of Swift Hands</set>
+        </setters>
+    </element>
+
+    <element name="Hive Splitter" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_HIVE_SPLITTER">
+        <description>
+            <p>You gain a +2 bonus to attack and damage rolls you make with this magic rifle. This weapon critically hits on a 19 as well as a 20.</p>
+            <p class="indent"><strong><em>Bulletswarm.</em></strong> When you critically hit with this weapon or when an enemy fails a saving throw against a called shot you make, this weapon spawns two clouds of insects that you can direct to attack two different targets within 10 feet of the creature shot. The creatures take d12 piercing damage.</p>
+        </description>
+        <setters>
+			<set name="keywords">rifle</set>
+            <set name="category">Magic Weapons</set>
+			<set name="type" addition="Rifle">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Very Rare</set>
+            <set name="weapon">Rifle</set>
+            <set name="enhancement">2</set>
+        </setters>
+    </element>
+
+    <element name="Lucky Seven" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_LUCKY_SEVEN">
+        <description>
+            <p>You gain a +3 bonus to attack and damage rolls you make with this magic six shooter. This gun has golden lines along its body and green three leaf clovers on its grip, and sparkles dimly in your hands. Each shot feels like you're gambling for something big.</p>
+            <p class="indent"><strong><em>Uncanny Luck.</em></strong> You get the lucky feat if you do not have it already while attuned to this firearm, and you can reroll 1s and 2s to its damage once per turn.</p>
+            <p class="indent"><strong><em>Seven of Clovers.</em></strong> If you roll a natural 7 on an attack roll made with this revolver, your attack automatically hits and is considered a critical hit. It does maximum damage for both damage rolls and deals an extra 7 force damage to for 7 minutes, including the damage of this attack.</p>
+        </description>
+        <setters>
+			<set name="keywords">revolver</set>
+            <set name="category">Magic Weapons</set>
+			<set name="type" addition="Revolver">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Legendary</set>
+            <set name="weapon">Revolver</set>
+            <set name="enhancement">3</set>
+        </setters>
+    </element>
+
+    <element name="Man's Best Friend" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_MANS_BEST_FRIEND">
+        <description>
+            <p>This weapon, hidden deep within the confines of a mad laboratory, is a strange conglomeration of science and necromancy, and appears to be a human wizard and a magic using gunslinger’s attempt to keep their favorite pet around after its passing. The brain itself, or at least a piece of it is floating in a jar attached to the body of the gun, and the sights are arranged with two floppy ear like mechanisms. The face of the deceased animal is painted either on the body itself or around the sights, and magic runes of necromancy are engraved into its barrel.</p>
+            <p class="indent">Only a gunslinger or a wizard can attune to this weapon. Any other creatures attempting to do so will be growled at by the weapon and fail to attune to it.</p>
+            <p class="indent">You gain a +3 bonus to attack and damage rolls you make with this odd sentient firearm. It has the following additional properties.</p>
+            <p class="indent"><strong><em>Sentience.</em></strong> Man’s Best Friend contains the soul of a friendly dog with an Intelligence of 6, a Wisdom of 20, and a Charisma of 16. It has advantage on saving throws on Wisdom (Perception) checks that rely on hearing or smell.</p>
+            <p class="indent">The weapon can understand Common, any language its previous masters knew and any language you know while attuned to it. It communicates in barks, yips, whines and growls that are audible out to 60 feet. However, it can translate those barks when speaking directly to you as primal feelings and emotions, such as fear, excitement or sadness.</p>
+            <p class="indent"><strong><em>Personality.</em></strong> Man’s Best Friend is extraordinarily curious, and will constantly try to direct you towards interesting things, such as caves, treasure, and squirrels. It is extremely loyal to you once you form a bond to it, and will growl whenever it senses dangerous intentions from other creatures, or pant happily in the presence of creatures friendly to you. The weapon can move ever so slightly in your grip, but never enough to force your aim off or drop it. It usually does this when it wishes to be pet. Man’s Best Friend thrives on affection and assurance, and if those things are not regularly provided to it by its wielder, a conflict between the two will occur after 10 consecutive days of neglect.</p>
+            <p class="indent"><strong><em>A Nose for Danger.</em></strong> This weapon makes Wisdom (Perception) rolls every 1 minute to check for hostile creatures in 150 foot radius, rolled by the DM. If it senses any, the ears perk up on the gun and it begins to emit a low growl. It will roll Wisdom (Insight) checks every minute you spend in the presence of a creature that is indifferent to you or does not know you personally. If it senses ill intent or hostility, it will react similarly.</p>
+            <p class="indent"><strong><em>Bloodhound.</em></strong> Man’s Best Friend can cast find traps and 5th level hunter’s mark at will. It decides when to cast these spells, and will maintain concentration on the latter so you don’t have to.</p>
+            <p class="indent"><strong><em>Guard Gun.</em></strong> When in combat, the gun will bark viciously when attacking, and will yip and whine when its wielder is badly hurt. The gun can take its own actions in combat, and will always take its turn before its wielder in the initiative order. The gun can use its action to make a Wisdom (Perception) check or give a bark of encouragement to you, granting you a d4 to use on your next attack roll, saving throw or ability check for 1 minute or until used. The check can sniff out invisible creatures or creatures on the ethereal plane within 30 feet of you.</p>
+        </description>
+        <setters>
+			<set name="keywords">firearm, wizard, gunslinger</set>
+            <set name="category">Magic Weapons</set>
+			<set name="type" addition="any firearm">Weapon</set>
+            <set name="attunement" addition="by a Wizard or Gunslinger">true</set>
+            <set name="rarity">Legendary</set>
+            <set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_FIREARM</set>
+            <set name="enhancement">3</set>
+        </setters>
+    </element>
+
+    <element name="Metalmancy" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_METALMANCY">
+        <description>
+            <p>Only bards can attune to this weapon. If anyone else attempts to attune to it, it produces a loud, discordant sound into their mind. They must succeed a DC 10 Constitution saving throw. They take 2d6 psychic and 2d6 Thunder damage on a failed save, and half that damage on a successful save, and regardless of the results, they fail to attune to the weapon.</p>
+            <p class="indent">This metallic lute doubles as a +2 repeating rifle that uses your Charisma modifier to fire its shots rather than your Dexterity modifier, and is shot by strumming its chords. It does not fire regular ammunition from it. Instead it draws from your innate bardic pool of energy to fire each round. On a hit, its rounds deal 1d6 thunder and 1d6 fire damage. You reload this weapon by playing a powerchord as a bonus action or reaction. This weapon's bardic rounds are infinite, and as long as you wield this weapon and are not incapacitated, you can continue to reload an endless supply of ammunition into it.</p>
+            <p class="indent">While attuned to this strange wonder of art and technology, you are immune to being deafened and gain resistance to thunder damage. You get the fire bolt and thunderclap cantrips and can cast them at will as long as you are attuned to this lute. You get access to the following abilities:</p>
+            <ul>
+                <li>Thunderstruck: When you use an action to go into a Counterhcarm performance, and as part of that action during subsequent turns, you can also make a spell attack roll at any two creatures within 60 feet of you that you can see. On a successful hit, these targets take 4d6 lightning damage.</li>
+                <li>Dragonforce: When you cast a spell that deals fire, thunder or lightning damage, you can use a bonus action during your turn to spawn the projected illusion of a huge red, gold, bronze or blue dragon from the spell’s effect. All creatures hostile to you within 60 feet of the projection must make a Wisdom saving throw. Creatures that were damaged by your spell have disadvantage on this saving throw. On a failed save, they are frightened of you for 1 minute. They can remake the saving throw at the end of each of their turns. If a creature makes the saving throw, it is immune to the effects of dragonforce for 24 hours. The draconic projection disappears at the end of your turn. Once you use this feature, you cannot use it again until you complete a short or long rest.</li>
+            </ul>
+            <p>This lute has four charges. You can expend a single charge as an action to cast the following spells: thunderwave, fireball, and control weather. You regain 1d4 charges when you complete a long rest.</p>
+        </description>
+        <setters>
+			<set name="keywords">repeating rifle</set>
+            <set name="category">Magic Weapons</set>
+			<set name="type" addition="Repeating Rifle">Weapon</set>
+            <set name="attunement" addition="by a Bard">true</set>
+            <set name="rarity">Legendary</set>
+            <set name="weapon">Repeating Rifle</set>
+            <set name="enhancement">2</set>
+            <set name="charges">4</set>
+        </setters>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_FIRE_BOLT" spellcasting="Bard" />
+            <grant type="Spell" id="ID_XGTE_SPELL_THUNDERCLAP" spellcasting="Bard" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER" />
+        </rules>
+    </element>
+
+    <element name="Ooze Launcher" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_OOZE_LAUNCHER">
+        <description>
+            <p>This weapon shoots a glob of ooze that force a creature within 300 feet of you to make a DC 14 Dexterity saving throw. They take 6d6 acid damage as well as an additional 2d6 acid damage at the end of their next turn if they fail, and they take half damage and do not take additional acid damage at the end of their next turn if they succeed. After you fire this weapon, you must use an action to cock the ooze making mechanism before it can be fired again. </p>
+            <p class="indent">Additionally, you can use an action to attempt to summon oozes from their native plane into the gun’s barrel and spawn them at any unoccupied space within 30 feet of you. Roll a d100 to decide what ooze or oozes you can summon. Oozes spawned in this way are telepathically controlled by you and, if in combat, act immediately after you on the initiative order. You can use a bonus action to describe to the ooze or oozes any order you wish, which it will follow to the letter. If you give them no direct orders, they will pursue and attack the closest hostile creature to you that it can sense or defend themselves to the best of their ability. This ooze or oozes remain on the battlefield until killed or if you either spend an action to dismiss them back to their home plane or if you summon another ooze or oozes. Once you use this feature, you cannot use it again until you complete a long rest.</p>
+            <h5>Ooze Chart</h5>
+            <table>
+                <thead>
+                    <tr><td>d100</td><td>Ooze Type</td></tr>
+                </thead>
+                <tr><td>01-50</td><td>Ochre Jelly</td></tr>
+                <tr><td>51-70</td><td>Gelatinous Cube</td></tr>
+                <tr><td>71-85</td><td>Gray Ooze (4)</td></tr>
+                <tr><td>86-95</td><td>Psychic Gray Ooze (2)</td></tr>
+                <tr><td>96-00</td><td>Black Pudding</td></tr>
+            </table>
+        </description>
+        <setters>
+			<set name="keywords">ooze, weapon, acid</set>
+            <set name="category">Magic Weapons</set>
+			<set name="type">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Legendary</set>
+        </setters>
+    </element>
+
+    <element name="Round, Spell Burst" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_ROUND_SPELL_BULLET">
+        <description>
+            <p>This round is a spell bullet with the properties of Arcane Ammunition on the Spellshooter archetype. When you fire this round from a firearm that it can be used with, the spell is cast through the bullet using those properties.</p>
+        </description>
+        <setters>
+            <set name="category">Ammunition</set>
+			<set name="type" addition="any ammunition">Weapon</set>
+			<set name="keywords">ammunition</set>
+            <set name="rarity">Rare</set>
+			<set name="stackable">true</set>
+        </setters>
+    </element>
+
+    <element name="Rifle of Endless Torrent" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_RIFLE_ENDLESS_TORRENT">
+        <description>
+            <p>This rifle was forged from a magic decanter that taps into the plane of water. It fires out two kinds of watery beams. The first kind is a concentrated beam that has you make an attack roll. It deals 1d12 bludgeoning damage on a hit. The second kind of watery beam requires that you use a bonus action on your turn to speak the command word “Torrent”, and fires out a large beam of water that strikes any creature within a 30 foot long, 5 foot wide beam. Creatures within the beam must succeed a DC 14 Strength saving throw. They take 3d12 bludgeoning damage and are knocked prone on a failed save. They take half that damage and are not knocked prone if they succeed.</p>
+        </description>
+        <setters>
+			<set name="keywords">rifle</set>
+            <set name="category">Magic Weapons</set>
+			<set name="type" addition="Rifle">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Very Rare</set>
+            <set name="weapon">Rifle</set>
+        </setters>
+    </element>
+
+    <element name="Six of Stars" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_SIX_OF_STARS">
+        <description>
+            <p>You gain +2 to attack and damage rolls with this revolver. This weapon was forged from the alloy found in a meteor and enchanted with its stardust.This gun has 6 charges within it, and grants the following benefits that can be used by expending charges:</p>
+            <ul>
+                <li>When making an attack with this gun, you can choose to expend 2 charges to shoot a small meteorite at your targets instead. This is treated like a DC 14 Melf ’s Minute Meteors meteor. You can expend additional charges to increase the damage dealt by 1d6.</li>
+                <li>You can use a bonus action to expend 1 charge to infuse the rounds in your gun with magic from the stars. These rounds deal 1d6 extra force or fire damage (your choice).</li>
+            </ul>
+        </description>
+        <setters>
+			<set name="keywords">hand cannon</set>
+            <set name="category">Magic Weapons</set>
+			<set name="type" addition="Hand Cannon">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Very Rare</set>
+            <set name="weapon">Hand Cannon</set>
+            <set name="enhancement">2</set>
+        </setters>
+    </element>
+
+    <element name="Strange Guardian's Revolver" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_STRANGE_GUARDIANS_REVOLVER">
+        <description>
+            <p>This large magnum hand cannon has a fine dark silver body with a pearlescent grip. While attuned to it, you get the attention of a mysterious guardian who watches over you. Whenever you’re in battle, sometimes this guardian may arrive to aid you. </p>
+            <p class="indent">You gain a +3 bonus to attack and damage rolls you make with this hand cannon. While attuned to this weapon, you have advantage on Charisma (Persuasion), Charisma (Intimidation), and Charisma (Deception) checks against creatures who do not know you personally when attuned to. This weapon critically hits on a 19 and a 20.</p>
+            <p class="indent"><strong><em>Mysterious Critical.</em></strong> When you critically hit with this hand cannon, the creature you hit becomes frightened of you for 1 minute if it does not know you personally. It can remake the saving throw at the end of each of its subsequent turns, ending the effect on itself if it succeeds. A creature that succeeds the saving throw is immune to this weapon’s fright effect for 12 hours.</p>
+            <p class="indent"><strong><em>The Strange Guardian.</em></strong> When you take the attack action on your turn against a creature with 150 hit points or less, roll a d100. On a 10 or lower, a mysterious spectral guardian will immediately manifest itself to the sound of a strange song at the end of your turn. The Strange Guardian wields a +3 hand cannon that has +19 to hit, and deals 4d6 + 19 piercing damage and 3d4 force damage that ignores resistance and immunity, and cannot be harmed or targeted by attacks, spells or area of effect attacks. Once the strange guardian appears, it makes three hand cannon attacks against the creature that you attacked during your turn. The Strange Guardian then disappears followed by another mysterious musical flourish.</p>
+        </description>
+        <setters>
+			<set name="keywords">hand cannon</set>
+            <set name="category">Magic Weapons</set>
+			<set name="type" addition="Hand Cannon">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Legendary</set>
+            <set name="weapon">Hand Cannon</set>
+            <set name="enhancement">3</set>
+        </setters>
+    </element>
+
+    <element name="Swordbreaker" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_SWORDBREAKER">
+        <description>
+            <p>This shotgun bears an incredibly sleek and sharp design, and sports a sleek bayonet on the front with indents made to catch swords. It also has a bull’s head engraved on each side of the body of the gun, it's head turned to the side to showcase its long horns. You gain a +2 bonus to attack and damage rolls with this magical shotgun, and +2 to your armor class. Swordbreaker grants the following abilities:</p>
+            <ul>
+                <li>Counterattack: As a reaction, you can add +3 to your AC against a melee attack that would hit you. If this causes the attack to miss, you can make an attack with the bayonet as part of the reaction. This bayonet does d10 slashing damage on a hit.</li>
+                <li>YoBulltrue: If you take the dodge action on your turn, you can use your reaction to fire your shotgun at a creature that targets you with a melee attack. They must roll the saving throw before their attack is deemed a success or a failure. If they fail the saving throw, they are pushed 10 feet away from you and knocked prone, immediately canceling their attack roll.</li>
+            </ul>
+        </description>
+        <setters>
+			<set name="keywords">shotgun</set>
+            <set name="category">Magic Weapons</set>
+			<set name="type" addition="Shotgun">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Legendary</set>
+            <set name="weapon">Shotgun</set>
+            <set name="enhancement">2</set>
+        </setters>
+        <rules>
+            <stat name="ac:misc" value="2" />
+        </rules>
+    </element>
+
+    <element name="Swordsplosion" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_SWORDSPLOSION">
+        <description>
+            <p>This gun is a bastardized mishmash of transmutation magic, medieval weaponry and gunslinging grit. It's what happens when a Transmuter and a Gunslinger marry and make a kid in the form of a crazy firearm. You gain a +3 bonus to attack and damage rolls you make with this magic gun.</p>
+            <p class="indent"><strong><em>No Kill Like Overkill.</em></strong> This shotgun supercharges any slugs it fires from it with transmutation magic, turning it into a greatsword that deals 2d6 slashing and 1d8 force damage. Upon hitting a creature, the sword explodes. Each creature within a 10 foot radius sphere of the creature hit must succeed a DC 15 Strength saving throw. They take 2d8 force damage on a failed save, and half that damage on a successful save. You can exclude friendly creatures from this sphere up to your Dexterity modifier +2. (Minimum 1) From the explosion comes three more swords that you can direct at any point within 20 feet of the creature hit with the first sword. Any target within 5 feet of the point must succeed a DC 15 strength saving throw. They take 2d6 force damage on a failed saving throw, and half that damage on a successful saving throw. The creature hit by the initial sword cannot be affected by the secondary explosions.</p>
+        </description>
+        <setters>
+			<set name="keywords">shotgun</set>
+            <set name="category">Magic Weapons</set>
+			<set name="type" addition="Shotgun">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Legendary</set>
+            <set name="weapon">Shotgun</set>
+            <set name="enhancement">3</set>
+        </setters>
+    </element>
+
+    <element name="The Alibi" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_THE_ALIBI">
+        <description>
+            <p>You gain a +3 bonus to attack and damage rolls you make with this magic rifle.</p>
+            <p class="indent"><strong><em>It Wasn't Me.</em></strong> You can use a bonus action to turn invisible. You remain invisible as long as you move no further than half your movement speed or are prone. You become visible when you make an attack with this rifle, but fade back to invisibility as long as the above conditions for invisibility were met before you made the attack. This weapon critically hits on an 18, 19 and a 20 when invisible.</p>
+        </description>
+        <setters>
+			<set name="keywords">anti-material rifle</set>
+            <set name="category">Magic Weapons</set>
+			<set name="type" addition="Anti-Material Rifle">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Legendary</set>
+            <set name="weapon">Anti-Material Rifle</set>
+            <set name="enhancement">3</set>
+        </setters>
+    </element>
+
+    <element name="The Silent Terror" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_THE_SILENT_TERROR">
+        <description>
+            <p>This pistol grants it's wielder +2 to attack and damage rolls. This firearm comes with a built in suppressor enchanted with shadow magic that renders it completely silent. No muzzle flare appears from this gun, and it is almost entirely silent when fired. Successful hits with this weapon deal an extra 3d6 damage once per turn if you have advantage on an attack roll, or if an ally is within 5 feet of the creature you shoot. If you fire this gun while hidden, any creature within 10 feet of you must immediately make a perception check against your attack roll - 5. If any of the creatures succeed, you are no longer considered hidden to them.</p>
+        </description>
+        <setters>
+			<set name="keywords">pistol</set>
+            <set name="category">Magic Weapons</set>
+			<set name="type" addition="Pistol">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Very Rare</set>
+            <set name="weapon">Pistol</set>
+            <set name="enhancement">2</set>
+        </setters>
+    </element>
+
+    <element name="Vortex Pistol" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_VORTEX_PISTOL">
+        <description>
+            <p>This weapon deals an additional 1d4 lightning damage upon a hit.</p>
+            <p class="indent"><strong><em>Vortex Round.</em></strong> You can spend an action to charge this pistol. When you next take the attack action on your next turn, the first shot fired from this pistol forms an unstable gravimetric anomaly in a 10 foot radius on the space the creature you targeted occupies, and detonates at the beginning of your next turn. Any creature that starts its turn within 5 feet of the vortex must succeed a DC 13 Strength saving throw or be pulled into its boundaries and unable to leave. A creature within the vortex must succeed a DC 13 Strength saving throw if it wishes to leave its boundaries. If a creature ends its turn within the vortex, it takes 1d6 force damage. When the vortex detonates, any creature within its boundaries takes 2d6 lightning and 2d6 force damage.</p>
+        </description>
+        <setters>
+			<set name="keywords">pistol</set>
+            <set name="category">Magic Weapons</set>
+			<set name="type" addition="Pistol">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Rare</set>
+            <set name="weapon">Pistol</set>
+        </setters>
+    </element>
+
+    <element name="Weapon, Watertuned" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_WEAPON_WATERTUNED">
+        <description>
+            <p>While attuned to this weapon, it functions normally while underwater, and suffers no penalties.</p>
+        </description>
+        <setters>
+			<set name="keywords">ranged</set>
+            <set name="category">Magic Weapons</set>
+			<set name="type" addition="any ranged weapon">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Uncommon</set>
+            <set name="weapon">ID_INTERNAL_WEAPON_PROPERTY_RANGED||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+			<set name="name-format">Watertuned {{parent}}</set>
+        </setters>
+    </element>
+
+    <element name="The Midas Cannon" type="Magic Item" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_MAGIC_ITEM_MIDAS_CANNON">
+        <description>
+            <p>This weapon is forged entirely from pure, magical gold that does not deteriorate or smudge. Its flashy and gaudy and seems to fire rounds made of pure gold, regardless of what you load into it.</p>
+            <p class="indent">You gain a +2 bonus to attack and damage rolls you make with this flashy cannon. As soon as you attune to this weapon, you instantly become the owner of a pocket dimension that contains 1,000,000 gold pieces. You can spend an action to open this plane and draw a handful of 20 gold pieces. You can use a bonus action during your turn to close the entrance to this dimension.</p>
+            <p class="indent"><strong><em>Mercantile Force.</em></strong> When you make an attack roll, you can, as part of that action, dissolve 100 gp on your person or in a stash you own to increase the damage this weapon deals by 1d6, to a maximum of 5d6. Until the beginning of your next turn. You can spend an additional 100 gp to lower the critical hit range of this weapon by 1, down to a minimum of 15, until the beginning of your next turn.</p>
+            <p class="indent"><strong><em>Wealthy Kills.</em></strong> When you reduce a creature to 0 hit points as a result of damage from Mercantile Force, roll a d100. On a result of 1-80, they turn into a pile of gold pieces. How many gold pieces they turn into is dependent on their size. On a result of 81-00, they become petrified and permanently turned into a gold statue. Their worth in gp is dependent on their size. Creatures killed in this way can only be brought back by a wish or true resurrection spell, or similarly powerful magic.</p>
+            <table>
+                <thead>
+                    <tr><td>Size</td><td>Value (gp)</td></tr>
+                </thead>
+                <tr><td>Tiny</td><td>1</td></tr>
+                <tr><td>Small</td><td>10</td></tr>
+                <tr><td>Medium</td><td>100</td></tr>
+                <tr><td>Large</td><td>1,000</td></tr>
+                <tr><td>Huge</td><td>10,000</td></tr>
+                <tr><td>Gargantuan</td><td>100,000</td></tr>
+            </table>
+            <p class="indent"><strong><em>Curse.</em></strong> This hand cannon is cursed, and attunement to the weapon causes the curse to be transferred to its wielder. Using the identify spell on this gun simply reveals it to be a +2 hand cannon. After 10 days of being attuned to The Midas Cannon, you start to lose 100 gold pieces, 10 platinum pieces, 1,000 silver pieces, and 10,000 copper pieces after you complete a long rest. Every time you lose the equivalent of 800 gold pieces or more, your hit point maximum decreases by d20 + 8 until you complete a long rest after having gained at least 8,000 gold pieces. This becomes 80,000 gold pieces after 20 days. When you see a pile of money, you must succeed a DC 15 Charisma saving throw or think that you deserve the biggest share of the money, and will argue to no end and use underhanded tricks to make sure you get your way. You will not resort to violence unless you wish to do so. If this money belongs to someone else, you must succeed a DC 15 Charisma check or use any means necessary to steal this money without being caught. After 20 days of being attuned to this weapon, your alignment changes to chaotic neutral, and you get the following personality trait: <em>"Money. It is the most wonderful thing in this world, and I must have more of it. I wish to pile my gold high enough to reach the heavens."</em></p>
+        </description>
+        <setters>
+			<set name="keywords">hand cannon</set>
+            <set name="category">Magic Weapons</set>
+			<set name="type" addition="Hand Cannon">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Legendary</set>
+            <set name="weapon">Hand Cannon</set>
+            <set name="enhancement">2</set>
+        </setters>
+    </element>
+
+</elements>
