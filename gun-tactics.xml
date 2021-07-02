@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name></name>
-        <update version="0.0.2">
+        <update version="0.0.3">
             <file name="gun-tactics.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Arcane-Artillery-Gun-Nuts-Guide/main/gun-tactics.xml" />
         </update>
     </info>
@@ -28,7 +28,7 @@
 	</element>
     
 	<element name="Gun Duelist" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_FIGHTINGSTYLE_GUN_DUELIST">
-		<supports>Fighting Style, Gun Tactics, Fighter, Paladin, Ranger, Inventor, Bard</supports>
+		<supports>Fighting Style, Gun Tactics, Fighter, Paladin, Ranger, Inventor, Bard, Gunslinger</supports>
 		<description>
 			<p>When wielding a sidearm in one hand and no other weapons, you get a +2 bonus to your damage rolls with these weapons.</p>
 		</description>
