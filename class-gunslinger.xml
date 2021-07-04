@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name></name>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="class-gunslinger.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Arcane-Artillery-Gun-Nuts-Guide/main/class-gunslinger.xml" />
         </update>
     </info>
@@ -295,12 +295,12 @@
             <description>You gain one Battlemaster Maneuver and treat it as a Virtuoso Trick.</description>
         </sheet>
         <rules>
-            <select type="Class Feature" name="Battlemaster Maneuver, Sly" supports="Maneuver, Battle Master" />
+            <select type="Archetype Feature" name="Battlemaster Maneuver, Sly" supports="Maneuver, Battle Master" />
         </rules>
     </element>
     <element name="Taboo" type="Class Feature" source="Arcane Artillery Gun Nuts Guide" id="ID_ZJR_AAGNG_CLASS_FEATURE_GUNSLINGER_LUCKY_ITEM_TABOO">
         <supports>Gunslinger Lucky Item</supports>
-        <requirements>[level:gunslinger:13]</requirements>
+        <requirements>[level:gunslinger:13], ID_ZJR_AAGNG_ARCHETYPE_SPELLSHOOTER</requirements>
         <description>
             <p>You learn the thaumaturgy and mage hand cantrips.</p>
         </description>
